@@ -1,0 +1,923 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04CDBA2EA8F3FF0FF1157EFEDBB951E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		06C85096988A9CD4DCFD3C11676A4B0F /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA7866F019A5BB7BDE6D50E61F630FD /* SwiftyJSON-dummy.m */; };
+		175BD2E7D92BE193E141F0682621990F /* Pods-EllisUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3DB70DE380D283D0DDA3525391F986 /* Pods-EllisUITests-dummy.m */; };
+		2CDB0C22041CF14C24372473BA127166 /* Pods-Ellis-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0DB041C86C44F8F03A52BE48A0AB7F0 /* Pods-Ellis-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5347049AD8DF167B38F5CAA5E86EB1B1 /* Pods-EllisUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D71047FAFBA4F1DCB2EE890EBC022B86 /* Pods-EllisUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CEA3855C6EF7500598ACA4A04852B77 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17B98AF5809EF121B1BBB2810BF5FA7E /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61EADA8F4FB07D2ACBEA441D047EA3B6 /* Pods-EllisTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5FDD1B5828F4721C5712CE93629D11 /* Pods-EllisTests-dummy.m */; };
+		7B391C78296BC4240FF4E669D42C322A /* Pods-Ellis-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76210713DD01973F357A89E3F7E386C3 /* Pods-Ellis-dummy.m */; };
+		89973A4EB5F0201CD1D31A7C09060D31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		97A6C897C53640FA96F5B5229793852C /* Pods-EllisTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A07745A843D5094D21965F79BB1795D3 /* Pods-EllisTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B17F74D3BB7C7816FF1262436B064269 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = A694219428A0D2A9F12572807A116D6C /* SwiftyJSON.swift */; };
+		B816E56E6AB628085AB9AD1E039DAED2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DF4E0CC6D84E15FDCE84FCFCD3675F9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28A206898706A2F5EC86F268A8AB3E5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 807C26EEAFF7E48EE94DC66B88BF5840;
+			remoteInfo = SwiftyJSON;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0718D7A65E00CB2D0A9DE76B4BA78F67 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		12D904063E862263B1894976DA5A7A97 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15F666C89B5D471757EB2C806AF06C6C /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		17201B700A9A5357B833CEF9A2566596 /* Pods-EllisUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EllisUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		17B78F5D239250AECCA223F8A43F3F4C /* Pods-Ellis-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Ellis-resources.sh"; sourceTree = "<group>"; };
+		17B98AF5809EF121B1BBB2810BF5FA7E /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		1BBFE446F26FF4AB231F9CDBAD4B1EA7 /* Pods_EllisUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EllisUITests.framework; path = "Pods-EllisUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FD389B8C47BB1495BB5C0A43A3EC003 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28E68532BD7981706293E01DC0E8F9B8 /* Pods-EllisUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EllisUITests-resources.sh"; sourceTree = "<group>"; };
+		2B4D5AD413DEC7EC84CCDFB93049B988 /* Pods-Ellis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ellis.release.xcconfig"; sourceTree = "<group>"; };
+		3E3DB70DE380D283D0DDA3525391F986 /* Pods-EllisUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EllisUITests-dummy.m"; sourceTree = "<group>"; };
+		4580B047D9AE7951454B13D70D679023 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5961333F71D68EDD8378270FB8BE7D5E /* Pods-EllisUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EllisUITests-frameworks.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		76210713DD01973F357A89E3F7E386C3 /* Pods-Ellis-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Ellis-dummy.m"; sourceTree = "<group>"; };
+		80B9D88942718B54376FE4BDDE435A42 /* Pods-EllisTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EllisTests-frameworks.sh"; sourceTree = "<group>"; };
+		866A88604003169EDA2090E93AD49243 /* Pods-EllisUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EllisUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		879522222AD1481E29AC630722EE6E53 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		87ECBB7592A9EC90FF2CE380F8286AB7 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		8EA7866F019A5BB7BDE6D50E61F630FD /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		9398F1A9D496A9E69A5D669E3E644A81 /* Pods-Ellis-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Ellis-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		945681AE8FD6920E360D3676E61E110F /* Pods-EllisTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EllisTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		985B2C9EC0D453396C43C6FDE189E89B /* Pods_EllisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EllisTests.framework; path = "Pods-EllisTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A0F8E38A0839174928C9067042968AF /* Pods-EllisUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EllisUITests.modulemap"; sourceTree = "<group>"; };
+		A07745A843D5094D21965F79BB1795D3 /* Pods-EllisTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EllisTests-umbrella.h"; sourceTree = "<group>"; };
+		A694219428A0D2A9F12572807A116D6C /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		AB8987DCB2F53AABF2F68F6588CAA5C3 /* Pods-EllisTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EllisTests-resources.sh"; sourceTree = "<group>"; };
+		AE79260F42984F9143EAAE8A98BE0D25 /* Pods-Ellis-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Ellis-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BCE7511B30619B246CEF91CA73FBA0F0 /* Pods-Ellis-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Ellis-acknowledgements.plist"; sourceTree = "<group>"; };
+		C7A0C686F6E5DAC4CD7F8DAF9346C79C /* Pods-EllisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EllisTests.release.xcconfig"; sourceTree = "<group>"; };
+		CB09347BE9438EB130F5CCF249DA71EB /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		CC2DB57C98835992699CFFB9983F0C0D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE4C5E323568E49FB6956EBF921B48B8 /* Pods-EllisTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EllisTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CEED8498D29CE610176DE94EC7EE9EE2 /* Pods-EllisUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EllisUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D180B1BE49993CE23518F255640716AA /* Pods-Ellis.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Ellis.modulemap"; sourceTree = "<group>"; };
+		D25FD06EDB434DBB6B5F8AD2C128D8D8 /* Pods-EllisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EllisTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D71047FAFBA4F1DCB2EE890EBC022B86 /* Pods-EllisUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EllisUITests-umbrella.h"; sourceTree = "<group>"; };
+		D8CBBFCC901349DB7E0BA1FCFED7A535 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		DB395F883346FBB7FB7E348718ABB5D8 /* Pods-Ellis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ellis.debug.xcconfig"; sourceTree = "<group>"; };
+		DD510ED50F46527B6FF3E28480B7C459 /* Pods-EllisTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EllisTests.modulemap"; sourceTree = "<group>"; };
+		E22DC426BBD21C3FBFE9BD2C4065305D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA5FDD1B5828F4721C5712CE93629D11 /* Pods-EllisTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EllisTests-dummy.m"; sourceTree = "<group>"; };
+		F0DB041C86C44F8F03A52BE48A0AB7F0 /* Pods-Ellis-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Ellis-umbrella.h"; sourceTree = "<group>"; };
+		FBA81F906499AD000B3B80035AD1D217 /* Pods-EllisUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EllisUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FC8D9EABCE3A16A92FDB5264704A9D19 /* Pods_Ellis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Ellis.framework; path = "Pods-Ellis.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3E0ED1A4B036B4B42D322F2B6985ED /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C9E14F0737203C5AB1D601503ADFE42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B816E56E6AB628085AB9AD1E039DAED2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA3C569E88A1FEBCFA1D315868712914 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF4E0CC6D84E15FDCE84FCFCD3675F9D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7777BC65FA7D0659025BA9888874255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89973A4EB5F0201CD1D31A7C09060D31 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2A6F81F38D2EBF6B1AD0B4526D484C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CDBA2EA8F3FF0FF1157EFEDBB951E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09B2EA863393315C11233D83645FD729 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6809EE24B4BD038C7D427C5B705A03C /* Pods-Ellis */,
+				91F08CB045C476E65BEBB109C629434F /* Pods-EllisTests */,
+				C37B211E32F217343546F189026E8806 /* Pods-EllisUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5732767885B2BCAB221B798B25BFD824 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BD4D045547A5CF06E2212DC0F2E3DB9 /* GoogleMaps */,
+				85C21327B0793C6CC31030E3B6E21319 /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5BD4D045547A5CF06E2212DC0F2E3DB9 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				BCF5E35DA1E58B03D48C515EE0BDA60E /* Base */,
+				666C218C6447D5A5AA8E83AC568075AF /* Maps */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		666C218C6447D5A5AA8E83AC568075AF /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				CD914957FAD3C64AE3DEEA624BC7E995 /* Frameworks */,
+				82213D7F7D78B365EE898FB259B75AC1 /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				5732767885B2BCAB221B798B25BFD824 /* Pods */,
+				9905A44DEBD4E77645D860C322F95845 /* Products */,
+				09B2EA863393315C11233D83645FD729 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		82213D7F7D78B365EE898FB259B75AC1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				15F666C89B5D471757EB2C806AF06C6C /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		85C21327B0793C6CC31030E3B6E21319 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				A694219428A0D2A9F12572807A116D6C /* SwiftyJSON.swift */,
+				B6A86E48A34A88A2E94DA4F0C3102156 /* Support Files */,
+			);
+			name = SwiftyJSON;
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		91F08CB045C476E65BEBB109C629434F /* Pods-EllisTests */ = {
+			isa = PBXGroup;
+			children = (
+				E22DC426BBD21C3FBFE9BD2C4065305D /* Info.plist */,
+				DD510ED50F46527B6FF3E28480B7C459 /* Pods-EllisTests.modulemap */,
+				945681AE8FD6920E360D3676E61E110F /* Pods-EllisTests-acknowledgements.markdown */,
+				CE4C5E323568E49FB6956EBF921B48B8 /* Pods-EllisTests-acknowledgements.plist */,
+				EA5FDD1B5828F4721C5712CE93629D11 /* Pods-EllisTests-dummy.m */,
+				80B9D88942718B54376FE4BDDE435A42 /* Pods-EllisTests-frameworks.sh */,
+				AB8987DCB2F53AABF2F68F6588CAA5C3 /* Pods-EllisTests-resources.sh */,
+				A07745A843D5094D21965F79BB1795D3 /* Pods-EllisTests-umbrella.h */,
+				D25FD06EDB434DBB6B5F8AD2C128D8D8 /* Pods-EllisTests.debug.xcconfig */,
+				C7A0C686F6E5DAC4CD7F8DAF9346C79C /* Pods-EllisTests.release.xcconfig */,
+			);
+			name = "Pods-EllisTests";
+			path = "Target Support Files/Pods-EllisTests";
+			sourceTree = "<group>";
+		};
+		97670FD6FFBFFE59C304195E7E5806B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB09347BE9438EB130F5CCF249DA71EB /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9905A44DEBD4E77645D860C322F95845 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC8D9EABCE3A16A92FDB5264704A9D19 /* Pods_Ellis.framework */,
+				985B2C9EC0D453396C43C6FDE189E89B /* Pods_EllisTests.framework */,
+				1BBFE446F26FF4AB231F9CDBAD4B1EA7 /* Pods_EllisUITests.framework */,
+				1FD389B8C47BB1495BB5C0A43A3EC003 /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6809EE24B4BD038C7D427C5B705A03C /* Pods-Ellis */ = {
+			isa = PBXGroup;
+			children = (
+				4580B047D9AE7951454B13D70D679023 /* Info.plist */,
+				D180B1BE49993CE23518F255640716AA /* Pods-Ellis.modulemap */,
+				AE79260F42984F9143EAAE8A98BE0D25 /* Pods-Ellis-acknowledgements.markdown */,
+				BCE7511B30619B246CEF91CA73FBA0F0 /* Pods-Ellis-acknowledgements.plist */,
+				76210713DD01973F357A89E3F7E386C3 /* Pods-Ellis-dummy.m */,
+				9398F1A9D496A9E69A5D669E3E644A81 /* Pods-Ellis-frameworks.sh */,
+				17B78F5D239250AECCA223F8A43F3F4C /* Pods-Ellis-resources.sh */,
+				F0DB041C86C44F8F03A52BE48A0AB7F0 /* Pods-Ellis-umbrella.h */,
+				DB395F883346FBB7FB7E348718ABB5D8 /* Pods-Ellis.debug.xcconfig */,
+				2B4D5AD413DEC7EC84CCDFB93049B988 /* Pods-Ellis.release.xcconfig */,
+			);
+			name = "Pods-Ellis";
+			path = "Target Support Files/Pods-Ellis";
+			sourceTree = "<group>";
+		};
+		B6A86E48A34A88A2E94DA4F0C3102156 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				12D904063E862263B1894976DA5A7A97 /* Info.plist */,
+				0718D7A65E00CB2D0A9DE76B4BA78F67 /* SwiftyJSON.modulemap */,
+				D8CBBFCC901349DB7E0BA1FCFED7A535 /* SwiftyJSON.xcconfig */,
+				8EA7866F019A5BB7BDE6D50E61F630FD /* SwiftyJSON-dummy.m */,
+				FF3E0ED1A4B036B4B42D322F2B6985ED /* SwiftyJSON-prefix.pch */,
+				17B98AF5809EF121B1BBB2810BF5FA7E /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCF5E35DA1E58B03D48C515EE0BDA60E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				97670FD6FFBFFE59C304195E7E5806B0 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		C37B211E32F217343546F189026E8806 /* Pods-EllisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC2DB57C98835992699CFFB9983F0C0D /* Info.plist */,
+				9A0F8E38A0839174928C9067042968AF /* Pods-EllisUITests.modulemap */,
+				17201B700A9A5357B833CEF9A2566596 /* Pods-EllisUITests-acknowledgements.markdown */,
+				866A88604003169EDA2090E93AD49243 /* Pods-EllisUITests-acknowledgements.plist */,
+				3E3DB70DE380D283D0DDA3525391F986 /* Pods-EllisUITests-dummy.m */,
+				5961333F71D68EDD8378270FB8BE7D5E /* Pods-EllisUITests-frameworks.sh */,
+				28E68532BD7981706293E01DC0E8F9B8 /* Pods-EllisUITests-resources.sh */,
+				D71047FAFBA4F1DCB2EE890EBC022B86 /* Pods-EllisUITests-umbrella.h */,
+				CEED8498D29CE610176DE94EC7EE9EE2 /* Pods-EllisUITests.debug.xcconfig */,
+				FBA81F906499AD000B3B80035AD1D217 /* Pods-EllisUITests.release.xcconfig */,
+			);
+			name = "Pods-EllisUITests";
+			path = "Target Support Files/Pods-EllisUITests";
+			sourceTree = "<group>";
+		};
+		CD914957FAD3C64AE3DEEA624BC7E995 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				879522222AD1481E29AC630722EE6E53 /* GoogleMaps.framework */,
+				87ECBB7592A9EC90FF2CE380F8286AB7 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		40970205170FCDF89922B2AED110359B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5347049AD8DF167B38F5CAA5E86EB1B1 /* Pods-EllisUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		713607465335F4BDF0A88EBFD33D1C09 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CDB0C22041CF14C24372473BA127166 /* Pods-Ellis-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6DB1A24BE9C53824FDC3B02F8E7780 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97A6C897C53640FA96F5B5229793852C /* Pods-EllisTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4E592D1734A37E97E9211809FBAA8CB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CEA3855C6EF7500598ACA4A04852B77 /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		094608C9C3FAC61EADA709BFD4F8D69B /* Pods-EllisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E28E306B9F7C7D1B2A8148A187BC973 /* Build configuration list for PBXNativeTarget "Pods-EllisUITests" */;
+			buildPhases = (
+				22B51FD4971A2EFBDAC04B574262603C /* Sources */,
+				FC2A6F81F38D2EBF6B1AD0B4526D484C /* Frameworks */,
+				40970205170FCDF89922B2AED110359B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-EllisUITests";
+			productName = "Pods-EllisUITests";
+			productReference = 1BBFE446F26FF4AB231F9CDBAD4B1EA7 /* Pods_EllisUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1E4B800DCB3B0BD049B4FAEDEB8E2770 /* Pods-Ellis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13BE6D2AB277A5B7E50E92D550E4D536 /* Build configuration list for PBXNativeTarget "Pods-Ellis" */;
+			buildPhases = (
+				137441AFB6C36E25E949D9C7B72317E3 /* Sources */,
+				AA3C569E88A1FEBCFA1D315868712914 /* Frameworks */,
+				713607465335F4BDF0A88EBFD33D1C09 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D606AF38EA7E1D4E2E643956950B61FA /* PBXTargetDependency */,
+			);
+			name = "Pods-Ellis";
+			productName = "Pods-Ellis";
+			productReference = FC8D9EABCE3A16A92FDB5264704A9D19 /* Pods_Ellis.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		60211C647E24372B92E77F900724DB63 /* Pods-EllisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB4918282BE8C81B19650428FCB69518 /* Build configuration list for PBXNativeTarget "Pods-EllisTests" */;
+			buildPhases = (
+				DC8CA8EEA3D9079C1256B1492028D5DF /* Sources */,
+				C7777BC65FA7D0659025BA9888874255 /* Frameworks */,
+				9A6DB1A24BE9C53824FDC3B02F8E7780 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-EllisTests";
+			productName = "Pods-EllisTests";
+			productReference = 985B2C9EC0D453396C43C6FDE189E89B /* Pods_EllisTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		807C26EEAFF7E48EE94DC66B88BF5840 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C1276968A0FD9F3FF16F9615D4CD774 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				41E09D272F1ED6B7EACB48AC1E6F1954 /* Sources */,
+				9C9E14F0737203C5AB1D601503ADFE42 /* Frameworks */,
+				B4E592D1734A37E97E9211809FBAA8CB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = 1FD389B8C47BB1495BB5C0A43A3EC003 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9905A44DEBD4E77645D860C322F95845 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E4B800DCB3B0BD049B4FAEDEB8E2770 /* Pods-Ellis */,
+				60211C647E24372B92E77F900724DB63 /* Pods-EllisTests */,
+				094608C9C3FAC61EADA709BFD4F8D69B /* Pods-EllisUITests */,
+				807C26EEAFF7E48EE94DC66B88BF5840 /* SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		137441AFB6C36E25E949D9C7B72317E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B391C78296BC4240FF4E669D42C322A /* Pods-Ellis-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B51FD4971A2EFBDAC04B574262603C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				175BD2E7D92BE193E141F0682621990F /* Pods-EllisUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41E09D272F1ED6B7EACB48AC1E6F1954 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06C85096988A9CD4DCFD3C11676A4B0F /* SwiftyJSON-dummy.m in Sources */,
+				B17F74D3BB7C7816FF1262436B064269 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC8CA8EEA3D9079C1256B1492028D5DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61EADA8F4FB07D2ACBEA441D047EA3B6 /* Pods-EllisTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D606AF38EA7E1D4E2E643956950B61FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = 807C26EEAFF7E48EE94DC66B88BF5840 /* SwiftyJSON */;
+			targetProxy = 28A206898706A2F5EC86F268A8AB3E5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		26F954BA177A9A46FFFD4E23ED11D67A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		3B781D467D18AE3102920A9B0DFF9611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7A0C686F6E5DAC4CD7F8DAF9346C79C /* Pods-EllisTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EllisTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EllisTests/Pods-EllisTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EllisTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4F8D9835D35972F11B365F8E81EA77C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8CBBFCC901349DB7E0BA1FCFED7A535 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6479383D19B3F1CBE18BFF84382216D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB395F883346FBB7FB7E348718ABB5D8 /* Pods-Ellis.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Ellis/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Ellis/Pods-Ellis.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Ellis;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9F2EE22E1D951DB30CBC733D8CA2F79A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEED8498D29CE610176DE94EC7EE9EE2 /* Pods-EllisUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EllisUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EllisUITests/Pods-EllisUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EllisUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B40D1A801A60D00F792AC7B78B3A5C43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8CBBFCC901349DB7E0BA1FCFED7A535 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BA0504B06724A053CCF67B07FFD16EEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBA81F906499AD000B3B80035AD1D217 /* Pods-EllisUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EllisUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EllisUITests/Pods-EllisUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EllisUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D13CE8575869D764C2EA861C99331A30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B4D5AD413DEC7EC84CCDFB93049B988 /* Pods-Ellis.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Ellis/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Ellis/Pods-Ellis.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Ellis;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FD28C8A2D27079DEAA85D28D627D44E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D25FD06EDB434DBB6B5F8AD2C128D8D8 /* Pods-EllisTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EllisTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EllisTests/Pods-EllisTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EllisTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13BE6D2AB277A5B7E50E92D550E4D536 /* Build configuration list for PBXNativeTarget "Pods-Ellis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6479383D19B3F1CBE18BFF84382216D8 /* Debug */,
+				D13CE8575869D764C2EA861C99331A30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */,
+				26F954BA177A9A46FFFD4E23ED11D67A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E28E306B9F7C7D1B2A8148A187BC973 /* Build configuration list for PBXNativeTarget "Pods-EllisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F2EE22E1D951DB30CBC733D8CA2F79A /* Debug */,
+				BA0504B06724A053CCF67B07FFD16EEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C1276968A0FD9F3FF16F9615D4CD774 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B40D1A801A60D00F792AC7B78B3A5C43 /* Debug */,
+				4F8D9835D35972F11B365F8E81EA77C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB4918282BE8C81B19650428FCB69518 /* Build configuration list for PBXNativeTarget "Pods-EllisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD28C8A2D27079DEAA85D28D627D44E6 /* Debug */,
+				3B781D467D18AE3102920A9B0DFF9611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

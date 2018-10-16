@@ -1,0 +1,6 @@
+framework module Pods_Ellis {
+  umbrella header "Pods-Ellis-umbrella.h"
+
+  export *
+  module * { export * }
+}
