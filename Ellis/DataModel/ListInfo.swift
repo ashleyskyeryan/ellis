@@ -18,12 +18,15 @@ class ListInfo: NSObject {
     lazy var attribution = ""
     lazy var lat: Double = 0.00
     lazy var long: Double = 0.00
+    var landingType: LandingType
     
-    override init() {
-     super.init()
+    init(landingType: LandingType = Globals.shared.landingType) {
+        self.landingType = landingType
+        super.init()
     }
     
-    init(result: Any) {
+    init(result: Any, landingType: LandingType = Globals.shared.landingType) {
+        self.landingType = landingType
         super.init()
         
         let responseResult = JSON(result)
@@ -57,15 +60,18 @@ class Lists: NSObject {
 
     var lists: Array<ListInfo> = Array<ListInfo>()
     var searchList: Array<ListInfo> = Array<ListInfo>()
+    var landingType: LandingType
     
-    override init() {
+    init(landingType: LandingType = Globals.shared.landingType) {
+        self.landingType = landingType
         super.init()
     }
     
-    init(results: Array<Any>) {
+    init(results: Array<Any>, landingType: LandingType = Globals.shared.landingType) {
+        self.landingType = landingType
         super.init()
         for info in results {
-            let listInfo = ListInfo(result: info)
+            let listInfo = ListInfo(result: info, landingType: landingType)
             lists.append(listInfo)
         }
         sortByTitle()

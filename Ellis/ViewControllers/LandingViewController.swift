@@ -76,27 +76,9 @@ class LandingViewController: UIViewController {
     
     // Function for getImage from JSON file.
     func performGetImage() {
-        
-        var path = ""
-        
-        switch Globals.shared.landingType {
-        case .Shop:
-            lblTitle.text = "Shop"
-            path = Bundle.main.path(forResource: "Shop", ofType: "json")!
-            break
-        case .Eat:
-            lblTitle.text = "Eat"
-            path = Bundle.main.path(forResource: "Eat", ofType: "json")!
-            break
-        case .Drink:
-            lblTitle.text = "Drink"
-            path = Bundle.main.path(forResource: "Drink", ofType: "json")!
-            break
-        case .Beautify:
-            lblTitle.text = "Beautify"
-            path = Bundle.main.path(forResource: "Beautify", ofType: "json")!
-            break
-        }
+        let stringLandingType = Globals.shared.landingType.rawValue
+        lblTitle.text = stringLandingType
+        let path = Bundle.main.path(forResource: stringLandingType, ofType: "json")!
 
         do {
             let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)

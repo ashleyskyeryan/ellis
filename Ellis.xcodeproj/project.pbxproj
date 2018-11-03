@@ -24,7 +24,7 @@
 		33F3A698203FED5900B5878F /* DetailViewTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F3A697203FED5900B5878F /* DetailViewTableCell.swift */; };
 		33F3A69A203FF0A000B5878F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F3A699203FF0A000B5878F /* Constants.swift */; };
 		33F3A69F2040199A00B5878F /* ListInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F3A69E2040199A00B5878F /* ListInfo.swift */; };
-		33F3A6A52040563100B5878F /* Beautify.json in Resources */ = {isa = PBXBuildFile; fileRef = 33F3A6A12040563100B5878F /* Beautify.json */; };
+		33F3A6A52040563100B5878F /* Rest.json in Resources */ = {isa = PBXBuildFile; fileRef = 33F3A6A12040563100B5878F /* Rest.json */; };
 		33F3A6A62040563100B5878F /* Drink.json in Resources */ = {isa = PBXBuildFile; fileRef = 33F3A6A22040563100B5878F /* Drink.json */; };
 		33F3A6A72040563100B5878F /* Eat.json in Resources */ = {isa = PBXBuildFile; fileRef = 33F3A6A32040563100B5878F /* Eat.json */; };
 		33F3A6A82040563100B5878F /* Shop.json in Resources */ = {isa = PBXBuildFile; fileRef = 33F3A6A42040563100B5878F /* Shop.json */; };
@@ -74,7 +74,7 @@
 		33F3A697203FED5900B5878F /* DetailViewTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewTableCell.swift; sourceTree = "<group>"; };
 		33F3A699203FF0A000B5878F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		33F3A69E2040199A00B5878F /* ListInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListInfo.swift; sourceTree = "<group>"; };
-		33F3A6A12040563100B5878F /* Beautify.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Beautify.json; sourceTree = "<group>"; };
+		33F3A6A12040563100B5878F /* Rest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Rest.json; sourceTree = "<group>"; };
 		33F3A6A22040563100B5878F /* Drink.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Drink.json; sourceTree = "<group>"; };
 		33F3A6A32040563100B5878F /* Eat.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Eat.json; sourceTree = "<group>"; };
 		33F3A6A42040563100B5878F /* Shop.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Shop.json; sourceTree = "<group>"; };
@@ -231,7 +231,7 @@
 		33F3A6A02040563100B5878F /* JSON */ = {
 			isa = PBXGroup;
 			children = (
-				33F3A6A12040563100B5878F /* Beautify.json */,
+				33F3A6A12040563100B5878F /* Rest.json */,
 				33F3A6A22040563100B5878F /* Drink.json */,
 				33F3A6A32040563100B5878F /* Eat.json */,
 				33F3A6A42040563100B5878F /* Shop.json */,
@@ -371,7 +371,7 @@
 				33F3A6A72040563100B5878F /* Eat.json in Resources */,
 				33F3A664203FDE6500B5878F /* LaunchScreen.storyboard in Resources */,
 				33F3A661203FDE6500B5878F /* Assets.xcassets in Resources */,
-				33F3A6A52040563100B5878F /* Beautify.json in Resources */,
+				33F3A6A52040563100B5878F /* Rest.json in Resources */,
 				33F3A65F203FDE6500B5878F /* Main.storyboard in Resources */,
 				33F3A6A62040563100B5878F /* Drink.json in Resources */,
 				33F3A6A82040563100B5878F /* Shop.json in Resources */,

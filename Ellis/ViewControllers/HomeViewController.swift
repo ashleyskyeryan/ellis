@@ -48,7 +48,7 @@ class HomeViewController: UIViewController {
     
     // For BeautifyButton.
     @IBAction func beautifyButtonClicked(_ sender: Any) {
-        Globals.shared.landingType = .Beautify
+        Globals.shared.landingType = .Rest
         openNavigationController()
     }
     

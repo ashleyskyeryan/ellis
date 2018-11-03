@@ -50,7 +50,7 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
         case .Drink:
             lblTitle.text = "Drink"
             break
-        case .Beautify:
+        case .Rest:
             lblTitle.text = "Beautify"
             break
         }
@@ -92,7 +92,7 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
     }
     
     @IBAction func beautifyButtonClicked(_ sender: Any) {
-        setListViewController(.Beautify)
+        setListViewController(.Rest)
     }
     
     @IBAction func mapButtonClicked(_ sender: Any) {
@@ -153,14 +153,16 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
         self.navigationController?.popViewController(animated: true)
     }
     
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        if let controller = segue.destination as? MapViewController {
+            controller.listInfo = listInfo
+            controller.mapType = .Single
+        }
     }
-    */
+    
 
 }

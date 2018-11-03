@@ -10,12 +10,12 @@ import UIKit
 
 // MARK: -Enumerations.
 
-enum LandingType {
-    case Shop, Eat, Drink, Beautify
+enum LandingType: String, CaseIterable {
+    case Shop, Eat, Drink, Rest
 }
 
 enum MapType {
-    case Single, Multiple
+    case Single, Multiple, All
 }
 
 class Constants: NSObject {
