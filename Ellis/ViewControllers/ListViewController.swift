@@ -228,7 +228,7 @@ class ListViewController: UIViewController, UITableViewDelegate, UITableViewData
             path = Bundle.main.path(forResource: "Drink", ofType: "json")!
             break
         case .Beautify:
-            lblTitle.text = "Beauty"
+            lblTitle.text = "Rest"
             path = Bundle.main.path(forResource: "Beautify", ofType: "json")!
             break
         }

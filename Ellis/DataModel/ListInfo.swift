@@ -15,6 +15,7 @@ class ListInfo: NSObject {
     lazy var image = ""
     lazy var address = ""
     lazy var detail = ""
+    lazy var attribution = ""
     lazy var lat: Double = 0.00
     lazy var long: Double = 0.00
     
@@ -38,6 +39,9 @@ class ListInfo: NSObject {
         }
         if let val = responseResult["description"].string {
             detail = val
+        }
+        if let val = responseResult["attribution"].string {
+            attribution = val
         }
         if let val = responseResult["lat"].double {
             lat = val

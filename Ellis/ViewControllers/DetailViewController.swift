@@ -117,6 +117,7 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
         cell.lblTitle.text = listInfo.title
         cell.imgView.image = UIImage(named: listInfo.image)
         cell.lblDetail.text = listInfo.detail
+        cell.lblAttribution.text = listInfo.attribution
         
         return cell
     }
