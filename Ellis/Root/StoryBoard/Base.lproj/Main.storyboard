@@ -22,7 +22,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ELLIS" lineBreakMode="clip" minimumScaleFactor="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="cUm-wq-VuN">
-                                <rect key="frame" x="20" y="60" width="374" height="328"/>
+                                <rect key="frame" x="20" y="60.5" width="374" height="327.5"/>
                                 <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="252"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -526,6 +526,7 @@
                                             <constraint firstAttribute="width" secondItem="hdg-au-AuY" secondAttribute="height" multiplier="1:1" id="DBY-H2-CLs"/>
                                         </constraints>
                                         <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <inset key="imageEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
                                         <state key="normal" image="Back">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -538,6 +539,7 @@
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="FFR-3K-Isc" secondAttribute="height" multiplier="1:1" id="XXG-bP-ZYC"/>
                                         </constraints>
+                                        <inset key="imageEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
                                         <state key="normal" image="Menu"/>
                                         <connections>
                                             <action selector="menuButtonClicked:" destination="CtU-MC-TsE" eventType="touchUpInside" id="D1z-1A-R5O"/>
@@ -568,7 +570,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Vienn" textAlignment="center" lineBreakMode="clip" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="PVm-q4-bKh">
-                                                    <rect key="frame" x="15" y="11" width="290" height="48"/>
+                                                    <rect key="frame" x="15" y="11" width="384" height="48"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="48" id="PyS-Xo-Thk"/>
                                                     </constraints>
@@ -577,22 +579,22 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dDD-ru-TEk">
-                                                    <rect key="frame" x="0.0" y="67" width="320" height="200"/>
+                                                    <rect key="frame" x="0.0" y="67" width="414" height="200"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="200" id="WSm-95-l3L"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AtC-u2-Cza">
-                                                    <rect key="frame" x="15" y="275" width="290" height="21"/>
+                                                    <rect key="frame" x="15" y="275" width="384" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="lrx-oN-tBv"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="19"/>
+                                                    <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="19"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright 2018" textAlignment="right" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VnC-z1-lQS">
-                                                    <rect key="frame" x="8" y="234" width="304" height="25"/>
+                                                    <rect key="frame" x="8" y="234" width="398" height="25"/>
                                                     <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="19"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -800,6 +802,7 @@
                                             <constraint firstAttribute="width" secondItem="0LZ-6C-1lu" secondAttribute="height" multiplier="1:1" id="vE1-L7-rPe"/>
                                         </constraints>
                                         <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <inset key="imageEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
                                         <state key="normal" image="Back">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -812,6 +815,7 @@
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="kJV-Jh-c00" secondAttribute="height" multiplier="1:1" id="YmO-uv-l5G"/>
                                         </constraints>
+                                        <inset key="imageEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
                                         <state key="normal" image="Menu"/>
                                         <connections>
                                             <action selector="menuButtonClicked:" destination="DAa-9U-OCD" eventType="touchUpInside" id="etL-0m-Apj"/>
