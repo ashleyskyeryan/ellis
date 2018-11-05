@@ -30,6 +30,17 @@
 		33F3A6A82040563100B5878F /* Shop.json in Resources */ = {isa = PBXBuildFile; fileRef = 33F3A6A42040563100B5878F /* Shop.json */; };
 		94C1C1E962B4EDF2505499CD /* Pods_EllisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ECD6A23BF4C3BFA69380EA5 /* Pods_EllisTests.framework */; };
 		B39CA392B32C2B1135DF7231 /* Pods_Ellis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F1D6263C7D3611B2B917D5C /* Pods_Ellis.framework */; };
+		B5B1DF4B218FFDF900010766 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B1DF4A218FFDF900010766 /* Montserrat-Black.ttf */; };
+		B5B1DF4D218FFE4500010766 /* CormorantSC-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B1DF4C218FFE4500010766 /* CormorantSC-Medium.ttf */; };
+		B5B1DF4F218FFE6D00010766 /* CormorantSC-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B1DF4E218FFE6D00010766 /* CormorantSC-SemiBold.ttf */; };
+		B5B1DF51218FFEAE00010766 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B1DF50218FFEAE00010766 /* OpenSans-Bold.ttf */; };
+		B5B1DF53218FFEB900010766 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B1DF52218FFEB900010766 /* OpenSans-ExtraBold.ttf */; };
+		B5B1DF55218FFEED00010766 /* PlayfairDisplaySC-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B1DF54218FFEED00010766 /* PlayfairDisplaySC-Regular.ttf */; };
+		B5B1DF57218FFF0F00010766 /* OpenSansCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B1DF56218FFF0F00010766 /* OpenSansCondensed-Light.ttf */; };
+		B5B1DF59218FFF2D00010766 /* PlayfairDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B1DF58218FFF2D00010766 /* PlayfairDisplay-Regular.ttf */; };
+		B5B1DF5B218FFF3E00010766 /* Oranienbaum-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B1DF5A218FFF3E00010766 /* Oranienbaum-Regular.ttf */; };
+		B5B1DF5D218FFF4A00010766 /* OldStandard-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B1DF5C218FFF4A00010766 /* OldStandard-Bold.ttf */; };
+		B5B1DF5F218FFF5200010766 /* OldStandard-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B1DF5E218FFF5200010766 /* OldStandard-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +94,17 @@
 		7F1D6263C7D3611B2B917D5C /* Pods_Ellis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ellis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A72270D11DD5B39B08922278 /* Pods-EllisUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EllisUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EllisUITests/Pods-EllisUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B1DC9DF6BCD818EA35573C1D /* Pods-EllisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EllisTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EllisTests/Pods-EllisTests.release.xcconfig"; sourceTree = "<group>"; };
+		B5B1DF4A218FFDF900010766 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Black.ttf"; path = "../../../../Downloads/Montserrat/Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		B5B1DF4C218FFE4500010766 /* CormorantSC-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "CormorantSC-Medium.ttf"; path = "../../../../Downloads/Cormorant_SC/CormorantSC-Medium.ttf"; sourceTree = "<group>"; };
+		B5B1DF4E218FFE6D00010766 /* CormorantSC-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "CormorantSC-SemiBold.ttf"; path = "../../../../Downloads/Cormorant_SC/CormorantSC-SemiBold.ttf"; sourceTree = "<group>"; };
+		B5B1DF50218FFEAE00010766 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Bold.ttf"; path = "../../../../Downloads/Open_Sans/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		B5B1DF52218FFEB900010766 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-ExtraBold.ttf"; path = "../../../../Downloads/Open_Sans/OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		B5B1DF54218FFEED00010766 /* PlayfairDisplaySC-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PlayfairDisplaySC-Regular.ttf"; path = "../../../../Downloads/Playfair_Display_SC/PlayfairDisplaySC-Regular.ttf"; sourceTree = "<group>"; };
+		B5B1DF56218FFF0F00010766 /* OpenSansCondensed-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSansCondensed-Light.ttf"; path = "../../../../Downloads/Open_Sans_Condensed/OpenSansCondensed-Light.ttf"; sourceTree = "<group>"; };
+		B5B1DF58218FFF2D00010766 /* PlayfairDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PlayfairDisplay-Regular.ttf"; path = "../../../../Downloads/Playfair_Display/PlayfairDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		B5B1DF5A218FFF3E00010766 /* Oranienbaum-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Oranienbaum-Regular.ttf"; path = "../../../../Downloads/Oranienbaum/Oranienbaum-Regular.ttf"; sourceTree = "<group>"; };
+		B5B1DF5C218FFF4A00010766 /* OldStandard-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OldStandard-Bold.ttf"; path = "../../../../Downloads/Old_Standard_TT/OldStandard-Bold.ttf"; sourceTree = "<group>"; };
+		B5B1DF5E218FFF5200010766 /* OldStandard-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OldStandard-Regular.ttf"; path = "../../../../Downloads/Old_Standard_TT/OldStandard-Regular.ttf"; sourceTree = "<group>"; };
 		C6A649BE60D49A60537EEFE0 /* Pods-Ellis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ellis.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ellis/Pods-Ellis.release.xcconfig"; sourceTree = "<group>"; };
 		CEE4FEBFF215AC1B17C54A55 /* Pods-EllisUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EllisUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EllisUITests/Pods-EllisUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -150,6 +172,7 @@
 		33F3A658203FDE6500B5878F /* Ellis */ = {
 			isa = PBXGroup;
 			children = (
+				B5B1DF49218FFD3D00010766 /* Resources */,
 				33F3A6A02040563100B5878F /* JSON */,
 				33F3A69D2040192B00B5878F /* DataModel */,
 				33F3A694203FECE700B5878F /* TableCell */,
@@ -250,6 +273,24 @@
 				CEE4FEBFF215AC1B17C54A55 /* Pods-EllisUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		B5B1DF49218FFD3D00010766 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B5B1DF4C218FFE4500010766 /* CormorantSC-Medium.ttf */,
+				B5B1DF4E218FFE6D00010766 /* CormorantSC-SemiBold.ttf */,
+				B5B1DF4A218FFDF900010766 /* Montserrat-Black.ttf */,
+				B5B1DF52218FFEB900010766 /* OpenSans-ExtraBold.ttf */,
+				B5B1DF50218FFEAE00010766 /* OpenSans-Bold.ttf */,
+				B5B1DF54218FFEED00010766 /* PlayfairDisplaySC-Regular.ttf */,
+				B5B1DF58218FFF2D00010766 /* PlayfairDisplay-Regular.ttf */,
+				B5B1DF56218FFF0F00010766 /* OpenSansCondensed-Light.ttf */,
+				B5B1DF5A218FFF3E00010766 /* Oranienbaum-Regular.ttf */,
+				B5B1DF5E218FFF5200010766 /* OldStandard-Regular.ttf */,
+				B5B1DF5C218FFF4A00010766 /* OldStandard-Bold.ttf */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -368,13 +409,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5B1DF57218FFF0F00010766 /* OpenSansCondensed-Light.ttf in Resources */,
+				B5B1DF51218FFEAE00010766 /* OpenSans-Bold.ttf in Resources */,
+				B5B1DF5F218FFF5200010766 /* OldStandard-Regular.ttf in Resources */,
 				33F3A6A72040563100B5878F /* Eat.json in Resources */,
+				B5B1DF5B218FFF3E00010766 /* Oranienbaum-Regular.ttf in Resources */,
+				B5B1DF4B218FFDF900010766 /* Montserrat-Black.ttf in Resources */,
 				33F3A664203FDE6500B5878F /* LaunchScreen.storyboard in Resources */,
+				B5B1DF59218FFF2D00010766 /* PlayfairDisplay-Regular.ttf in Resources */,
 				33F3A661203FDE6500B5878F /* Assets.xcassets in Resources */,
 				33F3A6A52040563100B5878F /* Rest.json in Resources */,
+				B5B1DF4F218FFE6D00010766 /* CormorantSC-SemiBold.ttf in Resources */,
 				33F3A65F203FDE6500B5878F /* Main.storyboard in Resources */,
+				B5B1DF4D218FFE4500010766 /* CormorantSC-Medium.ttf in Resources */,
 				33F3A6A62040563100B5878F /* Drink.json in Resources */,
+				B5B1DF55218FFEED00010766 /* PlayfairDisplaySC-Regular.ttf in Resources */,
+				B5B1DF5D218FFF4A00010766 /* OldStandard-Bold.ttf in Resources */,
 				33F3A6A82040563100B5878F /* Shop.json in Resources */,
+				B5B1DF53218FFEB900010766 /* OpenSans-ExtraBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

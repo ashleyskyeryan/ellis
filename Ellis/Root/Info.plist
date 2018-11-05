@@ -2,11 +2,24 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>LSApplicationQueriesSchemes</key>
-    <array>
-        <string>googlechromes</string>
-        <string>comgooglemaps</string>
-    </array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>CormorantSC-Medium.ttf</string>
+		<string>CormorantSC-SemiBold.ttf</string>
+		<string>Montserrat-Black.ttf</string>
+		<string>OpenSans-ExtraBold.ttf</string>
+		<string>OpenSans-Bold.ttf</string>
+		<string>PlayfairDisplaySC-Regular.ttf</string>
+		<string>OpenSansCondesnsed-Light.ttf</string>
+		<string>Oranienbaum-Refular.ttf</string>
+		<string>OldStandard-Regular.ttf</string>
+		<string>OldStandard-Bold.ttf</string>
+	</array>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>googlechromes</string>
+		<string>comgooglemaps</string>
+	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
