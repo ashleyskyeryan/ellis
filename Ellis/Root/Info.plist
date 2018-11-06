@@ -4,6 +4,8 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
+		<string>PlayfairDisplay-Bold.ttf</string>
+		<string>PlayfairDisplaySC-Bold.ttf</string>
 		<string>CormorantSC-Medium.ttf</string>
 		<string>CormorantSC-SemiBold.ttf</string>
 		<string>Montserrat-Black.ttf</string>

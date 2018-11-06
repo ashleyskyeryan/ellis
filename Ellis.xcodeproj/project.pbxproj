@@ -41,6 +41,8 @@
 		B5B1DF5B218FFF3E00010766 /* Oranienbaum-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B1DF5A218FFF3E00010766 /* Oranienbaum-Regular.ttf */; };
 		B5B1DF5D218FFF4A00010766 /* OldStandard-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B1DF5C218FFF4A00010766 /* OldStandard-Bold.ttf */; };
 		B5B1DF5F218FFF5200010766 /* OldStandard-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B1DF5E218FFF5200010766 /* OldStandard-Regular.ttf */; };
+		B5B1DF63219133D900010766 /* PlayfairDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B1DF62219133D800010766 /* PlayfairDisplay-Bold.ttf */; };
+		B5B1DF65219133F300010766 /* PlayfairDisplaySC-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B1DF64219133F200010766 /* PlayfairDisplaySC-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +107,8 @@
 		B5B1DF5A218FFF3E00010766 /* Oranienbaum-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Oranienbaum-Regular.ttf"; path = "../../../../Downloads/Oranienbaum/Oranienbaum-Regular.ttf"; sourceTree = "<group>"; };
 		B5B1DF5C218FFF4A00010766 /* OldStandard-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OldStandard-Bold.ttf"; path = "../../../../Downloads/Old_Standard_TT/OldStandard-Bold.ttf"; sourceTree = "<group>"; };
 		B5B1DF5E218FFF5200010766 /* OldStandard-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OldStandard-Regular.ttf"; path = "../../../../Downloads/Old_Standard_TT/OldStandard-Regular.ttf"; sourceTree = "<group>"; };
+		B5B1DF62219133D800010766 /* PlayfairDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PlayfairDisplay-Bold.ttf"; path = "../../../../Downloads/Playfair_Display/PlayfairDisplay-Bold.ttf"; sourceTree = "<group>"; };
+		B5B1DF64219133F200010766 /* PlayfairDisplaySC-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PlayfairDisplaySC-Bold.ttf"; path = "../../../../Downloads/Playfair_Display_SC/PlayfairDisplaySC-Bold.ttf"; sourceTree = "<group>"; };
 		C6A649BE60D49A60537EEFE0 /* Pods-Ellis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ellis.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ellis/Pods-Ellis.release.xcconfig"; sourceTree = "<group>"; };
 		CEE4FEBFF215AC1B17C54A55 /* Pods-EllisUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EllisUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EllisUITests/Pods-EllisUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -278,6 +282,8 @@
 		B5B1DF49218FFD3D00010766 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B5B1DF62219133D800010766 /* PlayfairDisplay-Bold.ttf */,
+				B5B1DF64219133F200010766 /* PlayfairDisplaySC-Bold.ttf */,
 				B5B1DF4C218FFE4500010766 /* CormorantSC-Medium.ttf */,
 				B5B1DF4E218FFE6D00010766 /* CormorantSC-SemiBold.ttf */,
 				B5B1DF4A218FFDF900010766 /* Montserrat-Black.ttf */,
@@ -409,9 +415,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5B1DF63219133D900010766 /* PlayfairDisplay-Bold.ttf in Resources */,
 				B5B1DF57218FFF0F00010766 /* OpenSansCondensed-Light.ttf in Resources */,
 				B5B1DF51218FFEAE00010766 /* OpenSans-Bold.ttf in Resources */,
 				B5B1DF5F218FFF5200010766 /* OldStandard-Regular.ttf in Resources */,
+				B5B1DF65219133F300010766 /* PlayfairDisplaySC-Bold.ttf in Resources */,
 				33F3A6A72040563100B5878F /* Eat.json in Resources */,
 				B5B1DF5B218FFF3E00010766 /* Oranienbaum-Regular.ttf in Resources */,
 				B5B1DF4B218FFDF900010766 /* Montserrat-Black.ttf in Resources */,
