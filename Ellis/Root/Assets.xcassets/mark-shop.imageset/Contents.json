@@ -2,17 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "004-costume-1.png",
+      "filename" : "004-dress.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "004-costume-2.png",
+      "filename" : "004-dress-1.png",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "004-costume.png",
+      "filename" : "004-dress-2.png",
       "scale" : "3x"
     }
   ],
