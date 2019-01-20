@@ -608,8 +608,8 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright 2018" textAlignment="right" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VnC-z1-lQS">
-                                                    <rect key="frame" x="8" y="233.5" width="398" height="25.5"/>
-                                                    <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="19"/>
+                                                    <rect key="frame" x="8" y="237.5" width="398" height="21.5"/>
+                                                    <fontDescription key="fontDescription" name="PlayfairDisplay-Regular" family="Playfair Display" pointSize="16"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
