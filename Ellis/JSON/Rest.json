@@ -3,6 +3,7 @@
   "list": [
       {
           "title":"Aire Ancient Baths",
+          "website": "https://beaire.com/en/aire-ancient-baths-newyork",
           "image":"Aire Ancient Baths",
           "address":"Tribeca",
           "attribution": "Google",
@@ -11,6 +12,7 @@
           "long": -74.0047357},
       {
           "title":"Akiko Nails",
+          "website": "https://www.akikonailsnyc.com/",
           "image":"Akiko Nails",
           "address":"Lower East Side",
           "attribution": "",
@@ -19,6 +21,7 @@
           "long": -73.991747},
       {
           "title":"Ballet Beautiful",
+          "website": "https://www.balletbeautiful.com/book-class",
           "image":"Ballet Beautiful",
           "address":"Soho",
           "attribution": "",
@@ -27,6 +30,7 @@
       "long": -73.999676},
       {
           "title":"Bamford Haybarn Spa",
+          "website": "https://www.1hotels.com/brooklyn-bridge/do/bamford-haybarn-spa",
           "image":"Bamford Haybarn Spa",
           "address":"Dumbo",
           "attribution": "",
@@ -35,6 +39,7 @@
       "long": -73.9958146},
       {
           "title":"Breathe Salt Room",
+          "website": "http://www.breathesaltrooms.com/",
           "image":"Breathe",
           "address":"Midtown East",
           "attribution": "Jeffrey Zeldman",
@@ -43,6 +48,7 @@
       "long": -73.981549},
       {
           "title":"BrickHouse Ceramics",
+          "website": "https://brickhouseny.com/",
           "image":"BrickHouse Ceramics",
           "address":"Long Island City",
           "attribution": "OIST",
@@ -51,6 +57,7 @@
       "long": -73.9504286},
       {
           "title":"Brooklyn Bridge Park",
+          "website": "https://www.brooklynbridgepark.org/",
           "image":"Brooklyn Bridge Park",
           "address":"Dumbo",
           "attribution": "Kevin Oliver",
@@ -59,6 +66,7 @@
       "long": -73.9973777},
       {
           "title":"Chelsea Piers (Pier 62)",
+          "website": "https://hudsonriverpark.org/explore-the-park/activities/chelsea-waterside-play-area",
           "image":"Chelsea Piers",
           "address":"Chelsea",
           "attribution": "Andreas Komodromos",
@@ -67,6 +75,7 @@
       "long": -74.0074272},
       {
           "title":"Chillhouse",
+          "website": "https://chillhouse.com/",
           "image":"Chillhouse",
           "address":"Lower East Side",
           "attribution": "",
@@ -75,6 +84,7 @@
       "long": -73.9875519 },
       {
           "title":"Clayworks On Columbia",
+          "website": "https://www.clayworksoncolumbia.org/",
           "image":"Clayworks On Columbia",
           "address":"Cobble Hill",
           "attribution": "Taller de cerámica",
@@ -83,6 +93,7 @@
       "long": -74.002394},
       {
           "title":"Erika Bloom Pilates",
+          "website": "http://erikabloompilates.com/",
           "image":"Erika Bloom Pilates",
           "address":"Upper East Side",
           "attribution": "",
@@ -91,14 +102,16 @@
       "long": -73.9717272},
       {
           "title":"European Wax Center",
+          "website": "https://www.waxcenter.com/region/new-york",
           "image":"European Wax Center",
           "address":"Financial District",
           "attribution": "",
-          "description": "Fast and convenient waxing chain that offers customer loyalty programs. ",
+          "description": "Fast and convenient waxing chain that offers customer loyalty programs.",
           "lat": 40.714949,
       "long": -74.0072302},
       {
           "title":"Great Jones Spa",
+          "website": "https://www.gjspa.com/",
           "image":"Great Jones Spa",
           "address":"NoHo",
           "attribution": "",
@@ -108,6 +121,7 @@
       
       {
           "title":"Greenpoint- Williamsburg Waterfront",
+          "website": "https://www.nycgovparks.org/park-features/future-parks/greenpoint-williamsburg-waterfront",
           "image":"Greenpoint and Williamsburg Waterfront",
           "address":"Williamsburg",
           "attribution": "",
@@ -117,6 +131,7 @@
       
       {
           "title":"Hortus Nailworks",
+          "website": "http://www.hortusnailworks.com/",
           "image":"Hortus Nailworks",
           "address":"Lower East Side",
           "attribution": "",
@@ -126,6 +141,7 @@
       
       {
           "title":"Inscape",
+          "website": "https://www.inscape.life/meditation-studio/",
           "image":"Inscape",
           "address":"Flatiron",
           "attribution": "Google",
@@ -135,6 +151,7 @@
       
       {
           "title":"Metrograph",
+          "website": "http://metrograph.com/",
           "image":"Metrograph",
           "address":"Lower East Side",
           "attribution": "",
@@ -144,6 +161,7 @@
       
       {
           "title":"New York Pilates",
+          "website": "https://newyorkpilates.com/",
           "image":"New York Pilates",
           "address":"Soho",
           "attribution": "",
@@ -153,6 +171,7 @@
       
       {
           "title":"Paintbox",
+          "website": "https://paint-box.com/",
           "image":"Paintbox",
           "address":"Soho",
           "attribution": "",
@@ -162,6 +181,7 @@
       
       {
           "title":"Riverside Park",
+          "website": "https://www.nycgovparks.org/parks/riverside-park",
           "image":"Riverside Park",
           "address":"Upper West Side",
           "attribution": "Jeffrey Zeldman",
@@ -171,6 +191,7 @@
       
       {
           "title":"Skin Laundry",
+          "website": "https://skinlaundry.com/pages/locations",
           "image":"Skin Laundry",
           "address":"Tribeca",
           "attribution": "",
@@ -180,8 +201,9 @@
       
       {
           "title":"St. Luke in the Fields Garden",
+          "website": "https://stlukeinthefields.org/about-us/our-gardens/",
           "image":"St Luke in the Fields",
-          "address":"",
+          "address":"West Village",
           "attribution": "Garrett Ziegler",
           "description": "Attached to the beautiful and inclusive Church of St. Luke in the Fields, the garden is open from 10am to dusk daily.",
           "lat": 40.7325862,
@@ -189,6 +211,7 @@
       
       {
           "title":"Sundays Nail Studio",
+          "website": "https://dearsundays.com/",
           "image":"Sundays Nail Studio",
           "address":"Flatiron",
           "attribution": "",
@@ -198,6 +221,7 @@
       
       {
           "title":"Tenoverten",
+          "website": "https://tenoverten.com/pages/locations",
           "image":"Tenoverten",
           "address":"Tribeca",
           "attribution": "",
@@ -207,6 +231,7 @@
       
       {
           "title":"Textile Arts Center",
+          "website": "http://www.textileartscenter.com/",
           "image":"Textile Arts Center",
           "address":"Gowanus",
           "attribution": "",
@@ -216,6 +241,7 @@
       
       {
           "title":"The Class By Taryn Toomey",
+          "website": "https://taryntoomey.com/",
           "image":"The Class By Taryn Toomey",
           "address":"Tribeca",
           "attribution": "Google",
@@ -225,6 +251,7 @@
       
       {
           "title":"The Ramble",
+          "website": "https://www.centralpark.com/things-to-do/attractions/ramble/",
           "image":"The Ramble",
           "address":"Central Park",
           "attribution": "Patrick Nelson",
@@ -234,6 +261,7 @@
       
       {
           "title":"Valley Nails",
+          "website": "https://valleynail.com/",
           "image":"Valley Nails",
           "address":"Chelsea",
           "attribution": "",
@@ -243,6 +271,7 @@
       
       {
           "title":"Woom Center",
+          "website": "https://www.woomcenter.com/",
           "image":"Woom Center",
           "address":"Nolita",
           "attribution": "",
@@ -252,10 +281,11 @@
       
       {
           "title":"Yoga Vida",
+          "website": "https://yogavida.com/pages/studios",
           "image":"Yoga Vida",
           "address":"Tribeca",
           "attribution": "",
-          "description": "Yoga Vida's classes are suitable for all levels, as the instructor will offer moderations on many of the poses. ",
+          "description": "Yoga Vida's classes are suitable for all levels, as the instructor will offer moderations on many of the poses.",
           "lat": 40.722807 ,
       "long": -74.010731}
       

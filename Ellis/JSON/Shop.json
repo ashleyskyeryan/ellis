@@ -3,6 +3,7 @@
   "list": [
       {
           "title":"192 Books",
+          "website": "http://www.192books.com/",
           "image":"192 Books",
           "address":"Chelsea",
           "attribution": "",
@@ -11,6 +12,7 @@
           "long": -74.0047674},
       {
           "title":"ABC Carpet & Home",
+          "website": "http://www.abchome.com/locations/flagship/",
           "image":"ABC Carpet and Home",
           "address":"Flatiron",
           "attribution": "Dave Pinter",
@@ -19,6 +21,7 @@
       "long": -73.9896515},
       {
           "title":"Adaptations",
+          "website": "http://www.adaptationsny.com/",
           "image":"Adaptations",
           "address":"Greenpoint",
           "attribution": "",
@@ -27,6 +30,7 @@
       "long": -73.9577789},
       {
           "title":"Aedes Perfumery",
+          "website": "https://www.aedes.com/",
           "image":"Aedes",
           "address":"Lower East Side",
           "attribution": "",
@@ -35,6 +39,7 @@
       "long": -73.991544},
       {
           "title":"Albertine",
+          "website": "https://www.albertine.com/",
           "image":"Albertine",
           "address":"Upper East Side",
           "attribution": "Nick Normal",
@@ -43,6 +48,7 @@
       "long": -73.9637672},
       {
           "title":"Alo Yoga",
+          "website": "https://www.aloyoga.com/pages/stores",
           "image":"Alo Yoga",
           "address":"Soho",
           "attribution": "",
@@ -51,6 +57,7 @@
       "long": -73.9994283},
       {
           "title":"Amarcord",
+          "website": "https://www.amarcordvintagefashion.com/",
           "image":"Amarcord",
           "address":"Williamsburg",
           "attribution": "",
@@ -59,6 +66,7 @@
       "long": -73.9591566},
       {
           "title":"Anna Sui",
+          "website": "https://annasui.com/pages/store-locations",
           "image":"Anna Sui",
           "address":"Soho",
           "attribution": "",
@@ -67,6 +75,7 @@
       "long": -74.002265},
       {
           "title":"Thriftwares",
+          "website": "https://thriftwares.net/",
           "image":"Thriftwares",
           "address":"Williamsburg",
           "attribution": "Shinya Suzuki",
@@ -75,6 +84,7 @@
       "long": -73.9611425},
       {
           "title":"Azaleas",
+          "website": "https://www.azaleasnyc.com/",
           "image":"Azaleas",
           "address":"West Village",
           "attribution": "",
@@ -83,6 +93,7 @@
       "long": -74.0025058},
       {
           "title":"Barneys",
+          "website": "https://www.barneys.com/store/madison-avenue/R-store-3",
           "image":"Barneys",
           "address":"Upper East Side",
           "attribution": "Alicia Griffin",
@@ -91,6 +102,7 @@
       "long": -73.9712287},
       {
           "title":"Beacon's Closet",
+          "website": "https://beaconscloset.com/",
           "image":"Beacons Closet",
           "address":"Greenpoint",
           "attribution": "Thomas Angermann",
@@ -99,6 +111,7 @@
       "long": -73.9524773},
       {
           "title":"Bird",
+          "website": "https://birdbrooklyn.com/",
           "image":"Bird",
           "address":"Williamsburg",
           "attribution": "",
@@ -107,6 +120,7 @@
       "long": -73.9601998},
       {
           "title":"Bond No. 9",
+          "website": "https://www.bondno9.com/stores.html",
           "image":"Bond No 9",
           "address":"NoHo",
           "attribution": "",
@@ -115,14 +129,16 @@
       "long": -73.9944675 },
       {
           "title":"Bonnie Slotnick Cookbooks",
+          "website": "http://bonnieslotnickcookbooks.com/",
           "image":"Bonnie Slotnick Cookbooks",
-          "address":"",
+          "address":"East Village",
           "attribution": "Ed",
           "description": "Cookbook store containing both rare and current must-haves. If you can't find what you're looking for Bonnie will help you track it down.",
           "lat": 40.7252394,
       "long": -73.9907191},
       {
           "title":"Bookmarc",
+          "website": "https://www.marcjacobs.com/bookmarc/",
           "image":"Bookmarc",
           "address":"West Village",
           "attribution": "",
@@ -131,6 +147,7 @@
       "long": -74.005223},
       {
           "title":"Books Are Magic",
+          "website": "https://www.booksaremagic.net/",
           "image":"Books Are Magic",
           "address":"Cobble Hill",
           "attribution": "",
@@ -139,6 +156,7 @@
       "long": -73.9920706},
       {
           "title":"Brookfield Place",
+          "website": "https://bfplny.com/",
           "image":"Brookfield Place",
           "address":"Battery Park City",
           "attribution": "gigi_nyc",
@@ -147,6 +165,7 @@
       "long": -74.0152824},
       {
           "title":"Brooklyn Herborium",
+          "website": "https://brooklynherborium.com/",
           "image":"Brooklyn Herborium",
           "address":"Carroll Gardens",
           "attribution": "Google",
@@ -155,6 +174,7 @@
       "long": -73.989593},
       {
           "title":"C.O. Bigelow Apothecaries",
+          "website": "https://www.bigelowchemists.com/",
           "image":"CO Bigelow Apothecaries",
           "address":"West Village",
           "attribution": "",
@@ -163,6 +183,7 @@
       "long": -73.9990311},
       {
           "title":"CAP Beauty",
+          "website": "https://www.capbeauty.com/",
           "image":"CAP Beauty",
           "address":"West Village",
           "attribution": "",
@@ -171,6 +192,7 @@
       "long": -74.0054742},
       {
           "title":"Catbird",
+          "website": "https://www.catbirdnyc.com/",
           "image":"Catbird",
           "address":"Williamsburg",
           "attribution": "",
@@ -179,6 +201,7 @@
       "long": -73.9590583},
       {
           "title":"Century 21",
+          "website": "http://locations.c21stores.com/en/downtown",
           "image":"Century 21",
           "address":"Financial District",
           "attribution": "JJBers",
@@ -187,6 +210,7 @@
       "long": -74.0105204},
       {
           "title":"City Opera Thrift Shop",
+          "website": "https://cityoperathriftshop.org/",
           "image":"City Opera Thrift Shop",
           "address":"Gramercy",
           "attribution": "",
@@ -195,6 +219,7 @@
       "long": -73.9945623},
       {
           "title":"Consignment Brooklyn",
+          "website": "http://consignmentbrooklyn.com/",
           "image":"Consignment Brooklyn",
           "address":"Boerum Hill",
           "attribution": "",
@@ -203,6 +228,7 @@
       "long": -73.985867},
       {
           "title":"Derek Lam",
+          "website": "https://www.dereklam.com/us/stores",
           "image":"Derek Lam",
           "address":"Upper East Side",
           "attribution": "",
@@ -211,6 +237,7 @@
       "long": -73.9707514},
       {
           "title":"Dover Street Market",
+          "website": "https://newyork.doverstreetmarket.com/",
           "image":"Dover Street Market",
           "address":"Midtown East",
           "attribution": "ACME",
@@ -219,6 +246,7 @@
       "long": -73.9817188},
       {
           "title":"Duo",
+          "website": "https://www.duonyc.com/",
           "image":"Duo",
           "address":"East Village",
           "attribution": "",
@@ -227,6 +255,7 @@
       "long": -73.9855599},
       {
           "title":"Edith Machinist",
+          "website": "http://www.edithmachinist.com/",
           "image":"Edith Machinist",
           "address":"Lower East Side",
           "attribution": "Susan Sermoneta",
@@ -235,6 +264,7 @@
       "long": -73.988045},
       {
           "title":"Erica Weiner",
+          "website": "https://ericaweiner.com/",
           "image":"Erica Weiner",
           "address":"Nolita",
           "attribution": "Wicker Paradise",
@@ -243,6 +273,7 @@
       "long": -73.9948718},
       {
           "title":"Erie Basin",
+          "website": "https://eriebasin.com/",
           "image":"Erie Basin",
           "address":"Red Hook",
           "attribution": "Google",
@@ -251,6 +282,7 @@
       "long": -74.013869},
       {
           "title":"Fivestory",
+          "website": "https://fivestoryny.com/",
           "image":"Fivestory",
           "address":"Upper East Side",
           "attribution": "",
@@ -259,6 +291,7 @@
       "long": -73.9673142},
       {
           "title":"Fleur Du Mal",
+          "website": "https://www.fleurdumal.com/",
           "image":"Fleur Du Mal",
           "address":"Soho",
           "attribution": "",
@@ -267,6 +300,7 @@
       "long": -73.9961032},
       {
           "title":"Flying Solo",
+          "website": "https://flyingsolo.nyc/",
           "image":"Flying Solo",
           "address":"Soho",
           "attribution": "",
@@ -275,6 +309,7 @@
       "long": -74.0015159},
       {
           "title":"Fox & Fawn",
+          "website": "http://www.shopfoxandfawn.com/",
           "image":"Fox and Fawn",
           "address":"Greenpoint",
           "attribution": "",
@@ -283,6 +318,7 @@
       "long": -73.9499604},
       {
           "title":"Frame",
+          "website": "https://frame-store.com/pages/stores#new-york-3",
           "image":"Frame",
           "address":"Soho",
           "attribution": "",
@@ -291,6 +327,7 @@
       "long": -74.0019017 },
       {
           "title":"Glossier",
+          "website": "https://www.glossier.com/locations",
           "image":"Glossier",
           "address":"Soho",
           "attribution": "",
@@ -299,6 +336,7 @@
       "long": -74.0000414},
       {
           "title":"Gucci",
+          "website": "https://www.gucci.com/us/en/store/725-fifth-avenue",
           "image":"Gucci",
           "address":"Midtown",
           "attribution": "Thomas Hawk",
@@ -307,6 +345,7 @@
       "long": -73.9741398},
       {
           "title":"Hatch",
+          "website": "https://www.hatchcollection.com/pages/community",
           "image":"Hatch",
           "address":"NoHo",
           "attribution": "",
@@ -315,6 +354,7 @@
       "long": -73.9953611},
       {
           "title":"Horizons",
+          "website": "http://horizonsvintage.com/",
           "image":"Horizons",
           "address":"Williamsburg",
           "attribution": "",
@@ -323,6 +363,7 @@
       "long": -73.955373},
       {
           "title":"Housing Works Thrift Shop",
+          "website": "https://www.housingworks.org/locations/chelsea-thrift-shop",
           "image":"Housing Works Thrift Shop",
           "address":"Chelsea",
           "attribution": "",
@@ -331,6 +372,7 @@
       "long": -73.9971456},
       {
           "title":"Intermix",
+          "website": "https://www.intermixonline.com/storeresults?dwfrm_storelocator_state=NY&dwfrm_storelocator_findbystate=Search",
           "image":"Intermix",
           "address":"Soho",
           "attribution": "Ras",
@@ -339,6 +381,7 @@
       "long": -73.9988938},
       {
           "title":"Isabel Marant",
+          "website": "https://www.isabelmarant.com/us/stores/america/soho/",
           "image":"Isabel Marant",
           "address":"Soho",
           "attribution": "Dave Pinter",
@@ -347,6 +390,7 @@
       "long": -74.0017523},
       {
           "title":"Kirna Zabete",
+          "website": "https://www.kirnazabete.com/",
           "image":"Kirna Zabete",
           "address":"Soho",
           "attribution": "",
@@ -355,6 +399,7 @@
       "long": -74.00204},
       {
           "title":"Kith",
+          "website": "https://kith.com/pages/locations",
           "image":"Kith",
           "address":"NoHo",
           "attribution": "Ian Kennedy",
@@ -363,6 +408,7 @@
       "long": -73.9944089},
       {
           "title":"La Garconne",
+          "website": "https://lagarconne.com/pages/store",
           "image":"La Garconne",
           "address":"Tribeca",
           "attribution": "",
@@ -371,6 +417,7 @@
       "long": -74.0092074},
       {
           "title":"Le Grand Strip",
+          "website": "http://legrandstrip.com/",
           "image":"Le Grand Strip",
           "address":"Williamsburg",
           "attribution": "",
@@ -379,6 +426,7 @@
       "long": -73.960354},
       {
           "title":"Le Labo",
+          "website": "https://www.lelabofragrances.com/front/app/store/search?execution=e1s2",
           "image":"Le Labo",
           "address":"Nolita",
           "attribution": "Merlijn Hoek",
@@ -387,14 +435,16 @@
       "long": -73.9941234},
       {
           "title":"Love Adorned",
+          "website": "https://loveadorned.com/pages/about-us#locations",
           "image":"Love Adorned",
-          "address":"",
+          "address":"Nolita",
           "attribution": "",
           "description": "Beautifully curated selection of vintage and independently-designed jewelry in a large space.",
           "lat": 40.72408,
       "long": -73.9938198},
       {
           "title":"Madame Matovu",
+          "website": "",
           "image":"Madame Matovu",
           "address":"West Village",
           "attribution": "",
@@ -402,7 +452,18 @@
           "lat": 40.7336811,
       "long": -74.0056513},
       {
+          "title":"Malin Landaeus",
+          "website": "https://www.yelp.com/biz/malin-landaeus-brooklyn",
+          "image":"Malin Landaeus",
+          "address":"Williamsburg",
+          "attribution": "Google",
+          "description": "Vintage clothing store in Williamsburg selling hand dyed silks, giving new life to the vintage pieces in pastel shades.",
+          "lat": 40.717199,
+          "long": -73.958013},
+      
+      {
           "title":"Mansur Gavriel",
+          "website": "https://www.mansurgavriel.com/pages/new-york-soho",
           "image":"Mansur Gavriel",
           "address":"Soho",
           "attribution": "Anne-Marii",
@@ -411,6 +472,7 @@
       "long": -73.999604},
       {
           "title":"Marlene Wetherell",
+          "website": "https://www.marlenewetherell.com/",
           "image":"Marlene Wetherell",
           "address":"Flatiron",
           "attribution": "",
@@ -419,6 +481,7 @@
       "long": -73.9910134},
       {
           "title":"Marni",
+          "website": "https://www.marni.com/experience/en/stores/?address=New%20York,%20NY,%20USA",
           "image":"Marni",
           "address":"Meatpacking",
           "attribution": "",
@@ -427,6 +490,7 @@
       "long": -74.0047282},
       {
           "title":"Maryam Nassir Zadeh",
+          "website": "https://mnzstore.com/pages/store",
           "image":"Maryam Nassir Zadeh",
           "address":"Lower East Side",
           "attribution": "",
@@ -435,6 +499,7 @@
       "long": -73.986996},
       {
           "title":"McNally Jackson",
+          "website": "https://www.mcnallyjackson.com/",
           "image":"McNally Jackson",
           "address":"Nolita",
           "attribution": "Garrett Ziegler",
@@ -443,6 +508,7 @@
       "long": -73.9960773},
       {
           "title":"Mirth",
+          "website": "https://mirth.co/",
           "image":"Mirth",
           "address":"Greenpoint",
           "attribution": "",
@@ -451,6 +517,7 @@
       "long": -73.9504019},
       {
           "title":"Miu Miu",
+          "website": "https://www.miumiu.com/ch/en/store-locator.html",
           "image":"Miu Miu",
           "address":"Soho",
           "attribution": "Phillip Pessar",
@@ -459,6 +526,7 @@
       "long": -73.9990536},
       {
           "title":"Moda Operandi",
+          "website": "https://www.modaoperandi.com/editorial/our-locations",
           "image":"Moda Operandi",
           "address":"Upper East Side",
           "attribution": "",
@@ -467,6 +535,7 @@
       "long": -73.9696005},
       {
           "title":"Narnia",
+          "website": "http://narniavintage.com/",
           "image":"Narnia",
           "address":"Williamsburg",
           "attribution": "",
@@ -475,6 +544,7 @@
       "long": -73.9594438},
       {
           "title":"New York Vintage",
+          "website": "https://www.newyorkvintage.com/",
           "image":"New York Vintage",
           "address":"Chelsea",
           "attribution": "",
@@ -483,6 +553,7 @@
       "long": -73.992619},
       {
           "title":"NikeLab",
+          "website": "https://www.nike.com/us/en_us/retail/en/nikelab-21m-nyc",
           "image":"NikeLab",
           "address":"Soho",
           "attribution": "",
@@ -491,6 +562,7 @@
       "long": -74.0021247},
       {
           "title":"No. 6 Store",
+          "website": "https://no6store.com/",
           "image":"No 6 Store",
           "address":"Little Italy",
           "attribution": "",
@@ -499,6 +571,7 @@
       "long": -73.9975646},
       {
           "title":"Opening Ceremony",
+          "website": "https://www.openingceremony.com/",
           "image":"Opening Ceremony",
           "address":"Soho",
           "attribution": "thinkretail",
@@ -507,6 +580,7 @@
       "long": -74.0009823},
       {
           "title":"Otte",
+          "website": "https://www.otteny.com/",
           "image":"Otte",
           "address":"West Village",
           "attribution": "",
@@ -515,6 +589,7 @@
       "long": -74.0025097},
       {
           "title":"Outdoor Voices",
+          "website": "https://www.outdoorvoices.com/",
           "image":"Outdoor Voices",
           "address":"Little Italy",
           "attribution": "",
@@ -523,6 +598,7 @@
       "long": -73.9981101},
       {
           "title":"Pippin Vintage Jewelry",
+          "website": "https://pippinvintage.com/",
           "image":"Pippin Vintage Jewelry",
           "address":"Chelsea",
           "attribution": "",
@@ -531,6 +607,7 @@
       "long": -73.9963588},
       {
           "title":"Rachel Comey",
+          "website": "https://rachelcomey.com/pages/store-locations",
           "image":"Rachel Comey",
           "address":"Soho",
           "attribution": "",
@@ -539,6 +616,7 @@
       "long": -73.9971135},
       {
           "title":"Reformation",
+          "website": "https://www.thereformation.com/pages/stores",
           "image":"Reformation",
           "address":"NoHo",
           "attribution": "",
@@ -547,6 +625,7 @@
       "long": -73.9933826},
       {
           "title":"Repetto",
+          "website": "https://www.repetto.com/us/boutiques/united_states/new_york",
           "image":"Repetto",
           "address":"Soho",
           "attribution": "susieredshoes",
@@ -555,6 +634,7 @@
       "long": -74.0021858},
       {
           "title":"Ritual Vintage",
+          "website": "https://www.repetto.com/us/boutiques/united_states/new_york",
           "image":"Ritual Vintage",
           "address":"Little Italy",
           "attribution": "",
@@ -563,6 +643,7 @@
       "long": -73.9964682},
       {
           "title":"Saks Fifth Avenue",
+          "website": "https://www.saksfifthavenue.com/locations/s/newyork",
           "image":"Saks Fifth Avenue",
           "address":"Midtown East",
           "attribution": "aa440",
@@ -571,6 +652,7 @@
       "long": -73.9771972},
       {
           "title":"Sandro",
+          "website": "https://us.sandro-paris.com/en/stores",
           "image":"Sandro",
           "address":"West Village",
           "attribution": "",
@@ -579,6 +661,7 @@
       "long": -74.005098},
       {
           "title":"Screaming Mimi’s",
+          "website": "https://www.screamingmimis.com/",
           "image":"Screaming Mimis",
           "address":"West Village",
           "attribution": "",
@@ -587,6 +670,7 @@
       "long": -74.0017436},
       {
           "title":"Simone Rocha",
+          "website": "http://simonerocha.com/category/Store/",
           "image":"Simone Rocha",
           "address":"Soho",
           "attribution": "Google",
@@ -595,6 +679,7 @@
       "long": -74.0017741},
       {
           "title":"Smythson",
+          "website": "https://www.smythson.com/us/storelocator",
           "image":"Smythson",
           "address":"Upper East Side",
           "attribution": "",
@@ -603,6 +688,7 @@
       "long": -73.9703235},
       {
           "title":"Still House",
+          "website": "https://www.stillhousenyc.com/",
           "image":"Still House",
           "address":"East Village",
           "attribution": "",
@@ -611,6 +697,7 @@
       "long": -73.9866859},
       {
           "title":"Target",
+          "website": "https://www.target.com/sl/tribeca/3229",
           "image":"Target",
           "address":"Tribeca",
           "attribution": "buyalex",
@@ -619,6 +706,7 @@
       "long": -74.0111465},
       {
           "title":"The Apartment by The Line",
+          "website": "https://theline.com/pages/the-apartment-new-york",
           "image":"The Apartment by The Line",
           "address":"Soho",
           "attribution": "",
@@ -627,6 +715,7 @@
       "long": -74.000591},
       {
           "title":"The Great Eros",
+          "website": "https://thegreateros.com/",
           "image":"The Great Eros",
           "address":"Williamsburg",
           "attribution": "",
@@ -635,6 +724,7 @@
       "long": -73.9600331},
       {
           "title":"The Laundress",
+          "website": "https://www.thelaundress.com/",
           "image":"The Laundress",
           "address":"Soho",
           "attribution": "",
@@ -643,6 +733,7 @@
       "long": -74.0027408},
       {
           "title":"The RealReal",
+          "website": "https://www.therealreal.com/soho/",
           "image":"The RealReal",
           "address":"Soho",
           "attribution": "",
@@ -651,6 +742,7 @@
       "long": -74.0012445},
       {
           "title":"The Strand",
+          "website": "https://www.strandbooks.com/",
           "image":"The Strand",
           "address":"Union Square",
           "attribution": "t23e",
@@ -659,6 +751,7 @@
       "long": -73.9909639},
       {
           "title":"The Webster",
+          "website": "https://thewebster.us/shop/",
           "image":"The Webster",
           "address":"Soho",
           "attribution": "",
@@ -667,6 +760,7 @@
       "long": -74.0026839},
       {
           "title":"Three Lives & Company",
+          "website": "http://www.threelives.com/",
           "image":"Three Lives and Company",
           "address":"West Village",
           "attribution": "",
@@ -675,6 +769,7 @@
       "long": -74.001488},
       {
           "title":"Tisane Pharmacy",
+          "website": "https://tisanepharmacy.com/",
           "image":"Tisane Pharmacy",
           "address":"Upper East Side",
           "attribution": "Google",
@@ -683,14 +778,16 @@
       "long": -73.9503638},
       {
           "title":"Tom Dixon",
+          "website": "https://www.tomdixon.net/storelocator/showroom/tom-dixon-shop-new-york",
           "image":"Tom Dixon",
-          "address":"",
+          "address":"Soho",
           "attribution": "",
           "description": "Sophisticated homewares featuring metallic and geometric designs.",
           "lat": 40.7212682,
       "long": -74.0028147},
       {
           "title":"Totokaelo",
+          "website": "https://totokaelo.com/about/totokaelo/",
           "image":"Totokaelo",
           "address":"Soho",
           "attribution": "",
@@ -699,6 +796,7 @@
       "long": -73.9980452},
       {
           "title":"Vintage Thrift East",
+          "website": "http://www.vintagethriftshop.org/",
           "image":"Vintage Thrift East",
           "address":"Gramercy",
           "attribution": "",
@@ -708,6 +806,7 @@
 
       {
           "title":"Westfield World Trade Center",
+          "website": "https://www.westfield.com/westfieldworldtradecenter",
           "image":"Westfield World Trade Center",
           "address":"Financial District",
           "attribution": "Allan LEONARD",
@@ -716,6 +815,7 @@
       "long": -74.011478},
       {
           "title":"Zero + Maria Cornejo",
+          "website": "https://www.zeromariacornejo.com/stockists-zero-stores",
           "image":"Zero Maria Cornejo",
           "address":"NoHo",
           "attribution": "",
@@ -724,6 +824,7 @@
       "long": -73.993759},
       {
           "title":"Zitomer",
+          "website": "https://www.zitomer.com/",
           "image":"Zitomer",
           "address":"Upper East Side",
           "attribution": "Google",

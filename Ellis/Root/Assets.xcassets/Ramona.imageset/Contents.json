@@ -2,17 +2,15 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "soap (1).png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "soap.png",
+      "filename" : "Ramona.jpg",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "soap (3).png",
       "scale" : "3x"
     }
   ],

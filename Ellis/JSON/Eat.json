@@ -3,6 +3,7 @@
   "list": [
            {
                "title":"ABC Cocina",
+               "website": "http://www.abchome.com/dine/abc-cocina/",
                "image":"ABC Cocina",
                "address":"Flatiron",
                "attribution": "Chris Goldberg",
@@ -11,6 +12,7 @@
                "long": -73.9892841},
            {
                "title":"ABC Kitchen",
+               "website": "http://www.abchome.com/dine/abc-kitchen/",
                "image":"ABC Kitchen",
                "address":"Flatiron",
                "attribution": "Emma Chao",
@@ -19,6 +21,7 @@
                "long": -73.9896147},
            {
                "title":"AbcV",
+               "website": "http://www.abchome.com/dine/abcv/",
                "image":"AbcV",
                "address":"Flatiron",
                "attribution": "Dave Pinter",
@@ -27,6 +30,7 @@
                "long": -73.9892841},
            {
                "title":"Atla",
+               "website": "https://www.atlanyc.com/",
                "image":"Atla",
                "address":"NoHo",
                "attribution": "",
@@ -35,6 +39,7 @@
                "long": -73.9938297},
            {
                "title":"Augustine",
+               "website": "https://augustineny.com/",
                "image":"Augustine",
                "address":"Financial District",
                "attribution": "MikePScott",
@@ -43,6 +48,7 @@
                "long": -74.0068158},
            {
                "title":"Avant Garden",
+               "website": "https://www.avantgardennyc.com/",
                "image":"Avant Garden",
                "address":"Alphabet City",
                "attribution": "",
@@ -51,6 +57,7 @@
                "long": -73.983963},
            {
                "title":"B&H Dairy",
+               "website": "https://www.yelp.com/biz/b-and-h-dairy-new-york-2",
                "image":"B&H Dairy",
                "address":"East Village",
                "attribution": "",
@@ -59,6 +66,7 @@
                "long": -73.9880339},
            {
                "title":"Bakeri",
+               "website": "http://www.bakeribrooklyn.com/williamsburg-lunch/",
                "image":"Bakeri",
                "address":"Williamsburg",
                "attribution": "Jennifer Jameson",
@@ -67,6 +75,7 @@
                "long": -73.9601227},
            {
                "title":"Balaboosta",
+               "website": "http://www.balaboostanyc.com/",
                "image":"Balaboosta",
                "address":"West Village",
                "attribution": "",
@@ -75,6 +84,7 @@
                "long": -74.0058893},
            {
                "title":"Balthazar",
+               "website": "https://balthazarny.com/",
                "image":"Balthazar",
                "address":"Soho",
                "attribution": "Vilseskogen",
@@ -83,6 +93,7 @@
                "long": -73.9982235},
            {
                "title":"Bamonte's",
+               "website": "https://www.yelp.com/biz/bamontes-brooklyn",
                "image":"Bamontes",
                "address":"Williamsburg",
                "attribution": "Gonzalo",
@@ -91,6 +102,7 @@
                "long": -73.9511733},
            {
                "title":"Bar Primi",
+               "website": "http://barprimi.com/home",
                "image":"Bar Primi",
                "address":"East Village",
                "attribution": "",
@@ -99,6 +111,7 @@
                "long": -73.9917516},
            {
                "title":"Barney Greengrass",
+               "website": "https://www.barneygreengrass.com/",
                "image":"Barney Greengrass",
                "address":"Upper West Side",
                "attribution": "Min Lee",
@@ -107,6 +120,7 @@
                "long": -73.9745726},
            {
                "title":"Baz Bagel",
+               "website": "https://www.bazbagel.com/",
                "image":"Baz Bagel",
                "address":"Little Italy",
                "attribution": "Foodie Buddha",
@@ -115,6 +129,7 @@
                "long": -73.9977613},
            {
                "title":"Black Seed",
+               "website": "https://www.blackseedbagels.com/",
                "image":"Black Seed",
                "address":"Nolita",
                "attribution": "Wally Gobetz",
@@ -123,6 +138,7 @@
                "long": -73.9946778},
            {
                "title":"Breads Bakery",
+               "website": "https://www.breadsbakery.com/",
                "image":"Breads Bakery",
                "address":"Union Square",
                "attribution": "bionicgrrrl",
@@ -131,6 +147,7 @@
                "long": -73.9939838},
            {
                "title":"Cafe Cluny",
+               "website": "https://www.cafecluny.com/",
                "image":"Cafe Cluny",
                "address":"West Village",
                "attribution": "",
@@ -139,6 +156,7 @@
                "long": -74.0039633},
            {
                "title":"Cafe Habana",
+               "website": "https://www.cafehabana.com/",
                "image":"Cafe Habana",
                "address":"Nolita",
                "attribution": "tzutzu",
@@ -147,6 +165,7 @@
                "long": -73.994193},
            {
                "title":"Cafe Mogador",
+               "website": "http://www.cafemogador.com/",
                "image":"Cafe Mogador",
                "address":"East Village",
                "attribution": "Jason Lam",
@@ -155,6 +174,7 @@
                "long": -73.9844233},
            {
                "title":"Carbone",
+               "website": "https://carbonenewyork.com/",
                "image":"Carbone",
                "address":"Greenwich Village",
                "attribution": "",
@@ -163,6 +183,7 @@
                "long": -74.0002182},
            {
                "title":"Casa Enrique",
+               "website": "https://henrinyc.com/casa-enrique/",
                "image":"Casa Enrique",
                "address":"Long Island City",
                "attribution": "",
@@ -171,6 +192,7 @@
                "long": -73.9542376},
            {
                "title":"Celestine",
+               "website": "https://www.celestinebk.com/",
                "image":"Celestine",
                "address":"Dumbo",
                "attribution": "",
@@ -179,6 +201,7 @@
                 "long":-73.9879695 },
            {
             "title":"Chez Ma Tante",
+            "website": "https://www.chezmatantenyc.com/",
             "image":"Chez Ma Tante",
             "address":"Greenpoint",
             "attribution": "",
@@ -187,6 +210,7 @@
             "long": -73.9573881},
            {
             "title":"Chumley's",
+            "website": "https://chumleysnewyork.com/",
             "image":"Chumleys",
             "address":"West Village",
             "attribution": "",
@@ -195,6 +219,7 @@
             "long": -74.005059},
            {
             "title":"Claro",
+            "website": "https://www.clarobk.com/",
             "image":"Claro",
             "address":"Gowanus",
             "attribution": "",
@@ -203,6 +228,7 @@
             "long": -73.9862268},
            {
             "title":"Colonie",
+            "website": "http://colonienyc.com/",
             "image":"Colonie",
             "address":"Brooklyn Heights",
             "attribution": "",
@@ -211,6 +237,7 @@
             "long": -73.9958422},
            {
                "title":"Cosme",
+               "website": "https://www.cosmenyc.com/",
                "image":"Cosme",
                "address":"Flatiron",
                "attribution": "Lou Stejskal",
@@ -219,6 +246,7 @@
            "long":-73.9883564 },
            {
                "title":"Covina",
+               "website": "https://www.covinanyc.com/",
                "image":"Covina",
                "address":"NoMad",
                "attribution": "",
@@ -227,6 +255,7 @@
            "long": -73.9833905},
            {
                "title":"Daily Provisions",
+               "website": "https://www.dailyprovisionsnyc.com/",
                "image":"Daily Provisions",
                "address":"Gramercy",
                "attribution": "",
@@ -235,6 +264,7 @@
            "long": -73.987596},
            {
                "title":"Diner",
+               "website": "http://dinernyc.com/",
                "image":"Diner",
                "address":"Williamsburg",
                "attribution": "Bex Walton",
@@ -243,6 +273,7 @@
            "long": -73.9655691},
            {
                "title":"Divya's Kitchen",
+               "website": "http://divyaskitchen.com/",
                "image":"Divya's Kitchen",
                "address":"East Village",
                "attribution": "",
@@ -251,6 +282,7 @@
            "long": -73.9884906},
            {
                "title":"Estela",
+               "website": "https://www.estelanyc.com/",
                "image":"Estela",
                "address":"NoHo",
                "attribution": "Krista",
@@ -259,6 +291,7 @@
            "long": -73.994739},
            {
                "title":"Fairfax",
+               "website": "https://www.fairfax.nyc/",
                "image":"Fairfax",
                "address":"West Village",
                "attribution": "",
@@ -267,6 +300,7 @@
            "long":-74.0032164 },
            {
                "title":"Fausto",
+               "website": "https://www.faustobrooklyn.com/",
                "image":"Fausto",
                "address":"Park Slope",
                "attribution": "",
@@ -275,6 +309,7 @@
            "long": -73.9719072},
            {
                "title":"Five Leaves",
+               "website": "http://fiveleavesny.com/",
                "image":"Five Leaves",
                "address":"Greenpoint",
                "attribution": "Serena Es",
@@ -283,6 +318,7 @@
            "long": -73.951628},
            {
                "title":"Frenchette",
+               "website": "https://www.frenchettenyc.com/",
                "image":"Frenchette",
                "address":"Tribeca",
                "attribution": "Innovative French-style bistro in Tribeca. The comfort food is served in a classic but refined environment. ",
@@ -291,6 +327,7 @@
            "long": -74.0056337},
            {
                "title":"Fu Run",
+               "website": "http://www.furunflushing.com/",
                "image":"Fu Run",
                "address":"Flushing",
                "attribution": "stu_spivack",
@@ -299,6 +336,7 @@
            "long":-73.8315796 },
            {
                "title":"Gramercy Tavern",
+               "website": "https://www.gramercytavern.com/",
                "image":"Gramercy Tavern",
                "address":"Gramercy",
                "attribution": "Dan Dickinson",
@@ -307,6 +345,7 @@
            "long":-73.9885064 },
            {
                "title":"Hangawi",
+               "website": "http://www.hangawirestaurant.com/",
                "image":"Hangawi",
                "address":"Midtown East",
                "attribution": "Jeffrey Zeldman",
@@ -315,6 +354,7 @@
            "long":-73.9847617 },
            {
                "title":"Hearth",
+               "website": "https://www.restauranthearth.com/",
                "image":"Hearth",
                "address":"East Village",
                "attribution": "",
@@ -323,6 +363,7 @@
            "long": -73.983222},
            {
                "title":"High Street on Hudson",
+               "website": "https://highstreetonhudson.com/",
                "image":"High Street On Hudson",
                "address":"West Village",
                "attribution": "",
@@ -331,6 +372,7 @@
            "long":-74.0056796 },
            {
                "title":"I Sodi",
+               "website": "http://www.isodinyc.com/",
                "image":"I Sodi",
                "address":"West Village",
                "attribution": "",
@@ -339,6 +381,7 @@
            "long": -74.0049958},
            {
                "title":"Il Buco Alimentari",
+               "website": "https://ilbuco.com/pages/alimentari",
                "image":"Il Buco",
                "address":"NoHo",
                "attribution": "",
@@ -347,6 +390,7 @@
            "long": -73.9924731},
            {
                "title":"Il Gattopardo",
+               "website": "http://www.ilgattopardonyc.com/",
                "image":"Il Gattopardo",
                "address":"Midtown West",
                "attribution": "",
@@ -355,6 +399,7 @@
            "long": -73.9763981},
            {
                "title":"il laboratorio del gelato",
+               "website": "http://www.laboratoriodelgelato.com/thelab.php",
                "image":"il laboratorio",
                "address":"Lower East Side",
                "attribution": "Transparent Reality",
@@ -363,6 +408,7 @@
            "long":-73.9870811},
            {
                "title":"Indian Accent",
+               "website": "http://indianaccent.com/newyork/index.php",
                "image":"Indian Accent",
                "address":"Midtown West",
                "attribution": "Lou Stejskal",
@@ -371,6 +417,7 @@
            "long": -73.9788504},
            {
                "title":"Jajaja",
+               "website": "https://www.jajajamexicana.com/",
                "image":"Jajaja",
                "address":"Lower East Side",
                "attribution": "",
@@ -379,6 +426,7 @@
            "long": -73.9903906},
            {
                "title":"JeJu Noodle Bar",
+               "website": "https://jejunoodlebar.com/",
                "image":"Jeju",
                "address":"West Village",
                "attribution": "",
@@ -387,6 +435,7 @@
            "long": -74.0073502},
            {
                "title":"John Dory Oyster Bar",
+               "website": "https://www.thejohndory.com/",
                "image":"John Dory Oyster Bar",
                "address":"NoMad",
                "attribution": "Wally Gobetz",
@@ -395,6 +444,7 @@
            "long": -73.988434},
            {
                "title":"JoJo",
+               "website": "http://www.jojorestaurantnyc.com/",
                "image":"JoJo",
                "address":"Upper East Side",
                "attribution": "",
@@ -403,6 +453,7 @@
            "long":-73.9657054 },
            {
                "title":"Joseph Leonard",
+               "website": "https://www.josephleonard.com/",
                "image":"Joseph Leonard",
                "address":"West Village",
                "attribution": "",
@@ -411,6 +462,7 @@
            "long": -74.0016914},
            {
                "title":"L’Artusi",
+               "website": "https://www.lartusi.com/",
                "image":"Lartusi",
                "address":"West Village",
                "attribution": "",
@@ -419,6 +471,7 @@
            "long": -74.0051418},
            {
                "title":"La Grenouille",
+               "website": "http://la-grenouille.com/",
                "image":"La Grenouille",
                "address":"Midtown East",
                "attribution": "",
@@ -427,6 +480,7 @@
            "long": -73.975597},
            {
                "title":"La Mercerie",
+               "website": "https://www.lamerceriecafe.com/",
                "image":"La Mercerie",
                "address":"Soho",
                "attribution": "",
@@ -435,6 +489,7 @@
            "long": -74.0021637},
            {
                "title":"La Vara",
+               "website": "http://www.lavarany.com/",
                "image":"La Vara",
                "address":"Cobble Hill",
                "attribution": "Garrett Ziegler",
@@ -442,7 +497,8 @@
                "lat": 40.6878015,
            "long": -73.9957536},
            {
-               "title":"Lafayette ",
+               "title":"Lafayette",
+               "website": "http://lafayetteny.com/",
                "image":"Lafayette.jpg",
                "address":"NoHo",
                "attribution": "",
@@ -451,6 +507,7 @@
            "long": -73.9937017},
            {
                "title":"Le Coucou",
+               "website": "https://lecoucou.com/",
                "image":"Le Coucou",
                "address":"Soho",
                "attribution": "Lou Stejskal",
@@ -459,6 +516,7 @@
            "long": -74.00025},
            {
                "title":"Little Owl",
+               "website": "https://www.thelittleowlnyc.com/",
                "image":"Little Owl",
                "address":"West Village",
                "attribution": "",
@@ -467,6 +525,7 @@
            "long": -74.005318},
            {
                "title":"Little Park",
+               "website": "http://www.littlepark.com/",
                "image":"Little Park",
                "address":"Tribeca",
                "attribution": "",
@@ -475,6 +534,7 @@
            "long": -74.0091553},
            {
                "title":"Llama Inn",
+               "website": "http://www.llamainnnyc.com/",
                "image":"Llama Inn",
                "address":"Williamsburg",
                "attribution": "Lou Stejskal",
@@ -483,6 +543,7 @@
            "long": -73.950426},
            {
                "title":"Locanda Verde",
+               "website": "http://www.locandaverdenyc.com/",
                "image":"Locanda Verde",
                "address":"Tribeca",
                "attribution": "bionicgrrrl",
@@ -491,6 +552,7 @@
            "long": -74.0100249},
            {
                "title":"Loring Place",
+               "website": "https://www.loringplacenyc.com/",
                "image":"Loring Place",
                "address":"Greenwich Village",
                "attribution": "",
@@ -499,6 +561,7 @@
            "long":-73.9975837 },
            {
                "title":"Lusardi's",
+               "website": "http://lusardis.com/",
                "image":"Lusardi's",
                "address":"Upper East Side",
                "attribution": "",
@@ -507,6 +570,7 @@
            "long": -73.9554555},
            {
                "title":"M. Wells Dinette",
+               "website": "https://www.magasinwells.com/menus/dinette/",
                "image":"M Wells Dinette",
                "address":"Long Island City",
                "attribution": "Nick Normal",
@@ -515,6 +579,7 @@
            "long": -73.9470955},
            {
                "title":"Malai Marke",
+               "website": "http://www.malaimarke.com/",
                "image":"Malai Marke",
                "address":"East Village",
                "attribution": "",
@@ -523,6 +588,7 @@
            "long": -73.987647},
            {
                "title":"Marea",
+               "website": "https://www.marea-nyc.com/",
                "image":"Marea",
                "address":"Midtown West",
                "attribution": "bionicgrrrl",
@@ -531,6 +597,7 @@
            "long": -73.9811332},
            {
                "title":"Marlow & Sons",
+               "website": "http://marlowandsons.com/",
                "image":"Marlow and Sons",
                "address":"Williamsburg",
                "attribution": "Broadbandito",
@@ -539,6 +606,7 @@
            "long":-73.965696 },
            {
                "title":"Meadowsweet",
+               "website": "http://www.meadowsweetnyc.com/",
                "image":"Meadowsweet",
                "address":"Williamsburg",
                "attribution": "Google",
@@ -547,6 +615,7 @@
            "long": -73.9632384},
            {
                "title":"Minetta Tavern",
+               "website": "http://www.minettatavernny.com/",
                "image":"Minetta Tavern",
                "address":"Greenwich Village",
                "attribution": "Wally Gobetz",
@@ -555,6 +624,7 @@
            "long": -74.0007016},
            {
                "title":"Miss Lily’s",
+               "website": "http://www.misslilys.com/locations/soho/",
                "image":"Miss Lilys",
                "address":"Greenwich Village",
                "attribution": "Barney Bishop",
@@ -563,6 +633,7 @@
            "long": -74.0013434},
            {
                "title":"Mission Chinese",
+               "website": "https://www.missionchinesefood.com/",
                "image":"Mission Chinese",
                "address":"Lower East Side",
                "attribution": "Wally Gobetz",
@@ -571,6 +642,7 @@
            "long": -73.9896887},
            {
                "title":"Momofuku Ssam Bar",
+               "website": "https://ssambar.momofuku.com/",
                "image":"Momofuku Ssam Bar",
                "address":"East Village",
                "attribution": "City Foodsters",
@@ -579,6 +651,7 @@
            "long": -73.9858725},
            {
                "title":"Morandi",
+               "website": "https://www.morandiny.com/",
                "image":"Morandi",
                "address":"West Village",
                "attribution": "",
@@ -587,6 +660,7 @@
            "long": -74.0014282},
            {
                "title":"Murray's Bagels",
+               "website": "http://www.murraysbagels.com/",
                "image":"Murrays Bagels",
                "address":"Greenwich Village",
                "attribution": "Brian Holsclaw",
@@ -595,6 +669,7 @@
            "long": -73.9972943},
            {
                "title":"Narcissa",
+               "website": "http://www.standardhotels.com/new-york/features/narcissa",
                "image":"Narcissa",
                "address":"NoHo",
                "attribution": "T.Tseng",
@@ -603,6 +678,7 @@
            "long": -73.990739},
            {
                "title":"Nix",
+               "website": "http://www.nixny.com/",
                "image":"Nix",
                "address":"Greenwich Village",
                "attribution": "",
@@ -611,6 +687,7 @@
            "long": -73.993674},
            {
                "title":"Nobu",
+               "website": "https://www.noburestaurants.com/",
                "image":"Nobu",
                "address":"Financial District",
                "attribution": "Cameron Yee",
@@ -619,6 +696,7 @@
            "long": -74.009845},
            {
                "title":"Nom Wah Tea Parlor",
+               "website": "https://nomwah.com/",
                "image":"Nom Wah Tea Parlor",
                "address":"China Town",
                "attribution": "PrettyKateMachine",
@@ -627,6 +705,7 @@
            "long": -73.998254},
            {
                "title":"NoMad",
+               "website": "https://www.thenomadhotel.com/new-york/dining",
                "image":"NoMad",
                "address":"NoMad",
                "attribution": "Lauren Craig",
@@ -635,6 +714,7 @@
            "long": -73.9885493},
            {
                "title":"Nur",
+               "website": "http://nurnyc.com/",
                "image":"Nur",
                "address":"Flatiron",
                "attribution": "",
@@ -643,6 +723,7 @@
            "long": -73.9888053},
            {
                "title":"Olmsted",
+               "website": "http://www.olmstednyc.com/",
                "image":"Olmsted",
                "address":"Prospect Heights",
                "attribution": "Wally Gobetz",
@@ -651,6 +732,7 @@
            "long": -73.9687578},
            {
                "title":"Parm",
+               "website": "https://www.parmnyc.com/",
                "image":"Parm",
                "address":"Nolita",
                "attribution": "Yelp Inc.",
@@ -659,6 +741,7 @@
            "long": -73.9956459},
            {
                "title":"Pasquale Jones",
+               "website": "https://www.pasqualejones.com/",
                "image":"Pasquale Jones",
                "address":"Nolita",
                "attribution": "Dan Dickinson",
@@ -667,6 +750,7 @@
            "long": -73.9967554},
            {
                "title":"Paulie Gee's Slice Shop",
+               "website": "https://pauliegee.com/slice-shop/",
                "image":"Paulie Gees Slice Shop",
                "address":"Greenpoint",
                "attribution": "",
@@ -675,6 +759,7 @@
            "long": -73.957175},
            {
                "title":"Perry St",
+               "website": "http://www.perrystrestaurant.com/",
                "image":"Perry St",
                "address":"West Village",
                "attribution": "Kok Chih & Sarah Gan",
@@ -683,6 +768,7 @@
            "long": -74.0096694},
            {
                "title":"Plaza Hotel Food Hall",
+               "website": "https://www.theplazany.com/dining/the-plaza-food-hall/",
                "image":"Plaza Hotel Food Hall",
                "address":"Midtown West",
                "attribution": "Thomas Hawk",
@@ -691,6 +777,7 @@
            "long": -73.9745605},
            {
                "title":"Polo Bar",
+               "website": "https://www.ralphlauren.com/global-polo-bar",
                "image":"Polo Bar",
                "address":"Midtown East",
                "attribution": "",
@@ -699,6 +786,7 @@
            "long": -73.9743529},
            {
                "title":"Prune",
+               "website": "https://prunerestaurant.com/",
                "image":"Prune",
                "address":"East Village",
                "attribution": "spektrograf",
@@ -707,6 +795,7 @@
            "long": -73.989366},
            {
                "title":"Reynard",
+               "website": "https://www.reynardnyc.com/",
                "image":"Reynard",
                "address":"Williamsburg",
                "attribution": "Inhabitat",
@@ -715,6 +804,7 @@
            "long": -73.9580705},
            {
                "title":"Roberta's",
+               "website": "http://robertaspizza.com/",
                "image":"Roberta's",
                "address":"Bushwick",
                "attribution": "Inhabitat",
@@ -724,6 +814,7 @@
            
            {
                "title":"Roman’s",
+               "website": "https://www.romansnyc.com/",
                "image":"Romans",
                "address":"Fort Greene",
                "attribution": "",
@@ -732,6 +823,7 @@
            "long": -73.9695246 },
            {
                "title":"Rubirosa",
+               "website": "https://www.rubirosanyc.com/",
                "image":"Rubirosa",
                "address":"Nolita",
                "attribution": "Wally Gobetz",
@@ -740,6 +832,7 @@
            "long": -73.996233},
            {
                "title":"Rucola",
+               "website": "http://www.rucolabrooklyn.com/",
                "image":"Rucola",
                "address":"Boerum Hill",
                "attribution": "",
@@ -748,6 +841,7 @@
            "long": -73.9946125},
            {
                "title":"Russ & Daughter's Cafe",
+               "website": "http://www.russanddaughterscafe.com/",
                "image":"Russ and Daughters Cafe",
                "address":"Lower East Side",
                "attribution": "",
@@ -756,6 +850,7 @@
            "long": -73.9895879},
            {
                "title":"Sadelle's",
+               "website": "https://www.sadelles.com/",
                "image":"Sadelles",
                "address":"Soho",
                "attribution": "Mark Manguerra",
@@ -764,6 +859,7 @@
            "long": -74.0002541 },
            {
                "title":"Sant Ambroeus",
+               "website": "http://www.santambroeus.com/",
                "image":"Sant Ambroeus",
                "address":"West Village",
                "attribution": "",
@@ -772,6 +868,7 @@
            "long": -74.003141},
            {
                "title":"Santina",
+               "website": "https://www.santinanyc.com/",
                "image":"Santina",
                "address":"Meatpacking",
                "attribution": "Lou Stejskal",
@@ -780,6 +877,7 @@
            "long": -74.008443},
            {
                "title":"Sauvage",
+               "website": "https://sauvageny.com/",
                "image":"Sauvage",
                "address":"Greenpoint",
                "attribution": "J. Annie Wang",
@@ -788,6 +886,7 @@
            "long": -73.9518784},
            {
                "title":"Sfoglia",
+               "website": "https://www.sfogliarestaurant.com/",
                "image":"Sfoglia",
                "address":"Upper East Side",
                "attribution": "Lion",
@@ -796,6 +895,7 @@
            "long": -73.9528369},
            {
                "title":"Shalom Japan",
+               "website": "http://shalomjapannyc.com/",
                "image":"Shalom Japan",
                "address":"Williamsburg",
                "attribution": "",
@@ -804,6 +904,7 @@
            "long": -73.955794},
            {
                "title":"Shopsin's",
+               "website": "http://shopsins.com/",
                "image":"Shopsins",
                "address":"Lower East Side",
                "attribution": "Veronica",
@@ -812,6 +913,7 @@
            "long": -73.9877839},
            {
                "title":"Superiority Burger",
+               "website": "http://www.superiorityburger.com/",
                "image":"Superiority Burger",
                "address":"Alphabet City",
                "attribution": "",
@@ -820,6 +922,7 @@
            "long": -73.9835134},
            {
                "title":"Taboonette",
+               "website": "https://www.taboonette.com/",
                "image":"Taboonette",
                "address":"Greenwich Village",
                "attribution": "Garrett Ziegler",
@@ -828,6 +931,7 @@
            "long": -73.9928231},
            {
                "title":"Tartine",
+               "website": "https://tartine.nyc/",
                "image":"Tartine",
                "address":"West Village",
                "attribution": "",
@@ -836,6 +940,7 @@
            "long": -74.0034482},
            {
                "title":"Taverna Kyclades",
+               "website": "http://www.tavernakyclades.com/",
                "image":"Taverna Kyclades",
                "address":"Astoria",
                "attribution": "Sun Brockie",
@@ -844,6 +949,7 @@
            "long": -73.9092113},
            {
                "title":"The Bombay Bread Bar",
+               "website": "https://www.thebombaybreadbar.com/",
                "image":"The Bombay Bread Bar",
                "address":"Soho",
                "attribution": "",
@@ -852,6 +958,7 @@
            "long": -74.0032092},
            {
                "title":"The Breslin",
+               "website": "https://www.thebreslin.com/",
                "image":"The Breslin",
                "address":"NoMad",
                "attribution": "Edsel Little",
@@ -860,6 +967,7 @@
            "long": -73.988089 },
            {
                "title":"The Commodore",
+               "website": "https://www.yelp.com/biz/the-commodore-brooklyn",
                "image":"The Commodore",
                "address":"Williamsburg",
                "attribution": "",
@@ -868,6 +976,7 @@
            "long": -73.9558631},
            {
                "title":"The Dutch",
+               "website": "https://www.thedutchnyc.com/",
                "image":"The Dutch",
                "address":"Soho",
                "attribution": "",
@@ -876,6 +985,7 @@
            "long": -74.0021536},
            {
                "title":"The Finch",
+               "website": "http://www.thefinchnyc.com/",
                "image":"The Finch",
                "address":"Clinton Hill",
                "attribution": "",
@@ -884,6 +994,7 @@
            "long": -73.9628757},
            {
                "title":"The Library at the Public",
+               "website": "https://publictheater.org/Visit/Library/",
                "image":"The Library at the Public",
                "address":"NoHo",
                "attribution": "",
@@ -892,6 +1003,7 @@
            "long": -73.9918323},
            {
                "title":"The Loyal",
+               "website": "http://www.loyalrestaurant.com/",
                "image":"The Loyal",
                "address":"West Village",
                "attribution": "",
@@ -900,6 +1012,7 @@
            "long": -74.0032951},
            {
                "title":"The Musket Room",
+               "website": "https://www.musketroom.com/",
                "image":"The Musket Room",
                "address":"Nolita",
                "attribution": "kennejima",
@@ -908,6 +1021,7 @@
            "long": -73.9938218},
            {
                "title":"The Spotted Pig",
+               "website": "https://www.thespottedpig.com/#home",
                "image":"The Spotted Pig",
                "address":"West Village",
                "attribution": "",
@@ -916,6 +1030,7 @@
            "long": -74.0066615},
            {
                "title":"Tompkins Square Bagels",
+               "website": "https://www.thespottedpig.com/#home",
                "image":"Tompkins Square Bagels",
                "address":"Alphabet City",
                "attribution": "",
@@ -924,6 +1039,7 @@
            "long": -73.982291},
            {
                "title":"Uncle Boons",
+               "website": "http://www.uncleboons.com/",
                "image":"Uncle Boons",
                "address":"Nolita",
                "attribution": "",
@@ -932,6 +1048,7 @@
            "long": -73.9943585},
            {
                "title":"Union Square Cafe",
+               "website": "https://www.unionsquarecafe.com/",
                "image":"Union Square Cafe",
                "address":"Gramercy",
                "attribution": "",
@@ -940,6 +1057,7 @@
            "long": -73.9878767},
            {
                "title":"Untitled at The Whitney",
+               "website": "https://www.untitledatthewhitney.com/",
                "image":"Untitled at The Whitney",
                "address":"Meatpacking",
                "attribution": "angela n.",
@@ -948,6 +1066,7 @@
            "long": -74.0085492},
            {
                "title":"Upland",
+               "website": "https://uplandnyc.com/",
                "image":"Upland",
                "address":"Flatiron",
                "attribution": "",
@@ -956,6 +1075,7 @@
            "long": -73.98477 },
            {
                "title":"Veselka",
+               "website": "https://www.veselka.com/",
                "image":"Veselka",
                "address":"East Village",
                "attribution": "Kristen Hess",
@@ -964,6 +1084,7 @@
            "long": -73.9871139},
            {
                "title":"Via Carota",
+               "website": "http://www.viacarota.com/",
                "image":"Via Carota",
                "address":"West Village",
                "attribution": "",
@@ -972,6 +1093,7 @@
            "long": -74.0036162},
            {
                "title":"Vinegar Hill House",
+               "website": "http://vinegarhillhouse.com/",
                "image":"Vinegar Hill House",
                "address":"Vinegar Hill",
                "attribution": "Garrett Ziegler",
@@ -980,6 +1102,7 @@
            "long": -73.9812884},
            {
                "title":"Virginia's",
+               "website": "https://www.virginiasnyc.com/",
                "image":"Virginias.jpg",
                "address":"Alphabet City",
                "attribution": "",
@@ -988,6 +1111,7 @@
            "long": -73.9772465},
            {
                "title":"Waverly Inn",
+               "website": "http://www.waverlynyc.com/",
                "image":"Waverly Inn",
                "address":"West Village",
                "attribution": "",
@@ -996,6 +1120,7 @@
            "long": -74.0022445},
            {
                "title":"Wildair",
+               "website": "http://wildair.nyc/",
                "image":"Wildair",
                "address":"Lower East Side",
                "attribution": "",
@@ -1004,6 +1129,7 @@
            "long": -73.9891633},
            {
                "title":"ZZ's Clam Bar",
+               "website": "https://zzsclambar.com/",
                "image":"ZZs Clam Bar",
                "address":"Greenwich Village",
                "attribution": "Google",
@@ -1012,6 +1138,7 @@
            "long": -74.000466},
            {
                "title":"Bernie's",
+               "website": "https://www.berniesnyc.com/",
                "image":"Bernies",
                "address":"Greenpoint",
                "attribution": "",
@@ -1020,6 +1147,7 @@
            "long": -73.950593},
            {
                "title":"Don Angie",
+               "website": "https://www.donangie.com/",
                "image":"Don Angie",
                "address":"West Village",
                "attribution": "",
@@ -1028,6 +1156,7 @@
            "long": -74.0020939},
            {
                "title":"El Cortez",
+               "website": "http://elcortezbushwick.com/",
                "image":"El Cortez",
                "address":"Bushwick",
                "attribution": "",
@@ -1036,6 +1165,7 @@
            "long": -73.933081 },
            {
                "title":"Frankel's",
+               "website": "https://frankelsdelicatessen.com/",
                "image":"Frankels",
                "address":"Greenpoint",
                "attribution": "*Bitch Cakes*",
@@ -1044,6 +1174,7 @@
            "long": -73.9510048 },
            {
                "title":"The Usual",
+               "website": "https://theusualnyc.com/",
                "image":"The Usual",
                "address":"Nolita",
                "attribution": "",
@@ -1052,6 +1183,7 @@
            "long": -73.9953302 },
            {
                "title":"Misi",
+               "website": "https://www.misinewyork.com/",
                "image":"Misi",
                "address":"Williamsburg",
                "attribution": "Google",
