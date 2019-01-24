@@ -1,6 +1,263 @@
 {
     "image":"Beautify",
   "list": [
-            
+      {
+          "title":"Aire Ancient Baths",
+          "image":"Aire Ancient Baths",
+          "address":"Tribeca",
+          "attribution": "Google",
+          "description": "Spa with a variety of pools and saunas to relax in before your treatment.",
+          "lat": 40.718301,
+          "long": -74.0047357},
+      {
+          "title":"Akiko Nails",
+          "image":"Akiko ",
+          "address":"Lower East Side",
+          "attribution": "",
+          "description": "Nail salon that specializing in Japanese nail art technique. They have many suggested designs or can create something specifically for you.",
+          "lat": 40.719111,
+          "long": 73.991747},
+      {
+          "title":"Ballet Beautiful",
+          "image":"Ballet Beautiful",
+          "address":"Soho",
+          "attribution": "",
+          "description": "Mary Helen Bowers was a professional ballerina who created a workout that sculpts and tones your body, inspired by ballet movements.",
+          "lat": 40.724168,
+      "long": -73.999676},
+      {
+          "title":"Bamford Haybarn Spa",
+          "image":"Bamford Haybarn Spa",
+          "address":"Dumbo",
+          "attribution": "",
+          "description": "Bamford Haybarn Spa's first location was in the English countryside, and the tranquility has been transported to the location in New York. The ingredients in the skincare are natural and organic.",
+          "lat": 40.7018275,
+      "long": -73.9958146},
+      {
+          "title":"Breathe Salt Room",
+          "image":"Breathe Salt Room",
+          "address":"Midtown East",
+          "attribution": "Jeffrey Zeldman",
+          "description": "Salt rooms are made from Himalayan salt, which supports healthy breathing. Take their yoga class in here.",
+          "lat": 40.7459149,
+      "long": -73.981549},
+      {
+          "title":"BrickHouse Ceramics",
+          "image":"BrickHouse Ceramics",
+          "address":"Long Island City",
+          "attribution": "OIST",
+          "description": "Ceramics studio located in Long Island City. There are pottery classes for various skill levels and techniques.",
+          "lat": 40.7484987,
+      "long": -73.9504286},
+      {
+          "title":"Brooklyn Bridge Park",
+          "image":"Brooklyn Bridge Park",
+          "address":"Dumbo",
+          "attribution": "Kevin Oliver",
+          "description": "Park with waterfront views of Manhattan and restaurants in the nearby area. ",
+          "lat": 40.6995399,
+      "long": 073.9973777},
+      {
+          "title":"Chelsea Piers (Pier 62)",
+          "image":"Chelsea Piers",
+          "address":"Chelsea",
+          "attribution": "Andreas Komodromos",
+          "description": "Pier with a large park on the river. At Chelsea Piers you can go rock climbing or use their driving range.",
+          "lat": 40.7494531,
+      "long": -74.0074272},
+      {
+          "title":"Chillhouse",
+          "image":"Chillhouse",
+          "address":"Lower East Side",
+          "attribution": "",
+          "description": "Spa and café that offers massages and manicures in a contemporary and bright environment.",
+          "lat": 40.72075,
+      "long": -73.9875519 },
+      {
+          "title":"Clayworks On Columbia",
+          "image":"Clayworks On Columbia",
+          "address":"Cobble Hill",
+          "attribution": "Taller de cerámica",
+          "description": "Pottery school offering classes as well as studio space in a friendly environment.",
+          "lat": ,
+      "long": },
+      {
+          "title":"Erika Bloom Pilates",
+          "image":"Erika Bloom Pilates",
+          "address":"Upper East Side",
+          "attribution": "",
+          "description": "Private pilates sessions and holistic healing including acupuncture and rolfing. There are multiple locations outside of New York City to check out too.",
+          "lat": 40.7643204,
+      "long": 73.9717272,15z},
+      {
+          "title":"European Wax Center",
+          "image":"European Wax Center",
+          "address":"Financial District",
+          "attribution": "",
+          "description": "Fast and convenient waxing chain that offers customer loyalty programs. ",
+          "lat": 40.714949,
+      "long": -74.0072302},
+      {
+          "title":"Great Jones Spa",
+          "image":"Great Jones Spa",
+          "address":"NoHo",
+          "attribution": "",
+          "description": "Spa with a water lounge, steam room, and sauna while you wait for your treatment.",
+          "lat": 40.7269832,
+      "long": -73.9933079},
+      
+      {
+          "title":"Greenpoint- Williamsburg Waterfront",
+          "image":"Greenpoint and Williamsburg Waterfront",
+          "address":"Williamsburg",
+          "attribution": "",
+          "description": "Newly developed waterfront park with views of the Manhattan skyline.",
+          "lat": 40.7310739,
+      "long": -73.9612644},
+      
+      {
+          "title":"Hortus Nailworks",
+          "image":"Hortus Nailworks",
+          "address":"Lower East Side",
+          "attribution": "",
+          "description": "Nail and sugaring studio located in the Lower East Side. The products they use are all natural and organic.",
+          "lat": 40.7228959,
+      "long": -73.9902492},
+      
+      {
+          "title":"Inscape",
+          "image":"Inscape",
+          "address":"Flatiron",
+          "attribution": "Google",
+          "description": "Modern meditation studio with an app to continue your practice at home.",
+          "lat": 40.7414371,
+      "long": -73.9927569},
+      
+      {
+          "title":"Metrograph",
+          "image":"Metrograph",
+          "address":"Lower East Side",
+          "attribution": "",
+          "description": "Metrograph shows independent premiers and repertory programs. The theater is beautiful and they have one of the best candy selections we've seen at a cinema.",
+          "lat": 40.715078,
+      "long": -73.991181},
+      
+      {
+          "title":"New York Pilates",
+          "image":"New York Pilates",
+          "address":"Soho",
+          "attribution": "",
+          "description": "Pilates studio offering reformer classes and private lesson with skilled instructors who can help you to reach your goals.",
+          "lat": 40.719324,
+      "long": -74.000644},
+      
+      {
+          "title":"Paintbox ",
+          "image":"Paintbox ",
+          "address":"Soho",
+          "attribution": "",
+          "description": "Manicure studio in SoHo with an impressive selection of nail art that changes seasonally in a beautiful space.",
+          "lat": 40.7199846,
+      "long": -73.9999681},
+      
+      {
+          "title":"Riverside Park",
+          "image":"Riverside Park",
+          "address":"Upper West Side",
+          "attribution": "Jeffrey Zeldman",
+          "description": "Park stretching four miles along the Hudson River. ",
+          "lat": 40.8012339,
+      "long": -73.9723096},
+      
+      {
+          "title":"Skin Laundry",
+          "image":"Skin Laundry",
+          "address":"Tribeca",
+          "attribution": "",
+          "description": "Skin Laundry specializes in laser facials that are more accessibly priced and designed to be scheduled regularly. ",
+          "lat": 40.7163856,
+      "long": -74.0088248},
+      
+      {
+          "title":"St. Luke in the Fields Garden",
+          "image":"St Luke in the Fields",
+          "address":"",
+          "attribution": "Garrett Ziegler",
+          "description": "Attached to the beautiful and inclusive Church of St. Luke in the Fields, the garden is open from 10am to dusk daily.",
+          "lat": 40.7325862,
+      "long": -74.0067038},
+      
+      {
+          "title":"Sundays Nail Studio",
+          "image":"Sundays Nail Studio",
+          "address":"Flatiron",
+          "attribution": "",
+          "description": "Sundays specializes in nontoxic nail polish in a minimalist space.",
+          "lat": 40.7419984,
+      "long": -73.9861092},
+      
+      {
+          "title":"Tenoverten",
+          "image":"Tenoverten",
+          "address":"Tribeca",
+          "attribution": "",
+          "description": "Nontoxic nail salon in a beautiful space with comfortable chairs.",
+          "lat": 40.716019,
+      "long":-74.008597 },
+      
+      {
+          "title":"Textile Arts Center",
+          "image":"Textile Arts Center",
+          "address":"Gowanus",
+          "attribution": "",
+          "description": "Studio offering textile related classes including fabric dyeing techniques, basket making, sewing, and knitting.",
+          "lat": 40.6768345,
+      "long": -73.985221 },
+      
+      {
+          "title":"The Class By Taryn Toomey",
+          "image":"The Class By Taryn Toomey",
+          "address":"Tribeca",
+          "attribution": "Google",
+          "description": "The Class is both a physical and emotional workout. Taryn Toomey developed this revolutionary program based in yoga and cardio that works to restore a mind-body connection.",
+          "lat": 40.7127305,
+      "long": -74.0085653},
+      
+      {
+          "title":"The Ramble",
+          "image":"The Ramble",
+          "address":"Central Park",
+          "attribution": "Patrick Nelson",
+          "description": "Area of Central Park that is full of winding pathways, benches, and overhanging trees. One of the few places in Manhattan you might not see people around you.",
+          "lat": 40.7775322,
+      "long": -73.9695347},
+      
+      {
+          "title":"Valley Nails",
+          "image":"Valley Nails",
+          "address":"Chelsea",
+          "attribution": "",
+          "description": "Serene nail studio with innovative designs.",
+          "lat": 40.7400585,
+      "long": -74.0006557},
+      
+      {
+          "title":"Woom Center",
+          "image":"Woom Center",
+          "address":"Nolita",
+          "attribution": "",
+          "description": "Meditation and yoga studio utilizing sound vibration to center you. The combination of futuristic and ancient techniques make this studio unique.",
+          "lat": 40.723733,
+      "long": -73.993123 },
+      
+      {
+          "title":"Yoga Vida",
+          "image":"Yoga Vida",
+          "address":"Tribeca",
+          "attribution": "",
+          "description": "Yoga Vida's classes are suitable for all levels, as the instructor will offer moderations on many of the poses. ",
+          "lat": 40.722807 ,
+      "long": -74.010731}
+      
         ]
 }
