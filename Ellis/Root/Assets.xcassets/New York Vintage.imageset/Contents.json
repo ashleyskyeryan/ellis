@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "New York Vintage.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "New York Vintage.jpg",
       "scale" : "2x"
     },
     {

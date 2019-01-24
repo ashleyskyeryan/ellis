@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Grand Army.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Grand Army.jpg",
       "scale" : "2x"
     },
     {

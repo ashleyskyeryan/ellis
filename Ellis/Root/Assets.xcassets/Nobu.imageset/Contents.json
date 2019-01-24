@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Nobu.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Nobu.jpg",
       "scale" : "2x"
     },
     {

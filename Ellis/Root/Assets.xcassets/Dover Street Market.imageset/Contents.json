@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Dover Street Market.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Dover Street Market.jpg",
       "scale" : "2x"
     },
     {

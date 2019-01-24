@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Brookfield Place.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Brookfield Place.jpg",
       "scale" : "2x"
     },
     {

@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "The Rum House.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "The Rum House.jpg",
       "scale" : "2x"
     },
     {

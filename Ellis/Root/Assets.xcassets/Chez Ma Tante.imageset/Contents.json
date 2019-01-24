@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Chez Ma Tante.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Chez Ma Tante.jpg",
       "scale" : "2x"
     },
     {

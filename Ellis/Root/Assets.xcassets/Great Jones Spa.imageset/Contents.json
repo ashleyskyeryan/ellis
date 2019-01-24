@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Great Jones Spa.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Great Jones Spa.jpg",
       "scale" : "2x"
     },
     {

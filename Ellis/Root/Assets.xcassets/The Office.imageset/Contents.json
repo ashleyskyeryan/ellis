@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "The Office.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "The Office.jpg",
       "scale" : "2x"
     },
     {

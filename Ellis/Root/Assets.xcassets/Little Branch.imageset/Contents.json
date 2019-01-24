@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Little Branch.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Little Branch.jpg",
       "scale" : "2x"
     },
     {

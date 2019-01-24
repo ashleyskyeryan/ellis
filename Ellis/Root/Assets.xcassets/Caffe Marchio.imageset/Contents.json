@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Caffe Marchio.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Caffe Marchio.jpg",
       "scale" : "2x"
     },
     {

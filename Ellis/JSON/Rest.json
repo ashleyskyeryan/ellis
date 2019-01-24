@@ -11,12 +11,12 @@
           "long": -74.0047357},
       {
           "title":"Akiko Nails",
-          "image":"Akiko ",
+          "image":"Akiko Nails",
           "address":"Lower East Side",
           "attribution": "",
           "description": "Nail salon that specializing in Japanese nail art technique. They have many suggested designs or can create something specifically for you.",
           "lat": 40.719111,
-          "long": 73.991747},
+          "long": -73.991747},
       {
           "title":"Ballet Beautiful",
           "image":"Ballet Beautiful",
@@ -35,7 +35,7 @@
       "long": -73.9958146},
       {
           "title":"Breathe Salt Room",
-          "image":"Breathe Salt Room",
+          "image":"Breathe",
           "address":"Midtown East",
           "attribution": "Jeffrey Zeldman",
           "description": "Salt rooms are made from Himalayan salt, which supports healthy breathing. Take their yoga class in here.",
@@ -56,7 +56,7 @@
           "attribution": "Kevin Oliver",
           "description": "Park with waterfront views of Manhattan and restaurants in the nearby area. ",
           "lat": 40.6995399,
-      "long": 073.9973777},
+      "long": -73.9973777},
       {
           "title":"Chelsea Piers (Pier 62)",
           "image":"Chelsea Piers",
@@ -79,8 +79,8 @@
           "address":"Cobble Hill",
           "attribution": "Taller de cerámica",
           "description": "Pottery school offering classes as well as studio space in a friendly environment.",
-          "lat": ,
-      "long": },
+          "lat": 40.6854056,
+      "long": -74.002394},
       {
           "title":"Erika Bloom Pilates",
           "image":"Erika Bloom Pilates",
@@ -88,7 +88,7 @@
           "attribution": "",
           "description": "Private pilates sessions and holistic healing including acupuncture and rolfing. There are multiple locations outside of New York City to check out too.",
           "lat": 40.7643204,
-      "long": 73.9717272,15z},
+      "long": -73.9717272},
       {
           "title":"European Wax Center",
           "image":"European Wax Center",
@@ -152,8 +152,8 @@
       "long": -74.000644},
       
       {
-          "title":"Paintbox ",
-          "image":"Paintbox ",
+          "title":"Paintbox",
+          "image":"Paintbox",
           "address":"Soho",
           "attribution": "",
           "description": "Manicure studio in SoHo with an impressive selection of nail art that changes seasonally in a beautiful space.",

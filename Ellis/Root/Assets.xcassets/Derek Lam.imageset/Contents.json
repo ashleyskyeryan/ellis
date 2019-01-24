@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Derek Lam.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Derek Lam.jpg",
       "scale" : "2x"
     },
     {

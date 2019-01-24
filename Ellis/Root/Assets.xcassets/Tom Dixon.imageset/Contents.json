@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Tom Dixon.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Tom Dixon.jpg",
       "scale" : "2x"
     },
     {

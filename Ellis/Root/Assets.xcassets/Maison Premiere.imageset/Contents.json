@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Maison Premiere.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Maison Premiere.jpg",
       "scale" : "2x"
     },
     {

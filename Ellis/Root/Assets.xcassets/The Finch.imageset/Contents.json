@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "The Finch.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "The Finch.jpg",
       "scale" : "2x"
     },
     {

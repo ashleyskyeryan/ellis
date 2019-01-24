@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Inscape.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Inscape.png",
       "scale" : "2x"
     },
     {

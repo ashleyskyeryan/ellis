@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Shalom Japan.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Shalom Japan.jpg",
       "scale" : "2x"
     },
     {

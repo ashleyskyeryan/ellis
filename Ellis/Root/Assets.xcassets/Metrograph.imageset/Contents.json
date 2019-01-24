@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Metrograph.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Metrograph.jpg",
       "scale" : "2x"
     },
     {

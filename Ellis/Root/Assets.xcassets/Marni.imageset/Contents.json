@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Marni.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Marni.jpg",
       "scale" : "2x"
     },
     {

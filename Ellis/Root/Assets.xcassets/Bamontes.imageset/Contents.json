@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Bamontes.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Bamontes.jpg",
       "scale" : "2x"
     },
     {

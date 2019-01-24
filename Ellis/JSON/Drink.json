@@ -59,7 +59,7 @@
       "long": -73.998217},
       {
           "title":"Baby's All Right",
-          "image":"Baby's All Right",
+          "image":"Babys All Right",
           "address":"Williamsburg",
           "attribution": "swedennewyork",
           "description": "Williamsburg live music bar with brunch on the weekends. The retro-kitsch interior complements the cocktail menu and fun atmosphere.",
@@ -139,7 +139,7 @@
       "long": -74.001662},
       {
           "title":"Caffe Marchio ",
-          "image":"Caffe Marchio ",
+          "image":"Caffe Marchio",
           "address":"NoMad",
           "attribution": "",
           "description": "This has to be one of the best places to get coffee in Manhattan. Located in the Redbury Hotel, it's owned by Danny Meyer. ",
@@ -147,7 +147,7 @@
       "long": -73.98463},
       {
           "title":"Daddy-o",
-          "image":"Daddy-o",
+          "image":"DaddyO",
           "address":"West Village",
           "attribution": "",
           "description": "Neighborhood bar with a winning combination of delicious food, quality drinks, nice atmosphere, and sports on multiple televisions.",
@@ -235,7 +235,7 @@
       "long": -73.9865127},
       {
           "title":"Henry Public",
-          "image":"Henric Public",
+          "image":"Henry Public",
           "address":"Cobble Hill",
           "attribution": "",
           "description": "Quaint and cozy cocktail bar where you can settle into the booths for hours.",
@@ -402,8 +402,8 @@
           "lat": 40.713084,
       "long": -73.957334},
       {
-          "title":"The Hoxton Hotel",
-          "image":"The Hoxton Hotel",
+          "title":"The Hoxton",
+          "image":"The Hoxton",
           "address":"Williamsburg",
           "attribution": "",
           "description": "The lobby bar can be anything you want -- from a coffee meeting to catching up with a friend for a drink. The outdoor space is used both in summer and winter and the bar area serves classic American food. The rooftop bar, Summerly, has Manhattan views.",

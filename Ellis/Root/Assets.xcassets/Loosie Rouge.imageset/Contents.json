@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Loosie Rouge.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Loosie Rouge.jpg",
       "scale" : "2x"
     },
     {

@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Don Angie.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Don Angie.jpg",
       "scale" : "2x"
     },
     {

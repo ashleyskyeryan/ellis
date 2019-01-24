@@ -135,8 +135,8 @@
                "address":"West Village",
                "attribution": "",
                "description": "While the French food at Cluny is consistently good, it excels at providing a homey and intimate environment to enjoy with friends and family.",
-               "lat": 22.2798,
-               "long": -70.7632},
+               "lat": 40.7374114,
+               "long": -74.0039633},
            {
                "title":"Cafe Habana",
                "image":"Cafe Habana",
@@ -1005,7 +1005,7 @@
            {
                "title":"ZZ's Clam Bar",
                "image":"ZZs Clam Bar",
-               "address":"",
+               "address":"Greenwich Village",
                "attribution": "Google",
                "description": "Tiny restaurant in a beautiful space next door to Carbone. The cocktail menu complements the rawbar -- top special occasion restaurant!",
                "lat": 40.727688,

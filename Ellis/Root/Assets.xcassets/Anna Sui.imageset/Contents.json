@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Anna Sui.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Anna Sui.jpg",
       "scale" : "2x"
     },
     {

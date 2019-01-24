@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Maries Crisis.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Maries Crisis.jpg",
       "scale" : "2x"
     },
     {

@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Tompkins Square Bagels.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Tompkins Square Bagels.jpg",
       "scale" : "2x"
     },
     {

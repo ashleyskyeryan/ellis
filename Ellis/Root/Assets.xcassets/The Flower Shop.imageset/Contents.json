@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "The Flower Shop.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "The Flower Shop.jpg",
       "scale" : "2x"
     },
     {

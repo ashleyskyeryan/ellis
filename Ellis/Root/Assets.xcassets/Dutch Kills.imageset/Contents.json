@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Dutch Kills.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Dutch Kills.jpg",
       "scale" : "2x"
     },
     {

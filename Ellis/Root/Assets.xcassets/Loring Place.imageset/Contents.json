@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Loring Place.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Loring Place.jpg",
       "scale" : "2x"
     },
     {

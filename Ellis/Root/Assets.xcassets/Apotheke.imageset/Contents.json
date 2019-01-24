@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Apotheke.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Apotheke.jpg",
       "scale" : "2x"
     },
     {

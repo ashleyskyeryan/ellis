@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Morandi.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Morandi.jpg",
       "scale" : "2x"
     },
     {

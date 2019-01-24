@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "The Spotted Pig.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "The Spotted Pig.jpg",
       "scale" : "2x"
     },
     {

@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Cafe Habana.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Cafe Habana.jpg",
       "scale" : "2x"
     },
     {

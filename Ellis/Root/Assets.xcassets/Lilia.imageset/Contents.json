@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Lilia.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Lilia.jpg",
       "scale" : "2x"
     },
     {

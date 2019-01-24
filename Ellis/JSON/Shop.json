@@ -14,7 +14,7 @@
           "image":"ABC Carpet and Home",
           "address":"Flatiron",
           "attribution": "Dave Pinter",
-          "description": "Multiple stories of home furnishings, rugs, jewelry, clothing, and gifts. ABC take care in their displays and source their selection from a mix of independent designers like Aviva Stanoff,  wwake, and Tata Harper. With a focus on fair labor standards and sustainability, each item is a "forever" piece. ",
+          "description": "Multiple stories of home furnishings, rugs, jewelry, clothing, and gifts. ABC take care in their displays and source their selection from a mix of independent designers like Aviva Stanoff,  wwake, and Tata Harper. With a focus on fair labor standards and sustainability, each item is a 'forever' piece. ",
           "lat": 40.7381205,
       "long": -73.9896515},
       {
@@ -152,7 +152,7 @@
           "attribution": "Google",
           "description": "Spa and beauty store selling all-natural products handmade in Brooklyn of top quality ingredients. Services include facials and eye treatments.",
           "lat": 40667033,
-      "long": -73989593},
+      "long": -73.989593},
       {
           "title":"C.O. Bigelow Apothecaries",
           "image":"CO Bigelow Apothecaries",
@@ -272,7 +272,7 @@
           "attribution": "",
           "description": "Collection of independent fashion designers all under one roof. Stop by if you're in the area.",
           "lat": 40.7254794,
-      "long": 74.0015159},
+      "long": -74.0015159},
       {
           "title":"Fox & Fawn",
           "image":"Fox and Fawn",
@@ -352,7 +352,7 @@
           "attribution": "",
           "description": "Boutique department store stocking designers such as Alessandra Rich, Rosie Assoulin, and Saloni.",
           "lat": 40.722748,
-      "long": 74.00204,15z},
+      "long": -74.00204},
       {
           "title":"Kith",
           "image":"Kith",
@@ -424,7 +424,7 @@
           "attribution": "",
           "description": "Bright and unexpected prints are a staple at this bold Italian label.",
           "lat":40.7395753 ,
-      "long": 74.0047282,15z},
+      "long": -74.0047282},
       {
           "title":"Maryam Nassir Zadeh",
           "image":"Maryam Nassir Zadeh",
@@ -458,8 +458,8 @@
           "lat": 40.7246189,
       "long": -73.9990536},
       {
-          "title":"Moda Operandi Madison",
-          "image":"Moda Operandi Madison",
+          "title":"Moda Operandi",
+          "image":"Moda Operandi",
           "address":"Upper East Side",
           "attribution": "",
           "description": "Moda Operandi's brick and mortar location on the Upper East Side set inside a townhouse. The showroom, like the website, is known for items that are straight off the runway. By appointment only.",
@@ -715,8 +715,8 @@
           "lat": 40.7114771,
       "long": -74.011478},
       {
-          "title":"Zero + Maria cornejo",
-          "image":"Zero and Maria cornejo",
+          "title":"Zero + Maria Cornejo",
+          "image":"Zero Maria Cornejo",
           "address":"NoHo",
           "attribution": "",
           "description": "Sculptural and elegant designs from a brand that is committed to being locally produced in New York and utilizing sustainable fabrics when possible. ",

@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Claro.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Claro.jpg",
       "scale" : "2x"
     },
     {

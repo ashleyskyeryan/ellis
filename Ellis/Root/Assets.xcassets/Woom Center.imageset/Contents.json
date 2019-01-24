@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Woom Center.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Woom Center.jpg",
       "scale" : "2x"
     },
     {

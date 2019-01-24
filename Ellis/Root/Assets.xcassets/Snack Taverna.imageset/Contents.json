@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Snack Taverna.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Snack Taverna.jpg",
       "scale" : "2x"
     },
     {

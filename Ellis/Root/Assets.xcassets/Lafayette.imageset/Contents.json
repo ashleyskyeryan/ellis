@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Lafayette.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Lafayette.jpg",
       "scale" : "2x"
     },
     {

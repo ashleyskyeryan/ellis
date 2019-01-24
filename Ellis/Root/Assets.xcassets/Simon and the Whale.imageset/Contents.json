@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Simon and the Whale.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Simon and the Whale.jpg",
       "scale" : "2x"
     },
     {

@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Union Square Cafe.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Union Square Cafe.jpg",
       "scale" : "2x"
     },
     {

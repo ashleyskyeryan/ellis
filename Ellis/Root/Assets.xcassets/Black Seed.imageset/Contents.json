@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Black Seed.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Black Seed.jpg",
       "scale" : "2x"
     },
     {

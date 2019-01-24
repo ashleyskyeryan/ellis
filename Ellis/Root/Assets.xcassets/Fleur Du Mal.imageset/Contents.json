@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Fleur Du Mal.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Fleur Du Mal.jpg",
       "scale" : "2x"
     },
     {

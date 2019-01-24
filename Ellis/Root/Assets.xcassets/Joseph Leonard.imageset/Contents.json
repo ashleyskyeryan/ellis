@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Joseph Leonard.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Joseph Leonard.jpg",
       "scale" : "2x"
     },
     {

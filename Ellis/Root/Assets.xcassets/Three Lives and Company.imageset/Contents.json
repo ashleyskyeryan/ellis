@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Three Lives and Company.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Three Lives and Company.jpg",
       "scale" : "2x"
     },
     {

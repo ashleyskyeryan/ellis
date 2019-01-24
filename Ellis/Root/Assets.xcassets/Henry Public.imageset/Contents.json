@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Henry Public.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Henry Public.jpg",
       "scale" : "2x"
     },
     {

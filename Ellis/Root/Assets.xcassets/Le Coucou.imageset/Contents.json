@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Le Coucou.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Le Coucou.jpg",
       "scale" : "2x"
     },
     {

@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Amor Y Amargo.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Amor Y Amargo.jpg",
       "scale" : "2x"
     },
     {
