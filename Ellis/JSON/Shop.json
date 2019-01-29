@@ -16,7 +16,7 @@
           "image":"ABC Carpet and Home",
           "address":"Flatiron",
           "attribution": "Dave Pinter",
-          "description": "Multiple stories of home furnishings, rugs, jewelry, clothing, and gifts. ABC take care in their displays and source their selection from a mix of independent designers like Aviva Stanoff,  wwake, and Tata Harper. With a focus on fair labor standards and sustainability, each item is a 'forever' piece. ",
+          "description": "Multiple stories of home furnishings, rugs, jewelry, clothing, and gifts. ABC create beautiful displays and source their selection from a mix of independent designers like Aviva Stanoff, wwake, and Tata Harper. With a focus on fair labor standards and sustainability, each item is a 'forever' piece. ",
           "lat": 40.7381205,
       "long": -73.9896515},
       {
@@ -25,7 +25,7 @@
           "image":"Adaptations",
           "address":"Greenpoint",
           "attribution": "",
-          "description": "Stunning curation of vintage furniture and knick knacks. Find everything from mid-century modern wood pieces to beautiful pastel selections. The store also carries new items, such as throw pillows, by specialty designers.",
+          "description": "High quality curation of vintage furniture and knick knacks. Find everything from mid-century modern wood pieces to beautiful pastel selections. The store also carries new items, such as throw pillows, by specialty designers.",
           "lat":40.7296575 ,
       "long": -73.9577789},
       {
@@ -151,7 +151,7 @@
           "image":"Books Are Magic",
           "address":"Cobble Hill",
           "attribution": "",
-          "description": "Author Emma Straub's bookstore where a community of book-lovers come to discover new authors and hear readings. Good children's selection too.",
+          "description": "Author Emma Straub's bookstore where a community of book-lovers come to discover new authors and hear readings. There's a large children's selection too.",
           "lat": 40.6839955,
       "long": -73.9920706},
       {
@@ -160,7 +160,7 @@
           "image":"Brookfield Place",
           "address":"Battery Park City",
           "attribution": "gigi_nyc",
-          "description": "",
+          "description": "Battery Park City mall with a Saks, Gucci, and one of the best Equinox locations in New York. Also in the complex area is a great multiplex theater: Regal Battery Park Stadium 11.",
           "lat": 40.7127168,
       "long": -74.0152824},
       {
@@ -170,8 +170,8 @@
           "address":"Carroll Gardens",
           "attribution": "Google",
           "description": "Spa and beauty store selling all-natural products handmade in Brooklyn of top quality ingredients. Services include facials and eye treatments.",
-          "lat": 40667033,
-      "long": -73.989593},
+          "lat": 40.6827057,
+      "long": -74.0036803},
       {
           "title":"C.O. Bigelow Apothecaries",
           "website": "https://www.bigelowchemists.com/",
@@ -196,7 +196,7 @@
           "image":"Catbird",
           "address":"Williamsburg",
           "attribution": "",
-          "description": "Jewelry boutique specializing in delicate jewelry and stackable rings, made in their Williamsburg studio using recycled or fair-trade gold. Catbird also carry lines from designers like Sofia Zakia, Kataoka, Elisa Solomon, and Jennie Kwon.",
+          "description": "Jewelry boutique specializing in delicate jewelry and stackable rings made in their Williamsburg studio using recycled or fair-trade gold. Catbird also carry lines from designers like Sofia Zakia, Kataoka, Elisa Solomon, and Jennie Kwon.",
           "lat": 40.716444,
       "long": -73.9590583},
       {
@@ -233,15 +233,15 @@
           "address":"Upper East Side",
           "attribution": "",
           "description": "Womenswear that balances feminine and masculine elements to create unique details on classic silhouettes.",
-          "lat": 40.7678066,
-      "long": -73.9707514},
+          "lat": 40.767781,
+      "long": -73.968534},
       {
           "title":"Dover Street Market",
           "website": "https://newyork.doverstreetmarket.com/",
           "image":"Dover Street Market",
           "address":"Midtown East",
           "attribution": "ACME",
-          "description": "Avant-garde boutique in a stunning multi-level store. Designers carried include Cecilie Bahnsen, The Vampire's Wife, Molly Goddard, and Ellery. ",
+          "description": "Avant-garde boutique in interesting multi-level store. Designers carried include Cecilie Bahnsen, The Vampire's Wife, Molly Goddard, and Ellery. ",
           "lat": 40.7440962,
       "long": -73.9817188},
       {
@@ -250,7 +250,7 @@
           "image":"Duo",
           "address":"East Village",
           "attribution": "",
-          "description": "Quality over quantity at this East Village boutique. The minimalist style of the jewelry and clothing is found in both the new and vintage pieces.",
+          "description": "Quality over quantity at this East Village boutique. The minimalist style of the jewelry and clothing is seen in both the new and vintage pieces.",
           "lat": 40.7285779,
       "long": -73.9855599},
       {
@@ -268,7 +268,7 @@
           "image":"Erica Weiner",
           "address":"Nolita",
           "attribution": "Wicker Paradise",
-          "description": "Searching for jewelry can be difficult because many stores have a small selection but Erica Weiner antique finds along with their own. Each piece feels special.",
+          "description": "Searching for jewelry can be tiresome because many stores have a small selection but Erica Weiner carries antique finds along with their own. Each piece feels special.",
           "lat": 40.7211846,
       "long": -73.9948718},
       {
@@ -295,7 +295,7 @@
           "image":"Fleur Du Mal",
           "address":"Soho",
           "attribution": "",
-          "description": "Beautiful collection of lingerie, clothing, and swimwear. You'll find lots of silks and lace.",
+          "description": "Beautiful collection of lingerie, clothing, and swimwear. You'll find many silks and lace.",
           "lat": 40.7205232,
       "long": -73.9961032},
       {
@@ -304,7 +304,7 @@
           "image":"Flying Solo",
           "address":"Soho",
           "attribution": "",
-          "description": "Collection of independent fashion designers all under one roof. Stop by if you're in the area.",
+          "description": "Fashion collective made up of local and independent designers. You'll be sure to find something unique.",
           "lat": 40.7254794,
       "long": -74.0015159},
       {
@@ -322,7 +322,7 @@
           "image":"Frame",
           "address":"Soho",
           "attribution": "",
-          "description": "Known for their perfect fitting denim but don't stop there -- their clothes embody a laidback French aesthetic.",
+          "description": "Known for their perfect-fit denim but don't stop there — their clothes embody a laidback French aesthetic.",
           "lat": 40.7223375,
       "long": -74.0019017 },
       {
@@ -539,7 +539,7 @@
           "image":"Narnia",
           "address":"Williamsburg",
           "attribution": "",
-          "description": "Williamsburg vintage store offering designs ranging from Navajo aesthetics to lace dresses. ",
+          "description": "Williamsburg vintage store offering designs ranging from Navajo aesthetics to lace dresses.",
           "lat": 40.7144279,
       "long": -73.9594438},
       {
@@ -584,7 +584,7 @@
           "image":"Otte",
           "address":"West Village",
           "attribution": "",
-          "description": "West Village boutique carrying designers like Rachel Comey, Saloni, and Anni Lu.",
+          "description": "New York boutique carrying designers like Rachel Comey, Saloni, and Anni Lu.",
           "lat": 40.7385035,
       "long": -74.0025097},
       {
@@ -593,7 +593,7 @@
           "image":"Outdoor Voices",
           "address":"Little Italy",
           "attribution": "",
-          "description": "Athleisure/yoga clothes you can wear all day. Known for their pastels and colorblocking, ",
+          "description": "Athleisure/yoga clothes you can wear all day. Known for their pastels and colorblocking.",
           "lat": 40.7205815,
       "long": -73.9981101},
       {
@@ -665,7 +665,7 @@
           "image":"Screaming Mimis",
           "address":"West Village",
           "attribution": "",
-          "description": "Vintage store specializing in costume. Bright colors, sequins, and embellishments galore. ",
+          "description": "Vintage store specializing in costume. Bright colors, sequins, and embellishments galore.",
           "lat": 40.7392154,
       "long": -74.0017436},
       {
@@ -710,7 +710,7 @@
           "image":"The Apartment by The Line",
           "address":"Soho",
           "attribution": "",
-          "description": "Designed to look like a living room where everything is for sale -- from art and fashion to homewares. This style of shopping is unique and intimate.",
+          "description": "Designed to look like a living room where everything is for sale — from art and fashion to homewares. This shopping experience is unique and intimate.",
           "lat": 40.7234048,
       "long": -74.000591},
       {
@@ -773,7 +773,7 @@
           "image":"Tisane Pharmacy",
           "address":"Upper East Side",
           "attribution": "Google",
-          "description": "One-stop-shop for prescriptions, compounding pharmacy, homeopathy, skincare, and even a coffee shop. ",
+          "description": "One-stop-shop for prescriptions, compounding pharmacy, homeopathy, skincare, and even a coffee shop.",
           "lat": 40.7770065,
       "long": -73.9503638},
       {
@@ -819,7 +819,7 @@
           "image":"Zero Maria Cornejo",
           "address":"NoHo",
           "attribution": "",
-          "description": "Sculptural and elegant designs from a brand that is committed to being locally produced in New York and utilizing sustainable fabrics when possible. ",
+          "description": "Sculptural and elegant designs from a brand that is committed to being locally produced in New York and utilizing sustainable fabrics when possible.",
           "lat": 40.725829,
       "long": -73.993759},
       {
@@ -828,10 +828,9 @@
           "image":"Zitomer",
           "address":"Upper East Side",
           "attribution": "Google",
-          "description": "Zitomer is much more than a pharmacy -- the retro store is huge but come for the hair accessories!",
+          "description": "Zitomer is much more than a pharmacy — the retro store is huge but come for the hair accessories!",
           "lat": 40.7741351,
       "long": -73.9634803}
-      
       
       
         ]

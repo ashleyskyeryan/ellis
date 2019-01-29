@@ -25,7 +25,7 @@
           "image":"Ace Hotel",
           "address":"NoMad",
           "attribution": "John M",
-          "description": "The Ace Hotel lobby is no secret, but it does remain a nice place to sit and get a drink or do  work during the day. The slightly cavernous space is a nice change for New York City with lots of cozy spots to settle into.",
+          "description": "The Ace Hotel lobby is no secret, but it does remain a nice place to get a drink in the evening or work during the day. The slightly cavernous space is a nice change for New York City with lots of cozy spots to settle into.",
           "lat": 40.745778,
       "long": -73.988285},
       {
@@ -70,7 +70,7 @@
           "image":"Babys All Right",
           "address":"Williamsburg",
           "attribution": "swedennewyork",
-          "description": "Williamsburg live music bar with brunch on the weekends. The retro-kitsch interior complements the cocktail menu and fun atmosphere.",
+          "description": "Williamsburg live music bar with brunch on the weekends. The retro-kitsch interior complements the cocktail menu.",
           "lat": 40.710099,
       "long": -73.963486},
       {
@@ -83,7 +83,7 @@
           "lat": 40.711196,
       "long": -74.006902},
       {
-          "title":"Beau",
+          "title":"Bar Beau",
           "website": "https://www.beaubrooklyn.com/",
           "image":"Beau",
           "address":"Williamsburg",
@@ -142,7 +142,7 @@
           "image":"Brooklyn Inn",
           "address":"Boerum Hill",
           "attribution": "Peyri Herrera",
-          "description": "Tucked away in a residential street of Boerum Hill, the old-world charm and English pub vibe make for a cozy place to settle in for the night.",
+          "description": "Tucked away in a residential street of Boerum Hill, the old-world charm and English pub vibe make for a great neighborhood spot.",
           "lat": 40.6858466,
       "long": -73.9885413},
       {
@@ -205,7 +205,7 @@
           "image":"Dutch Kills",
           "address":"Long Island City",
           "attribution": "",
-          "description": "It would be hard to speak too highly of this LIC cocktail bar. The space is stunning and has many private nooks, the drinks are fantastic, and the service is friendly. Take someone who you want to impress!",
+          "description": "It would be hard to speak too highly of this LIC cocktail bar. The space is stunning and has many private nooks, the drinks are fantastic, and the service is friendly. Take someone you want to impress!",
           "lat": 40.747773,
       "long": -73.940262},
       {
@@ -214,7 +214,7 @@
           "image":"Evening Bar",
           "address":"Tribeca",
           "attribution": "",
-          "description": "Located inside The Smyth Hotel, Evening Bar is cozy and under-the-radar so you're almost guaranteed to get a seat. ",
+          "description": "Located inside The Smyth Hotel, Evening Bar is welcoming and under-the-radar so you're almost guaranteed to get a seat.",
           "lat": 40.7151997,
       "long": -74.0091202},
       {
@@ -268,7 +268,7 @@
           "image":"Henry Public",
           "address":"Cobble Hill",
           "attribution": "",
-          "description": "Quaint and cozy cocktail bar where you can settle into the booths for hours.",
+          "description": "Quaint and homey cocktail bar where you can settle into the booths for hours.",
           "lat": 40.6902792,
       "long": -73.9962193},
       {
@@ -358,7 +358,7 @@
           "image":"Mr Fongs",
           "address":"Two Bridges",
           "attribution": "",
-          "description": "Cocktail bar in Chinatown with an interesting menu. It's a little out of the way for most people but we promise it's worth the trip.",
+          "description": "Cocktail bar in Chinatown with an interesting menu. It's a little out of the action but we promise it's worth the trip.",
           "lat": 40.71244,
       "long": -73.994113},
       {
@@ -421,7 +421,7 @@
           "image":"Stumptown",
           "address":"Greenwich Village",
           "attribution": "",
-          "description": "Get caffeinated at the favorite coffee roaster's large café in Greenwich Village. There's outdoor seating in the summer months too!",
+          "description": "Get caffeinated at the coffee roaster's large café in Greenwich Village. There's outdoor seating in the summer months too!",
           "lat": 40.7328281,
       "long": -73.9979385},
       {
@@ -457,7 +457,7 @@
           "image":"The Hoxton",
           "address":"Williamsburg",
           "attribution": "",
-          "description": "The lobby bar can be anything you want -- from a coffee meeting to catching up with a friend for a drink. The outdoor space is used both in summer and winter and the bar area serves classic American food. The rooftop bar, Summerly, has Manhattan views.",
+          "description": "The lobby bar can be anything you want — from a coffee meeting to catching up with a friend for a drink. The outdoor space is used both in summer and winter and the bar area serves classic American food. The rooftop bar, Summerly, has Manhattan views.",
           "lat": 40.7208251,
       "long": -73.9587909},
       {
@@ -538,7 +538,7 @@
           "image":"Torst",
           "address":"Greenpoint",
           "attribution": "",
-          "description": "Torst",
+          "description": "Boutique beer bar — that looks like a cocktail bar — in Greenpoint. Good food list to complement their menu.",
           "lat": 40.7234478,
       "long": -73.9507796},
       {

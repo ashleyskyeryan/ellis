@@ -43,7 +43,7 @@
                "image":"Augustine",
                "address":"Financial District",
                "attribution": "MikePScott",
-               "description": "Augustine, in the Beekman Hotel, is Keith McNally's latest, and the food is as pricey and excellent as you would expect. Get a drink in the hotel's bar beforehand--a soaring atrium that manages to outdo even McNally's renowned obsession with decor.",
+               "description": "Augustine, in the Beekman Hotel, is Keith McNally's latest, and the food is as pricey and excellent as you would expect. Get a drink in the hotel's bar beforehand — a soaring atrium that manages to outdo even McNally's renowned obsession with decor.",
                "lat": 40.7114081,
                "long": -74.0068158},
            {
@@ -205,7 +205,7 @@
             "image":"Chez Ma Tante",
             "address":"Greenpoint",
             "attribution": "",
-            "description": "Greenpoint neighborhood restaurant with American comfort food. The pancakes for brunch are unmissable -- they're crispy on the outside and fluffy in the middle!",
+            "description": "Greenpoint neighborhood restaurant with American comfort food. The pancakes for brunch are unmissable — they're crispy on the outside and fluffy in the middle!",
             "lat":40.7268985 ,
             "long": -73.9573881},
            {
@@ -321,8 +321,8 @@
                "website": "https://www.frenchettenyc.com/",
                "image":"Frenchette",
                "address":"Tribeca",
-               "attribution": "Innovative French-style bistro in Tribeca. The comfort food is served in a classic but refined environment. ",
-               "description": "",
+               "attribution": "",
+               "description": "Innovative French-style bistro in Tribeca. The comfort food is served in a classic but refined environment.",
                "lat": 40.719607,
            "long": -74.0056337},
            {
@@ -403,7 +403,7 @@
                "image":"il laboratorio",
                "address":"Lower East Side",
                "attribution": "Transparent Reality",
-               "description": "The extensive selection of delicate flavors make this our favorite gelato shop in New York City. ",
+               "description": "The extensive selection of delicate flavors make this our favorite gelato shop in New York City.",
                "lat": 40.7222387,
            "long":-73.9870811},
            {
@@ -628,7 +628,7 @@
                "image":"Miss Lilys",
                "address":"Greenwich Village",
                "attribution": "Barney Bishop",
-               "description": "Miss Lily's is as much about the atmosphere as it is the food. The Caribbean menu is excellent -- definitely get the corn -- but the fun vibe and room are what make this place such a good time.",
+               "description": "Miss Lily's is as much about the atmosphere as it is the food. The Caribbean menu is excellent — definitely get the corn — but the fun vibe and room are what make this place such a good time.",
                "lat": 40.7279153,
            "long": -74.0013434},
            {
@@ -673,7 +673,7 @@
                "image":"Narcissa",
                "address":"NoHo",
                "attribution": "T.Tseng",
-               "description": "The Standard East Village's restaurant with a lovely outdoor seating area -- try their famous carrot wellington whether your vegetarian or not.",
+               "description": "The Standard East Village's restaurant with a lovely outdoor seating area — try their famous carrot wellington whether your vegetarian or not.",
                "lat": 40.727842,
            "long": -73.990739},
            {
@@ -700,7 +700,7 @@
                "image":"Nom Wah Tea Parlor",
                "address":"China Town",
                "attribution": "PrettyKateMachine",
-               "description": "Located on one of the most interesting streets in New York, Nom Wah is in a no-frills (in the most charming way) Chinese restaurant known for their dumplings.",
+               "description": "Located on one of the most picturesque streets in New York, Nom Wah is in a no-frills (in the most charming way) Chinese restaurant known for their dumplings.",
                "lat": 40.7144447,
            "long": -73.998254},
            {
@@ -772,7 +772,7 @@
                "image":"Plaza Hotel Food Hall",
                "address":"Midtown West",
                "attribution": "Thomas Hawk",
-               "description": "Food hall with a selection of eateries that will satisfy almost all people. It can be challenging to find somewhere to get something on the go in this area so it is a good spot to take note of for future.",
+               "description": "Food hall with a selection of eateries that will satisfy almost all people. It can be challenging to find a place to get something on the go in this area so it is a good spot to take note of for future.",
                "lat": 40.7642218,
            "long": -73.9745605},
            {
@@ -790,7 +790,7 @@
                "image":"Prune",
                "address":"East Village",
                "attribution": "spektrograf",
-               "description": "Local favorite that most people know for brunch but the New American menu is equally as good for dinner.",
+               "description": "Local favorite that most people know for brunch but the New American menu is equally good for dinner.",
                "lat": 40.723918,
            "long": -73.989366},
            {
@@ -808,7 +808,7 @@
                "image":"Roberta's",
                "address":"Bushwick",
                "attribution": "Inhabitat",
-               "description": "Neapolitan-style pizza place in Bushwick with an outdoor area and cocktails. Can be hard to get a table.",
+               "description": "Neapolitan-style pizza place in Bushwick with an outdoor area and cocktails. Can be hard to get seated quickly though.",
                "lat": 40.7050766,
            "long": -73.9335923},
            
@@ -863,7 +863,7 @@
                "image":"Sant Ambroeus",
                "address":"West Village",
                "attribution": "",
-               "description": "Set on a picturesque corner of the West Village, Sant Ambroeus is a neighborhood favorite. While the Italian food is good (with top-dollar prices too match) it's more about the atmosphere at this location of the local chain.",
+               "description": "Set on a picturesque corner of the West Village, Sant Ambroeus is a neighborhood favorite. While the Italian food is good (with top-dollar prices to match) it's more about the atmosphere at this location of the local chain.",
                "lat": 40.7354258,
            "long": -74.003141},
            {
@@ -908,7 +908,7 @@
                "image":"Shopsins",
                "address":"Lower East Side",
                "attribution": "Veronica",
-               "description": "Shopsin's is so iconic that it has its own documentary. The Lord of the Rings trilogy of menus will leave you planning your next trip to try other options. If you're willing to follow the rules -- and you should be -- you're in for a treat.",
+               "description": "Shopsin's is so iconic that it has its own documentary. The Lord of the Rings trilogy of menus will leave you planning your next trip to try other options. If you're willing to follow the rules — and you should be -- you're in for a treat.",
                "lat": 40.7188851,
            "long": -73.9877839},
            {
@@ -980,7 +980,7 @@
                "image":"The Dutch",
                "address":"Soho",
                "attribution": "",
-               "description": "American restaurant in SoHo with two separate dining areas. The sophisticated atmosphere is perfect for a dinner with family -- get the eggplant dip to share!",
+               "description": "American restaurant in SoHo with two separate dining areas. The sophisticated atmosphere is perfect for a dinner with family — get the eggplant dip to share!",
                "lat": 40.7265328,
            "long": -74.0021536},
            {
@@ -1015,7 +1015,7 @@
                "website": "https://www.musketroom.com/",
                "image":"The Musket Room",
                "address":"Nolita",
-               "attribution": "kennejima",
+               "attribution": "",
                "description": "Beautiful space in Nolita overlooking the kitchen's garden. The New Zealand chef creates elegant and seasonable dishes that are best shared.",
                "lat": 40.7239263,
            "long": -73.9938218},
@@ -1043,7 +1043,7 @@
                "image":"Uncle Boons",
                "address":"Nolita",
                "attribution": "",
-               "description": "Loved Thai restaurant with a cocktail menu in a cute environment. A good example of a restaurant that deserves all the love it garners.",
+               "description": "Loved Thai restaurant with a cocktail menu in a cute environment. A good example of a restaurant that deserves all the love it receives.",
                "lat": 40.7213514,
            "long": -73.9943585},
            {
@@ -1133,7 +1133,7 @@
                "image":"ZZs Clam Bar",
                "address":"Greenwich Village",
                "attribution": "Google",
-               "description": "Tiny restaurant in a beautiful space next door to Carbone. The cocktail menu complements the rawbar -- top special occasion restaurant!",
+               "description": "Tiny restaurant in a beautiful space next door to Carbone. The cocktail menu complements the rawbar — top special occasion restaurant!",
                "lat": 40.727688,
            "long": -74.000466},
            {
