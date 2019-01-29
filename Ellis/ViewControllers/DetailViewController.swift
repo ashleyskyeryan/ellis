@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SafariServices
 
 class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate {
 
@@ -67,10 +68,18 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
     
     // MARK: - IBAction methods
     
-    @IBAction func menuButtonClicked(_ sender: Any) {
-        menuView.isHidden = !menuView.isHidden
-    }
-    
+	@IBAction func menuButtonClicked(_ sender: Any) {
+		menuView.isHidden = !menuView.isHidden
+	}
+	
+	@IBAction func websiteAndHoursButtonClicked(_ sender: Any) {
+		if let url = URL(string: listInfo.website) {
+			let controller = SFSafariViewController(url: url)
+			
+			self.present(controller, animated: true, completion: nil)
+		}
+	}
+	
     @IBAction func backButtonClicked(_ sender: Any) {
         self.navigationController?.popViewController(animated: true)
     }

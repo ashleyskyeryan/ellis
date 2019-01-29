@@ -573,7 +573,7 @@
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="uGe-RK-Ltp">
-                                <rect key="frame" x="0.0" y="128" width="414" height="684"/>
+                                <rect key="frame" x="0.0" y="128" width="414" height="654"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="DetailCell" rowHeight="306" id="ZaX-J6-pg5" customClass="DetailViewTableCell" customModule="Ellis" customModuleProvider="target">
@@ -750,10 +750,10 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wkj-hG-HRP">
-                                <rect key="frame" x="0.0" y="812" width="414" height="50"/>
+                                <rect key="frame" x="0.0" y="782" width="414" height="80"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ubJ-O3-dRH">
-                                        <rect key="frame" x="8" y="6.5" width="130" height="37"/>
+                                        <rect key="frame" x="8" y="42" width="130" height="37"/>
                                         <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="19"/>
                                         <state key="normal" title="View in map">
                                             <color key="titleColor" red="0.90432661802030456" green="0.17440951245764535" blue="0.56091056260032646" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -762,12 +762,24 @@
                                             <action selector="viewMapButtonClicked:" destination="CtU-MC-TsE" eventType="touchUpInside" id="yI2-61-YNs"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cvL-cc-BO4">
+                                        <rect key="frame" x="8" y="5" width="195" height="37"/>
+                                        <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="19"/>
+                                        <state key="normal" title="Website and Hours">
+                                            <color key="titleColor" red="0.90432661800000003" green="0.1744095125" blue="0.56091056260000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="websiteAndHoursButtonClicked:" destination="CtU-MC-TsE" eventType="touchUpInside" id="PN2-2n-5Di"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="ubJ-O3-dRH" firstAttribute="leading" secondItem="Wkj-hG-HRP" secondAttribute="leading" constant="8" id="1ks-m2-y20"/>
+                                    <constraint firstItem="ubJ-O3-dRH" firstAttribute="leading" secondItem="cvL-cc-BO4" secondAttribute="leading" id="DTh-gO-2ZW"/>
                                     <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ubJ-O3-dRH" secondAttribute="trailing" constant="20" symbolic="YES" id="JQD-wm-AjV"/>
-                                    <constraint firstAttribute="height" constant="50" id="W0h-dn-DtD"/>
-                                    <constraint firstItem="ubJ-O3-dRH" firstAttribute="centerY" secondItem="Wkj-hG-HRP" secondAttribute="centerY" id="yna-4Z-uVi"/>
+                                    <constraint firstItem="ubJ-O3-dRH" firstAttribute="top" secondItem="cvL-cc-BO4" secondAttribute="bottom" id="Tfk-r0-GAS"/>
+                                    <constraint firstAttribute="height" constant="80" id="W0h-dn-DtD"/>
+                                    <constraint firstAttribute="bottom" secondItem="ubJ-O3-dRH" secondAttribute="bottom" constant="1" id="XLl-fD-BYm"/>
                                 </constraints>
                             </view>
                         </subviews>
