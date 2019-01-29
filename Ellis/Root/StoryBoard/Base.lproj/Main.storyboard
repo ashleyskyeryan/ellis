@@ -579,12 +579,12 @@
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="DetailCell" rowHeight="306" id="ZaX-J6-pg5" customClass="DetailViewTableCell" customModule="Ellis" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="306"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZaX-J6-pg5" id="8XW-ns-UNX">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZaX-J6-pg5" id="8XW-ns-UNX">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="306"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Vienn" textAlignment="center" lineBreakMode="clip" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="PVm-q4-bKh">
-                                                    <rect key="frame" x="15" y="11" width="384" height="48"/>
+                                                    <rect key="frame" x="15" y="11.5" width="384" height="48"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="48" id="PyS-Xo-Thk"/>
                                                     </constraints>
@@ -593,13 +593,13 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dDD-ru-TEk">
-                                                    <rect key="frame" x="0.0" y="67" width="414" height="200"/>
+                                                    <rect key="frame" x="0.0" y="67.5" width="414" height="200"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="200" id="WSm-95-l3L"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AtC-u2-Cza">
-                                                    <rect key="frame" x="15" y="275" width="384" height="21"/>
+                                                    <rect key="frame" x="15" y="287.5" width="384" height="25.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="lrx-oN-tBv"/>
                                                     </constraints>
@@ -608,7 +608,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright 2018" textAlignment="right" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VnC-z1-lQS">
-                                                    <rect key="frame" x="8" y="237.5" width="398" height="21.5"/>
+                                                    <rect key="frame" x="8" y="238" width="398" height="21.5"/>
                                                     <fontDescription key="fontDescription" name="PlayfairDisplay-Regular" family="Playfair Display" pointSize="16"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -616,7 +616,7 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="dDD-ru-TEk" firstAttribute="bottom" secondItem="VnC-z1-lQS" secondAttribute="bottom" constant="8" id="2YE-xN-h5x"/>
-                                                <constraint firstItem="AtC-u2-Cza" firstAttribute="top" secondItem="dDD-ru-TEk" secondAttribute="bottom" constant="8" id="CfY-EV-PY1"/>
+                                                <constraint firstItem="AtC-u2-Cza" firstAttribute="top" secondItem="dDD-ru-TEk" secondAttribute="bottom" constant="20" id="CfY-EV-PY1"/>
                                                 <constraint firstAttribute="trailing" secondItem="PVm-q4-bKh" secondAttribute="trailing" constant="15" id="IMe-gM-wEc"/>
                                                 <constraint firstAttribute="trailing" secondItem="dDD-ru-TEk" secondAttribute="trailing" id="JsD-EU-ynK"/>
                                                 <constraint firstAttribute="bottom" secondItem="AtC-u2-Cza" secondAttribute="bottom" constant="10" id="Vf0-Or-z1h"/>
