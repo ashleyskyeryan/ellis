@@ -753,8 +753,11 @@
                                 <rect key="frame" x="0.0" y="782" width="414" height="80"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ubJ-O3-dRH">
-                                        <rect key="frame" x="8" y="41" width="105" height="38"/>
-                                        <fontDescription key="fontDescription" name="PlayfairDisplay-Regular" family="Playfair Display" pointSize="19"/>
+                                        <rect key="frame" x="8" y="40" width="113" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="KO1-av-w3S"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="20"/>
                                         <state key="normal" title="View in map">
                                             <color key="titleColor" red="0.90432661802030456" green="0.17440951245764535" blue="0.56091056260032646" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -763,8 +766,11 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cvL-cc-BO4">
-                                        <rect key="frame" x="8" y="3" width="161" height="38"/>
-                                        <fontDescription key="fontDescription" name="PlayfairDisplay-Regular" family="Playfair Display" pointSize="19"/>
+                                        <rect key="frame" x="8" y="10" width="174" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="eTU-k8-O9T"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="PlayfairDisplay-Bold" family="Playfair Display" pointSize="20"/>
                                         <state key="normal" title="Website and Hours">
                                             <color key="titleColor" red="0.90432661800000003" green="0.1744095125" blue="0.56091056260000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -779,7 +785,7 @@
                                     <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ubJ-O3-dRH" secondAttribute="trailing" constant="20" symbolic="YES" id="JQD-wm-AjV"/>
                                     <constraint firstItem="ubJ-O3-dRH" firstAttribute="top" secondItem="cvL-cc-BO4" secondAttribute="bottom" id="Tfk-r0-GAS"/>
                                     <constraint firstAttribute="height" constant="80" id="W0h-dn-DtD"/>
-                                    <constraint firstAttribute="bottom" secondItem="ubJ-O3-dRH" secondAttribute="bottom" constant="1" id="XLl-fD-BYm"/>
+                                    <constraint firstAttribute="bottom" secondItem="ubJ-O3-dRH" secondAttribute="bottom" constant="10" id="XLl-fD-BYm"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -809,7 +815,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hxo-i1-naV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3352.5" y="32.74647887323944"/>
+            <point key="canvasLocation" x="3352.1739130434785" y="32.142857142857139"/>
         </scene>
         <!--Delegate-->
         <scene sceneID="tpy-NO-gf7">
