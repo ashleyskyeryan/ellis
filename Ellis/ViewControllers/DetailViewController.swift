@@ -17,7 +17,8 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
     @IBOutlet weak var menuView: UIView!
     
     // MARK: - Variables
-    var listViewController: ListViewController? = nil
+    var listViewController: ListViewController?
+	var mapViewController: MapViewController?
     var listInfo = ListInfo()
     
     override func viewDidLoad() {
@@ -155,7 +156,8 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
         // Set landingtype.
         Globals.shared.landingType = landingType
         // Set listdata according to selected landingtype.
-        listViewController?.reload()
+		listViewController?.reload()
+		mapViewController?.reload()
         // Set menuview to hide.
         menuView.isHidden = true
         // pop to back view.

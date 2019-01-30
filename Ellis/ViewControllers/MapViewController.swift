@@ -28,6 +28,19 @@ class MapViewController: UIViewController, GMSMapViewDelegate {
         // Do any additional setup after loading the view.
         initMapViewController()
     }
+	
+	func mapView(_ mapView: GMSMapView, didTapInfoWindowOf marker: GMSMarker) {
+		for list in self.allLists {
+			if let index = list.lists.index(where: { $0.address == marker.snippet }) {
+				let item = list.lists[index]
+				let controller = self.storyboard?.instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController
+				controller.listInfo = item
+				controller.mapViewController = self
+				self.navigationController?.pushViewController(controller, animated: true)
+				return
+			}
+		}
+	}
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -66,7 +79,13 @@ class MapViewController: UIViewController, GMSMapViewDelegate {
         mapType = .Multiple
         addPin()
     }
-    
+	
+	func reload() {
+		lists = performGetData()
+		mapType = .Multiple
+		addPin()
+	}
+	
     @IBAction func eatButtonClicked(_ sender: Any) {
         Globals.shared.landingType = .Eat
         self.menuView.isHidden = true
@@ -118,11 +137,10 @@ class MapViewController: UIViewController, GMSMapViewDelegate {
         // Check mapview type.
         switch mapType {
         case .Single:
-            processToAddPin()
+            processToAddPin(listInfo: self.listInfo)
         case .Multiple:
             for listInfo in lists.lists {
-                self.listInfo = listInfo
-                processToAddPin()
+				processToAddPin(listInfo: listInfo)
             }
         case .All:
             allLists = []
@@ -132,7 +150,7 @@ class MapViewController: UIViewController, GMSMapViewDelegate {
             for list in allLists {
                 for listInfo in list.lists {
                     self.listInfo = listInfo
-                    processToAddPin()
+                    processToAddPin(listInfo: listInfo)
                 }
             }
         }
@@ -152,7 +170,7 @@ class MapViewController: UIViewController, GMSMapViewDelegate {
     }
     
     // process to add pin on google mapview.
-    func processToAddPin() {
+	func processToAddPin(listInfo: ListInfo) {
         let marker = GMSMarker()
         marker.position = CLLocationCoordinate2DMake(listInfo.lat, listInfo.long)
         marker.title = listInfo.title

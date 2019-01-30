@@ -520,7 +520,7 @@
         <!--Detail View Controller-->
         <scene sceneID="r7i-5r-7CN">
             <objects>
-                <viewController id="CtU-MC-TsE" customClass="DetailViewController" customModule="Ellis" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailViewController" id="CtU-MC-TsE" customClass="DetailViewController" customModule="Ellis" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FRS-bo-aXw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
