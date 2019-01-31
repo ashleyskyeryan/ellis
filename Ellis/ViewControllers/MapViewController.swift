@@ -30,6 +30,13 @@ class MapViewController: UIViewController, GMSMapViewDelegate {
     }
 	
 	func mapView(_ mapView: GMSMapView, didTapInfoWindowOf marker: GMSMarker) {
+		if let item = marker as? EllisMarker, let info = item.listInfo {
+			let controller = self.storyboard?.instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController
+			controller.listInfo = info
+			controller.mapViewController = self
+			self.navigationController?.pushViewController(controller, animated: true)
+			return
+		}
 		for list in self.allLists {
 			if let index = list.lists.index(where: { $0.address == marker.snippet }) {
 				let item = list.lists[index]
@@ -171,7 +178,8 @@ class MapViewController: UIViewController, GMSMapViewDelegate {
     
     // process to add pin on google mapview.
 	func processToAddPin(listInfo: ListInfo) {
-        let marker = GMSMarker()
+        let marker = EllisMarker()
+		marker.listInfo = listInfo
         marker.position = CLLocationCoordinate2DMake(listInfo.lat, listInfo.long)
         marker.title = listInfo.title
         marker.snippet = listInfo.address
@@ -228,4 +236,8 @@ class MapViewController: UIViewController, GMSMapViewDelegate {
     }
     */
 
+}
+
+class EllisMarker: GMSMarker {
+	var listInfo: ListInfo?
 }
