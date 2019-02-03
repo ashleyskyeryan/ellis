@@ -3,6 +3,8 @@
   "list": [
       {
           "title":"Aire Ancient Baths",
+          "hours": "",
+          "contact": "",
           "website": "https://beaire.com/en/aire-ancient-baths-newyork",
           "image":"Aire Ancient Baths",
           "address":"Tribeca",
@@ -12,6 +14,8 @@
           "long": -74.0047357},
       {
           "title":"Akiko Nails",
+          "hours": "",
+          "contact": "",
           "website": "https://www.akikonailsnyc.com/",
           "image":"Akiko Nails",
           "address":"Lower East Side",
@@ -21,6 +25,8 @@
           "long": -73.991747},
       {
           "title":"Ballet Beautiful",
+          "contact": "",
+          "hours": "",
           "website": "https://www.balletbeautiful.com/book-class",
           "image":"Ballet Beautiful",
           "address":"Soho",
@@ -30,6 +36,8 @@
       "long": -73.999676},
       {
           "title":"Bamford Haybarn Spa",
+          "contact": "",
+          "hours": "",
           "website": "https://www.1hotels.com/brooklyn-bridge/do/bamford-haybarn-spa",
           "image":"Bamford Haybarn Spa",
           "address":"Dumbo",
@@ -39,6 +47,8 @@
       "long": -73.9958146},
       {
           "title":"Breathe Salt Room",
+          "contact": "",
+          "hours": "",
           "website": "http://www.breathesaltrooms.com/",
           "image":"Breathe",
           "address":"Midtown East",
@@ -48,6 +58,8 @@
       "long": -73.981549},
       {
           "title":"BrickHouse Ceramics",
+          "contact": "",
+          "hours": "",
           "website": "https://brickhouseny.com/",
           "image":"BrickHouse Ceramics",
           "address":"Long Island City",
@@ -57,6 +69,8 @@
       "long": -73.9504286},
       {
           "title":"Brooklyn Bridge Park",
+          "contact": "",
+          "hours": "",
           "website": "https://www.brooklynbridgepark.org/",
           "image":"Brooklyn Bridge Park",
           "address":"Dumbo",
@@ -66,6 +80,8 @@
       "long": -73.9973777},
       {
           "title":"Chelsea Piers (Pier 62)",
+          "contact": "",
+          "hours": "",
           "website": "https://hudsonriverpark.org/explore-the-park/activities/chelsea-waterside-play-area",
           "image":"Chelsea Piers",
           "address":"Chelsea",
@@ -75,6 +91,8 @@
       "long": -74.0074272},
       {
           "title":"Chillhouse",
+          "contact": "",
+          "hours": "",
           "website": "https://chillhouse.com/",
           "image":"Chillhouse",
           "address":"Lower East Side",
@@ -84,6 +102,8 @@
       "long": -73.9875519 },
       {
           "title":"Clayworks On Columbia",
+          "contact": "",
+          "hours": "",
           "website": "https://www.clayworksoncolumbia.org/",
           "image":"Clayworks On Columbia",
           "address":"Cobble Hill",
@@ -93,6 +113,8 @@
       "long": -74.002394},
       {
           "title":"Erika Bloom Pilates",
+          "contact": "",
+          "hours": "",
           "website": "http://erikabloompilates.com/",
           "image":"Erika Bloom Pilates",
           "address":"Upper East Side",
@@ -102,6 +124,8 @@
       "long": -73.9717272},
       {
           "title":"European Wax Center",
+          "contact": "",
+          "hours": "",
           "website": "https://www.waxcenter.com/region/new-york",
           "image":"European Wax Center",
           "address":"Financial District",
@@ -111,6 +135,8 @@
       "long": -74.0072302},
       {
           "title":"Great Jones Spa",
+          "contact": "",
+          "hours": "",
           "website": "https://www.gjspa.com/",
           "image":"Great Jones Spa",
           "address":"NoHo",
@@ -121,6 +147,8 @@
       
       {
           "title":"Greenpoint-Williamsburg Waterfront",
+          "contact": "",
+          "hours": "",
           "website": "https://www.nycgovparks.org/park-features/future-parks/greenpoint-williamsburg-waterfront",
           "image":"Greenpoint and Williamsburg Waterfront",
           "address":"Williamsburg",
@@ -131,6 +159,8 @@
       
       {
           "title":"Hortus Nailworks",
+          "contact": "",
+          "hours": "",
           "website": "http://www.hortusnailworks.com/",
           "image":"Hortus Nailworks",
           "address":"Lower East Side",
@@ -141,6 +171,8 @@
       
       {
           "title":"Inscape",
+          "contact": "",
+          "hours": "",
           "website": "https://www.inscape.life/meditation-studio/",
           "image":"Inscape",
           "address":"Flatiron",
@@ -151,6 +183,8 @@
       
       {
           "title":"Metrograph",
+          "contact": "",
+          "hours": "",
           "website": "http://metrograph.com/",
           "image":"Metrograph",
           "address":"Lower East Side",
@@ -161,6 +195,8 @@
       
       {
           "title":"New York Pilates",
+          "contact": "",
+          "hours": "",
           "website": "https://newyorkpilates.com/",
           "image":"New York Pilates",
           "address":"Soho",
@@ -171,6 +207,8 @@
       
       {
           "title":"Paintbox",
+          "contact": "",
+          "hours": "",
           "website": "https://paint-box.com/",
           "image":"Paintbox",
           "address":"Soho",
@@ -181,6 +219,8 @@
       
       {
           "title":"Riverside Park",
+          "contact": "",
+          "hours": "",
           "website": "https://www.nycgovparks.org/parks/riverside-park",
           "image":"Riverside Park",
           "address":"Upper West Side",
@@ -191,6 +231,8 @@
       
       {
           "title":"Skin Laundry",
+          "contact": "",
+          "hours": "",
           "website": "https://skinlaundry.com/pages/locations",
           "image":"Skin Laundry",
           "address":"Tribeca",
@@ -201,6 +243,8 @@
       
       {
           "title":"St. Luke in the Fields Garden",
+          "contact": "",
+          "hours": "",
           "website": "https://stlukeinthefields.org/about-us/our-gardens/",
           "image":"St Luke in the Fields",
           "address":"West Village",
@@ -211,6 +255,8 @@
       
       {
           "title":"Sundays Nail Studio",
+          "contact": "",
+          "hours": "",
           "website": "https://dearsundays.com/",
           "image":"Sundays Nail Studio",
           "address":"Flatiron",
@@ -221,6 +267,8 @@
       
       {
           "title":"Tenoverten",
+          "contact": "",
+          "hours": "",
           "website": "https://tenoverten.com/pages/locations",
           "image":"Tenoverten",
           "address":"Tribeca",
@@ -231,6 +279,8 @@
       
       {
           "title":"Textile Arts Center",
+          "contact": "",
+          "hours": "",
           "website": "http://www.textileartscenter.com/",
           "image":"Textile Arts Center",
           "address":"Gowanus",
@@ -241,6 +291,8 @@
       
       {
           "title":"The Class By Taryn Toomey",
+          "contact": "",
+          "hours": "",
           "website": "https://taryntoomey.com/",
           "image":"The Class By Taryn Toomey",
           "address":"Tribeca",
@@ -251,6 +303,8 @@
       
       {
           "title":"The Ramble",
+          "contact": "",
+          "hours": "",
           "website": "https://www.centralpark.com/things-to-do/attractions/ramble/",
           "image":"The Ramble",
           "address":"Central Park",
@@ -261,6 +315,8 @@
       
       {
           "title":"Valley Nails",
+          "contact": "",
+          "hours": "",
           "website": "https://valleynail.com/",
           "image":"Valley Nails",
           "address":"Chelsea",
@@ -271,6 +327,8 @@
       
       {
           "title":"Woom Center",
+          "contact": "",
+          "hours": "",
           "website": "https://www.woomcenter.com/",
           "image":"Woom Center",
           "address":"Nolita",
@@ -281,6 +339,8 @@
       
       {
           "title":"Yoga Vida",
+          "contact": "",
+          "hours": "",
           "website": "https://yogavida.com/pages/studios",
           "image":"Yoga Vida",
           "address":"Tribeca",

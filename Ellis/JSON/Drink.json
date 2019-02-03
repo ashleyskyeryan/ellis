@@ -3,6 +3,8 @@
   "list": [
       {
           "title":"1 Hotel Brooklyn Bridge",
+          "contact": "",
+          "hours": "",
           "website": "https://www.1hotels.com/brooklyn-bridge",
           "image":"1 Hotel Brooklyn Bridge",
           "address":"Dumbo",
@@ -12,6 +14,8 @@
           "long": -73.9958811},
       {
           "title":"Abraco",
+          "contact": "",
+          "hours": "",
           "website": "https://www.abraconyc.com/",
           "image":"Abraco",
           "address":"East Village",
@@ -21,6 +25,8 @@
       "long": -73.9861527},
       {
           "title":"Ace Hotel",
+          "contact": "",
+          "hours": "",
           "website": "https://www.acehotel.com/newyork/",
           "image":"Ace Hotel",
           "address":"NoMad",
@@ -30,6 +36,8 @@
       "long": -73.988285},
       {
           "title":"Achilles Heel",
+          "contact": "",
+          "hours": "",
           "website": "http://achillesheelnyc.com/",
           "image":"Achilles Heel",
           "address":"Greenpoint",
@@ -39,6 +47,8 @@
       "long": -73.9597017},
       {
           "title":"Alameda",
+          "contact": "",
+          "hours": "",
           "website": "http://alamedanyc.com/",
           "image":"Alameda",
           "address":"Greenpoint",
@@ -48,6 +58,8 @@
       "long": -73.9584425},
       {
           "title":"Amor Y Amargo",
+          "contact": "",
+          "hours": "",
           "website": "https://www.amoryamargony.com/",
           "image":"Amor Y Amargo",
           "address":"Alphabet City",
@@ -57,6 +69,8 @@
       "long": -73.9842721},
       {
           "title":"Apotheke",
+          "contact": "",
+          "hours": "",
           "website": "https://www.apothekenyc.com/",
           "image":"Apotheke",
           "address":"Chinatown",
@@ -66,6 +80,8 @@
       "long": -73.998217},
       {
           "title":"Baby's All Right",
+          "contact": "",
+          "hours": "",
           "website": "http://babysallright.com/",
           "image":"Babys All Right",
           "address":"Williamsburg",
@@ -75,6 +91,8 @@
       "long": -73.963486},
       {
           "title":"Bar Room at the Beekman",
+          "contact": "",
+          "hours": "",
           "website": "https://www.thompsonhotels.com/hotels/new-york/new-york/the-beekman/eat-and-drink/bar-room",
           "image":"Bar Room at the Beekman",
           "address":"Financial District",
@@ -84,6 +102,8 @@
       "long": -74.006902},
       {
           "title":"Bar Beau",
+          "contact": "",
+          "hours": "",
           "website": "https://www.beaubrooklyn.com/",
           "image":"Beau",
           "address":"Williamsburg",
@@ -93,6 +113,8 @@
       "long": -73.9500757},
       {
           "title":"Bemelmans Bar",
+          "contact": "",
+          "hours": "",
           "website": "https://www.rosewoodhotels.com/en/the-carlyle-new-york/dining/bemelmans-bar",
           "image":"Bemelmans Bar",
           "address":"Upper East Side",
@@ -102,6 +124,8 @@
       "long": -73.962993},
       {
           "title":"Birdland",
+          "contact": "",
+          "hours": "",
           "website": "https://www.birdlandjazz.com/",
           "image":"Birdland",
           "address":"Hell's Kitchen",
@@ -111,6 +135,8 @@
       "long": -73.9896442},
       {
           "title":"Black Crescent",
+          "contact": "",
+          "hours": "",
           "website": "http://www.blackcrescentnyc.com/",
           "image":"Black Crescent",
           "address":"Lower East Side",
@@ -120,6 +146,8 @@
       "long": -73.9850475},
       {
           "title":"Black Mountain Wine House",
+          "contact": "",
+          "hours": "",
           "website": "https://www.blkmtnwinehouse.com/",
           "image":"Black Mountain Wine House",
           "address":"Gowanus",
@@ -129,6 +157,8 @@
       "long": -73.9915191},
       {
           "title":"Bossa Nova Civic Club",
+          "contact": "",
+          "hours": "",
           "website": "bossanovacivicclub.com",
           "image":"Bossa Nova Civic Club",
           "address":"Bushwick",
@@ -138,6 +168,8 @@
       "long": -73.9279654},
       {
           "title":"Brooklyn Inn",
+          "contact": "",
+          "hours": "",
           "website": "https://www.yelp.com/biz/the-brooklyn-inn-brooklyn",
           "image":"Brooklyn Inn",
           "address":"Boerum Hill",
@@ -147,6 +179,8 @@
       "long": -73.9885413},
       {
           "title":"Caffe Dante",
+          "contact": "",
+          "hours": "",
           "website": "http://www.dante-nyc.com/",
           "image":"Caffe Dante",
           "address":"Greenwich Village",
@@ -155,7 +189,9 @@
           "lat": 40.728878,
       "long": -74.001662},
       {
-          "title":"Caffe Marchio ",
+          "title":"Caffe Marchio",
+          "contact": "",
+          "hours": "",
           "website": "https://www.caffemarchio.com/",
           "image":"Caffe Marchio",
           "address":"NoMad",
@@ -165,6 +201,8 @@
       "long": -73.98463},
       {
           "title":"Daddy-O",
+          "contact": "",
+          "hours": "",
           "website": "http://www.daddyonyc.com/",
           "image":"DaddyO",
           "address":"West Village",
@@ -174,6 +212,8 @@
       "long": -74.0042029},
       {
           "title":"Dead Rabbit",
+          "contact": "",
+          "hours": "",
           "website": "https://www.deadrabbitnyc.com/",
           "image":"Dead Rabbit",
           "address":"Financial District",
@@ -183,6 +223,8 @@
       "long": -74.0110309},
       {
           "title":"Donna",
+          "contact": "",
+          "hours": "",
           "website": "http://www.donnabklyn.com/",
           "image":"Donna",
           "address":"Williamsburg",
@@ -192,6 +234,8 @@
       "long": -73.9676998},
       {
           "title":"Downing Street Bar",
+          "contact": "",
+          "hours": "",
           "website": "https://www.blueribbonrestaurants.com/restaurants/blue-ribbon-downing-street-bar/",
           "image":"Downing Street Bar",
           "address":"West Village",
@@ -201,6 +245,8 @@
       "long": -74.003806},
       {
           "title":"Dutch Kills",
+          "contact": "",
+          "hours": "",
           "website": "https://www.dutchkillsbar.com/",
           "image":"Dutch Kills",
           "address":"Long Island City",
@@ -210,6 +256,8 @@
       "long": -73.940262},
       {
           "title":"Evening Bar",
+          "contact": "",
+          "hours": "",
           "website": "https://www.eveningbar.com/",
           "image":"Evening Bar",
           "address":"Tribeca",
@@ -219,6 +267,8 @@
       "long": -74.0091202},
       {
           "title":"Extra Fancy",
+          "contact": "",
+          "hours": "",
           "website": "http://www.extrafancybklyn.com/",
           "image":"Extra Fancy",
           "address":"Williamsburg",
@@ -228,6 +278,8 @@
       "long": -73.9579702},
       {
           "title":"George Washington Bar",
+          "contact": "",
+          "hours": "",
           "website": "https://freehandhotels.com/new-york/george-washington-bar/",
           "image":"George Washington Bar",
           "address":"Flatiron",
@@ -237,6 +289,8 @@
       "long": -73.984329},
       {
           "title":"Fresh Kills",
+          "contact": "",
+          "hours": "",
           "website": "http://www.freshkillsbar.com/",
           "image":"Fresh Kills",
           "address":"Williamsburg",
@@ -246,6 +300,8 @@
       "long": -73.9615189},
       {
           "title":"Gallow Green",
+          "contact": "",
+          "hours": "",
           "website": "https://mckittrickhotel.com/gallow-green/",
           "image":"Gallow Green",
           "address":"Chelsea",
@@ -255,6 +311,8 @@
       "long": -74.0041608},
       {
           "title":"Grand Army",
+          "contact": "",
+          "hours": "",
           "website": "https://www.grandarmybar.com/",
           "image":"Grand Army",
           "address":"Boerum Hill",
@@ -264,6 +322,8 @@
       "long": -73.9865127},
       {
           "title":"Henry Public",
+          "contact": "",
+          "hours": "",
           "website": "http://www.henrypublic.com/",
           "image":"Henry Public",
           "address":"Cobble Hill",
@@ -273,6 +333,8 @@
       "long": -73.9962193},
       {
           "title":"Hotel Delmano",
+          "contact": "",
+          "hours": "",
           "website": "http://www.hoteldelmano.com/",
           "image":"Hotel Delmano",
           "address":"Williamsburg",
@@ -282,6 +344,8 @@
       "long": -73.9962193},
       {
           "title":"Jones Wood Foundry",
+          "contact": "",
+          "hours": "",
           "website": "https://www.joneswoodfoundry.com/",
           "image":"Jones Wood Foundry",
           "address":"Upper East Side",
@@ -291,6 +355,8 @@
       "long": -73.953541},
       {
           "title":"June",
+          "contact": "",
+          "hours": "",
           "website": "http://www.junebk.com/",
           "image":"June",
           "address":"Cobble Hill",
@@ -300,6 +366,8 @@
       "long": -73.993869},
       {
           "title":"Kinfolk",
+          "contact": "",
+          "hours": "",
           "website": "https://kinfolklife.com/locations/",
           "image":"Kinfolk",
           "address":"Williamsburg",
@@ -309,6 +377,8 @@
       "long": -73.9583857},
       {
           "title":"Little Branch",
+          "contact": "",
+          "hours": "",
           "website": "https://www.yelp.com/biz/little-branch-new-york",
           "image":"Little Branch",
           "address":"West Village",
@@ -318,6 +388,8 @@
       "long": -74.005045},
       {
           "title":"Loosie Rouge",
+          "contact": "",
+          "hours": "",
           "website": "https://www.loosierouge.com/",
           "image":"Loosie Rouge",
           "address":"Williamsburg",
@@ -327,6 +399,8 @@
       "long": -73.96486},
       {
           "title":"Maison Premiere",
+          "contact": "",
+          "hours": "",
           "website": "https://maisonpremiere.com/",
           "image":"Maison Premiere",
           "address":"Williamsburg",
@@ -336,6 +410,8 @@
       "long": -73.9616646},
       {
           "title":"Manderley Bar",
+          "contact": "",
+          "hours": "",
           "website": "https://mckittrickhotel.com/manderley-bar/",
           "image":"Manderley Bar",
           "address":"Chelsea",
@@ -345,6 +421,8 @@
       "long": -74.003868},
       {
           "title":"Marie's Crisis",
+          "contact": "",
+          "hours": "",
           "website": "http://mariescrisis.us/",
           "image":"Maries Crisis",
           "address":"West Village",
@@ -354,6 +432,8 @@
       "long": -74.0034023},
       {
           "title":"Mr. Fong's",
+          "contact": "",
+          "hours": "",
           "website": "http://www.mrfongs.com/",
           "image":"Mr Fongs",
           "address":"Two Bridges",
@@ -363,6 +443,8 @@
       "long": -73.994113},
       {
           "title":"NoMad Hotel Bar",
+          "contact": "",
+          "hours": "",
           "website": "https://www.thenomadhotel.com/new-york/dining/spaces/the-nomad-bar",
           "image":"NoMad Hotel Bar",
           "address":"NoMad",
@@ -372,6 +454,8 @@
       "long": -73.988273},
       {
           "title":"Primo's",
+          "contact": "",
+          "hours": "",
           "website": "https://www.primostribeca.com/",
           "image":"Primos",
           "address":"Tribeca",
@@ -381,6 +465,8 @@
       "long": -74.0089},
       {
           "title":"Pulqueria",
+          "contact": "",
+          "hours": "",
           "website": "https://www.pulquerianyc.com/",
           "image":"Pulqueria",
           "address":"China Town",
@@ -390,6 +476,8 @@
       "long": -73.998259},
       {
           "title":"Ramona",
+          "contact": "",
+          "hours": "",
           "website": "https://ramonabarnyc.com/",
           "image":"Ramona",
           "address":"Greenpoint",
@@ -399,6 +487,8 @@
       "long": -73.9579121},
       {
           "title":"Spuyten Duyvil",
+          "contact": "",
+          "hours": "",
           "website": "http://www.spuytenduyvilnyc.com/",
           "image":"Spuyten Duyvil",
           "address":"Williamsburg",
@@ -408,6 +498,8 @@
       "long": -73.9560127},
       {
           "title":"St. Mazie",
+          "contact": "",
+          "hours": "",
           "website": "http://www.stmazie.com/",
           "image":"St Mazie",
           "address":"Williamsburg",
@@ -417,6 +509,8 @@
       "long": -73.9558237},
       {
           "title":"Stumptown",
+          "contact": "",
+          "hours": "",
           "website": "https://www.stumptowncoffee.com/locations/newyork/greenwich-village",
           "image":"Stumptown",
           "address":"Greenwich Village",
@@ -426,6 +520,8 @@
       "long": -73.9979385},
       {
           "title":"The Elk",
+          "contact": "",
+          "hours": "",
           "website": "http://www.theelknyc.com/",
           "image":"The Elk",
           "address":"West Village",
@@ -435,6 +531,8 @@
       "long": -74.0074983},
       {
           "title":"The Flower Shop",
+          "contact": "",
+          "hours": "",
           "website": "https://www.theflowershopnyc.com/",
           "image":"The Flower Shop",
           "address":"Lower East Side",
@@ -444,6 +542,8 @@
       "long": -73.9922533},
       {
           "title":"The Four Horsemen",
+          "contact": "",
+          "hours": "",
           "website": "http://www.fourhorsemenbk.com/",
           "image":"The Four Horsemen",
           "address":"Williamsburg",
@@ -453,6 +553,8 @@
       "long": -73.957334},
       {
           "title":"The Hoxton",
+          "contact": "",
+          "hours": "",
           "website": "https://thehoxton.com/new-york/williamsburg/hotels",
           "image":"The Hoxton",
           "address":"Williamsburg",
@@ -462,6 +564,8 @@
       "long": -73.9587909},
       {
           "title":"The Lobby Bar at Bowery Hotel",
+          "contact": "",
+          "hours": "",
           "website": "https://www.theboweryhotel.com/dining/bowery-lobby/",
           "image":"The Lobby Bar at Bowery Hotel",
           "address":"East Village",
@@ -471,6 +575,8 @@
       "long": -73.991629},
       {
           "title":"The Office",
+          "contact": "",
+          "hours": "",
           "website": "https://www.mandarinoriental.com/new-york/fine-dining/lounges/the-office-nyc",
           "image":"The Office",
           "address":"Upper West Side",
@@ -480,6 +586,8 @@
       "long": -73.9830172},
       {
           "title":"The Richardson",
+          "contact": "",
+          "hours": "",
           "website": "https://www.therichardsonnyc.com/",
           "image":"The Richardson",
           "address":"Williamsburg",
@@ -489,6 +597,8 @@
       "long": -73.9453515},
       {
           "title":"The Rum House",
+          "contact": "",
+          "hours": "",
           "website": "http://therumhousenyc.com/",
           "image":"The Rum House",
           "address":"Theater District",
@@ -498,6 +608,8 @@
       "long": -73.986307},
       {
           "title":"The Topaz",
+          "contact": "",
+          "hours": "",
           "website": "https://www.yelp.com/biz/the-topaz-brooklyn-2",
           "image":"The Topaz",
           "address":"Bushwick",
@@ -507,6 +619,8 @@
       "long": -73.9395017},
       {
           "title":"The Up and Up",
+          "contact": "",
+          "hours": "",
           "website": "http://www.upandupnyc.com/",
           "image":"The Up and Up",
           "address":"Greenwich Village",
@@ -516,6 +630,8 @@
       "long": -74.000472},
       {
           "title":"The Wayland",
+          "contact": "",
+          "hours": "",
           "website": "http://www.thewaylandnyc.com/",
           "image":"The Wayland",
           "address":"Alphabet City",
@@ -525,6 +641,8 @@
       "long": -73.977889},
       {
           "title":"Three Diamond Door",
+          "contact": "",
+          "hours": "",
           "website": "https://www.facebook.com/TheThreeDiamondDoor/",
           "image":"Three Diamond Door",
           "address":"Bushwick",
@@ -534,6 +652,8 @@
       "long": -73.926153},
       {
           "title":"Torst",
+          "contact": "",
+          "hours": "",
           "website": "http://www.torstnyc.com/home/",
           "image":"Torst",
           "address":"Greenpoint",
@@ -543,6 +663,8 @@
       "long": -73.9507796},
       {
           "title":"Village Vanguard",
+          "contact": "",
+          "hours": "",
           "website": "https://villagevanguard.com/",
           "image":"Village Vanguard",
           "address":"West Village",
@@ -552,6 +674,8 @@
       "long": -74.0016548},
       {
           "title":"Laughing Man",
+          "contact": "",
+          "hours": "",
           "website": "https://www.laughingmancafe.com/",
           "image":"Laughing Man",
           "address":"Tribeca",
@@ -561,6 +685,8 @@
           "long": -74.0101249},
       {
           "title":"Little Collins",
+          "contact": "",
+          "hours": "",
           "website": "http://www.littlecollinsnyc.com/",
           "image":"Little Collins",
           "address":"Midtown East",
@@ -570,6 +696,8 @@
           "long": -73.9771476},
       {
           "title":"Reception Bar",
+          "contact": "",
+          "hours": "",
           "website": "https://www.receptionbar.nyc/",
           "image":"Reception Bar",
           "address":"Lower East Side",
@@ -579,6 +707,8 @@
           "long": -73.9913819},
       {
           "title":"Honey's",
+          "contact": "",
+          "hours": "",
           "website": "https://www.facebook.com/honeysbrooklyn/",
           "image":"Honeys",
           "address":"Bushwick",
