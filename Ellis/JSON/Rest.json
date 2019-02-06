@@ -3,8 +3,9 @@
   "list": [
       {
           "title":"Aire Ancient Baths",
-          "hours": "",
-          "contact": "",
+          "hours": "Mon-Sun: 9am-11pm",
+          "contact": "(646) 878-6174",
+          "street address": "88 Franklin St, New York, NY 10013",
           "website": "https://beaire.com/en/aire-ancient-baths-newyork",
           "image":"Aire Ancient Baths",
           "address":"Tribeca",
@@ -14,8 +15,9 @@
           "long": -74.0047357},
       {
           "title":"Akiko Nails",
-          "hours": "",
-          "contact": "",
+          "hours": "Mon-Sun: 11am-8pm",
+          "contact": "(646) 972-6576",
+          "street address": "135 Eldridge St, New York, NY 10002",
           "website": "https://www.akikonailsnyc.com/",
           "image":"Akiko Nails",
           "address":"Lower East Side",
@@ -25,8 +27,9 @@
           "long": -73.991747},
       {
           "title":"Ballet Beautiful",
-          "contact": "",
-          "hours": "",
+          "contact": "(917) 675-7875",
+          "street address": "98 Greene St, New York, NY 10012",
+          "hours": "Mon-Fri: 9am-5pm",
           "website": "https://www.balletbeautiful.com/book-class",
           "image":"Ballet Beautiful",
           "address":"Soho",
@@ -37,7 +40,8 @@
       {
           "title":"Bamford Haybarn Spa",
           "contact": "",
-          "hours": "",
+          "hours": "Mon-Thurs: 10am-8pm | Mon-Sun 9am-9pm",
+          "street address": "60 Furman St, Brooklyn, NY 11201",
           "website": "https://www.1hotels.com/brooklyn-bridge/do/bamford-haybarn-spa",
           "image":"Bamford Haybarn Spa",
           "address":"Dumbo",
@@ -46,20 +50,10 @@
           "lat": 40.7018275,
       "long": -73.9958146},
       {
-          "title":"Breathe Salt Room",
-          "contact": "",
-          "hours": "",
-          "website": "http://www.breathesaltrooms.com/",
-          "image":"Breathe",
-          "address":"Midtown East",
-          "attribution": "Jeffrey Zeldman",
-          "description": "Salt rooms are made from Himalayan salt, which supports healthy breathing. Take their yoga class in here.",
-          "lat": 40.7459149,
-      "long": -73.981549},
-      {
           "title":"BrickHouse Ceramics",
-          "contact": "",
-          "hours": "",
+          "contact": "(718) 784-4907",
+          "hours": "Mon: 12am-9pm | Tues-Thurs: 1am-9pm | Fri: 12pm-9pm | Sat: 10am-4pm",
+          "street address": "10-34 44th Dr, Long Island City, NY 11101",
           "website": "https://brickhouseny.com/",
           "image":"BrickHouse Ceramics",
           "address":"Long Island City",
@@ -70,7 +64,8 @@
       {
           "title":"Brooklyn Bridge Park",
           "contact": "",
-          "hours": "",
+          "hours": "Mon-Sun: 6am-1am",
+          "street address": "334 Furman St, Brooklyn, NY 11201",
           "website": "https://www.brooklynbridgepark.org/",
           "image":"Brooklyn Bridge Park",
           "address":"Dumbo",
@@ -78,21 +73,12 @@
           "description": "Park with waterfront views of Manhattan and restaurants in the nearby area. ",
           "lat": 40.6995399,
       "long": -73.9973777},
-      {
-          "title":"Chelsea Piers (Pier 62)",
-          "contact": "",
-          "hours": "",
-          "website": "https://hudsonriverpark.org/explore-the-park/activities/chelsea-waterside-play-area",
-          "image":"Chelsea Piers",
-          "address":"Chelsea",
-          "attribution": "Andreas Komodromos",
-          "description": "Pier with a large park on the river. At Chelsea Piers you can go rock climbing or use their driving range.",
-          "lat": 40.7494531,
-      "long": -74.0074272},
+      
       {
           "title":"Chillhouse",
-          "contact": "",
-          "hours": "",
+          "contact": "(646) 678-3501",
+          "hours": "Mon-Fri: 9am-9pm | Sat: 10am-9pm | Sun: 10am-8pm",
+          "street address": "149 Essex St, New York, NY 10002",
           "website": "https://chillhouse.com/",
           "image":"Chillhouse",
           "address":"Lower East Side",
@@ -102,8 +88,9 @@
       "long": -73.9875519 },
       {
           "title":"Clayworks On Columbia",
-          "contact": "",
-          "hours": "",
+          "contact": "(718) 858-9256",
+          "hours": "Tues, Fri: 7pm-10pm | Wed: 10am-2pm | Sat: 1pm-4pm",
+          "street address": "195 Columbia St, Brooklyn, NY 11231",
           "website": "https://www.clayworksoncolumbia.org/",
           "image":"Clayworks On Columbia",
           "address":"Cobble Hill",
@@ -113,8 +100,9 @@
       "long": -74.002394},
       {
           "title":"Erika Bloom Pilates",
-          "contact": "",
-          "hours": "",
+          "contact": "(212) 288-3410",
+          "hours": "Mon-Fri: 7am-9pm | Sat-Sun: 8am-3pm",
+          "street address": "14 E 60th St, New York, NY 10022",
           "website": "http://erikabloompilates.com/",
           "image":"Erika Bloom Pilates",
           "address":"Upper East Side",
@@ -124,8 +112,9 @@
       "long": -73.9717272},
       {
           "title":"European Wax Center",
-          "contact": "",
-          "hours": "",
+          "contact": "(646) 517-8798",
+          "hours": "Mon-Fri: 9am-9pm | Sat: 8am-8pm | Sun: 8am-6pm",
+          "street address": "95 Chambers St, New York, NY 10007",
           "website": "https://www.waxcenter.com/region/new-york",
           "image":"European Wax Center",
           "address":"Financial District",
@@ -135,8 +124,9 @@
       "long": -74.0072302},
       {
           "title":"Great Jones Spa",
-          "contact": "",
-          "hours": "",
+          "contact": "(212) 505-3185",
+          "hours": "Mon-Sun: 9am-10pm",
+          "street address": "29 Great Jones St, New York, NY 10012",
           "website": "https://www.gjspa.com/",
           "image":"Great Jones Spa",
           "address":"NoHo",
@@ -149,6 +139,7 @@
           "title":"Greenpoint-Williamsburg Waterfront",
           "contact": "",
           "hours": "",
+          "street address": "45 Java St, Brooklyn, NY 11222",
           "website": "https://www.nycgovparks.org/park-features/future-parks/greenpoint-williamsburg-waterfront",
           "image":"Greenpoint and Williamsburg Waterfront",
           "address":"Williamsburg",
@@ -159,8 +150,9 @@
       
       {
           "title":"Hortus Nailworks",
-          "contact": "",
-          "hours": "",
+          "contact": "(917) 475-1558",
+          "hours": "Mon-Sat: 11am-8pm | Sun: 11am-7pm",
+          "street address": "210 Forsyth St, New York, NY 10002",
           "website": "http://www.hortusnailworks.com/",
           "image":"Hortus Nailworks",
           "address":"Lower East Side",
@@ -171,8 +163,9 @@
       
       {
           "title":"Inscape",
-          "contact": "",
-          "hours": "",
+          "contact": "(646) 952-0706",
+          "hours": "Mon-Fri: 1am-8pm | Sat-Sun: 11am-6pm",
+          "street address": "45 W 21st St, New York, NY 10010",
           "website": "https://www.inscape.life/meditation-studio/",
           "image":"Inscape",
           "address":"Flatiron",
@@ -183,8 +176,9 @@
       
       {
           "title":"Metrograph",
-          "contact": "",
+          "contact": "(212) 660-0312",
           "hours": "",
+          "street address": "7 Ludlow St, New York, NY 10002",
           "website": "http://metrograph.com/",
           "image":"Metrograph",
           "address":"Lower East Side",
@@ -195,8 +189,9 @@
       
       {
           "title":"New York Pilates",
-          "contact": "",
-          "hours": "",
+          "contact": "(212) 335-0375",
+          "hours": "Mon-Fri: 6am-9:30pm | Sat-Sun: 8:30am-7pm",
+          "street address": "25 Howard St, New York, NY 10013",
           "website": "https://newyorkpilates.com/",
           "image":"New York Pilates",
           "address":"Soho",
@@ -207,8 +202,9 @@
       
       {
           "title":"Paintbox",
-          "contact": "",
-          "hours": "",
+          "contact": "(212) 219-2412",
+          "hours": "Mon: 3pm-9pm | Tues-Wed: 11am-9pm | Thurs-Fri: 9am-9pm | Sat: 9am-8pm | Sun: 11am-8pm",
+          "street address": "17 Crosby St, New York, NY 10013",
           "website": "https://paint-box.com/",
           "image":"Paintbox",
           "address":"Soho",
@@ -220,7 +216,8 @@
       {
           "title":"Riverside Park",
           "contact": "",
-          "hours": "",
+          "hours": "Open 24 hours, 7 days a week",
+          "street address": "",
           "website": "https://www.nycgovparks.org/parks/riverside-park",
           "image":"Riverside Park",
           "address":"Upper West Side",
@@ -231,8 +228,9 @@
       
       {
           "title":"Skin Laundry",
-          "contact": "",
-          "hours": "",
+          "contact": "(646) 838-4044",
+          "hours": "Mon-Fri: 8am-9pm | Sat: 8am-7pm | Sun: 10am-7pm",
+          "street address": "112 W Broadway, New York, NY 10013",
           "website": "https://skinlaundry.com/pages/locations",
           "image":"Skin Laundry",
           "address":"Tribeca",
@@ -244,7 +242,8 @@
       {
           "title":"St. Luke in the Fields Garden",
           "contact": "",
-          "hours": "",
+          "hours": "Mon-Sun: 10am-dusk",
+          "street address": "487 Hudson St, New York, NY 10014",
           "website": "https://stlukeinthefields.org/about-us/our-gardens/",
           "image":"St Luke in the Fields",
           "address":"West Village",
@@ -255,8 +254,9 @@
       
       {
           "title":"Sundays Nail Studio",
-          "contact": "",
-          "hours": "",
+          "contact": "(646) 998-5711",
+          "hours": "Mon-Sun: 10am-8pm",
+          "street address": "51 E 25th St, New York, NY 10010",
           "website": "https://dearsundays.com/",
           "image":"Sundays Nail Studio",
           "address":"Flatiron",
@@ -267,8 +267,9 @@
       
       {
           "title":"Tenoverten",
-          "contact": "",
-          "hours": "",
+          "contact": "(212) 406-1010",
+          "hours": "Mon-Thurs: 9am-10pm | Fri: 9am-9pm | Sat-Sun: 9am-8:30pm",
+          "street address": "112 Reade St, New York, NY 10013",
           "website": "https://tenoverten.com/pages/locations",
           "image":"Tenoverten",
           "address":"Tribeca",
@@ -279,8 +280,9 @@
       
       {
           "title":"Textile Arts Center",
-          "contact": "",
-          "hours": "",
+          "contact": "(718) 369-0222",
+          "hours": "Sat-Thurs: 10:30am-6:30pm",
+          "street address": "505 Carroll St, Brooklyn, NY 11215",
           "website": "http://www.textileartscenter.com/",
           "image":"Textile Arts Center",
           "address":"Gowanus",
@@ -291,8 +293,9 @@
       
       {
           "title":"The Class By Taryn Toomey",
-          "contact": "",
-          "hours": "",
+          "contact": "(646) 850-0937",
+          "hours": "Mon-Fri: 7am-7pm | Sat: 9am-4pm | Sun: 8:30am-7:30pm",
+          "street address": "22 Park Pl, New York, NY 10007",
           "website": "https://taryntoomey.com/",
           "image":"The Class By Taryn Toomey",
           "address":"Tribeca",
@@ -303,8 +306,9 @@
       
       {
           "title":"The Ramble",
-          "contact": "",
-          "hours": "",
+          "contact": "(212) 310-6600",
+          "hours": "Mon-Sun: 6am-1am",
+          "street address": "79th St Transverse, New York, NY 10024",
           "website": "https://www.centralpark.com/things-to-do/attractions/ramble/",
           "image":"The Ramble",
           "address":"Central Park",
@@ -315,8 +319,9 @@
       
       {
           "title":"Valley Nails",
-          "contact": "",
-          "hours": "",
+          "contact": "(646) 661-2240",
+          "hours": "Mon-Fri: 11am-9pm | Sat: 10am-8pm | Sun: 11am-7pm",
+          "street address": "237 W 15th St, New York, NY 10011",
           "website": "https://valleynail.com/",
           "image":"Valley Nails",
           "address":"Chelsea",
@@ -327,8 +332,9 @@
       
       {
           "title":"Woom Center",
-          "contact": "",
-          "hours": "",
+          "contact": "(646) 678-5092",
+          "hours": "Mon-Fri: 6:30am-9pm | Sat: 9:30am-7:30pm | Sun: 9:30am-7pm",
+          "street address": "274 Bowery, 2nd Floor, New York, NY 10012",
           "website": "https://www.woomcenter.com/",
           "image":"Woom Center",
           "address":"Nolita",
@@ -339,8 +345,9 @@
       
       {
           "title":"Yoga Vida",
-          "contact": "",
-          "hours": "",
+          "contact": "(212) 343-7001",
+          "hours": "Mon, Wed, Fri: 6:45-9pm | Tues, Thurs: 5:30am-9pm | Sat: 7:30am-6pm | Sun: 7:30am-7:30pm",
+          "street address": "416 Washington Street, New York, NY 10013",
           "website": "https://yogavida.com/pages/studios",
           "image":"Yoga Vida",
           "address":"Tribeca",
