@@ -8,6 +8,7 @@
 
 import UIKit
 import SwiftyJSON
+import MapKit
 
 class ListInfo: NSObject {
 
@@ -20,6 +21,22 @@ class ListInfo: NSObject {
     lazy var lat: Double = 0.00
     lazy var long: Double = 0.00
     var landingType: LandingType
+	
+	var annotationImage: UIImage? {
+		switch self.landingType {
+		case .Shop:
+			return UIImage(named: "mark-shop")
+		case .Eat:
+			return UIImage(named: "mark-eat")
+		case .Drink:
+			return UIImage(named: "mark-drink")
+		case .Rest:
+			return UIImage(named: "mark-beautify")
+		}
+
+	}
+	
+	var coordinate: CLLocationCoordinate2D { return CLLocationCoordinate2D(latitude: self.lat, longitude: self.long) }
     
     init(landingType: LandingType = Globals.shared.landingType) {
         self.landingType = landingType
