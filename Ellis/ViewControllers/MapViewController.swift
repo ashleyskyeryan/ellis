@@ -219,6 +219,7 @@ class MapViewController: UIViewController, GMSMapViewDelegate {
 		} else {
 			self.mapView.addAnnotation(marker)
 			self.currentAnnotations.append(marker)
+			markers.append(marker)
 		}
     }
     
