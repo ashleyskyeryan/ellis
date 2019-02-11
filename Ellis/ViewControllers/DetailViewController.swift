@@ -132,7 +132,16 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
         
         cell.lblTitle.text = listInfo.title
         cell.imgView.image = UIImage(named: listInfo.image)
-        cell.lblDetail.text = listInfo.detail
+		
+		var text = listInfo.detail
+		if !listInfo.street_address.isEmpty {
+			text = text + "\n\n" + listInfo.street_address
+		}
+		if !listInfo.hours.isEmpty {
+			text = text + "\n\nHours: " + listInfo.hours
+		}
+
+        cell.lblDetail.text = text
         cell.lblAttribution.text = listInfo.attribution
         
         return cell

@@ -14,7 +14,9 @@ class ListInfo: Codable, Equatable {
 
     var title = ""
     var image = ""
-    var address = ""
+	var address = ""
+	var street_address = ""
+	var hours = ""
     var detail = ""
 	var website = ""
     var attribution = ""
@@ -49,31 +51,18 @@ class ListInfo: Codable, Equatable {
         self.landingType = landingType
 		
         let responseResult = JSON(result)
-        
-        if let val = responseResult["title"].string {
-            title = val
-        }
-        if let val = responseResult["image"].string {
-            image = val
-        }
-		if let val = responseResult["address"].string {
-			address = val
-		}
-		if let val = responseResult["website"].string {
-			website = val
-		}
-        if let val = responseResult["description"].string {
-            detail = val
-        }
-        if let val = responseResult["attribution"].string {
-            attribution = val
-        }
-        if let val = responseResult["lat"].double {
-            lat = val
-        }
-        if let val = responseResult["long"].double {
-            long = val
-        }
+		
+		self.title = responseResult["title"].string ?? ""
+		self.image = responseResult["image"].string ?? ""
+		self.address = responseResult["address"].string ?? ""
+		self.website = responseResult["website"].string ?? ""
+		self.detail = responseResult["description"].string ?? ""
+		self.attribution = responseResult["attribution"].string ?? ""
+		self.street_address = responseResult["street address"].string ?? ""
+		self.hours = responseResult["hours"].string ?? ""
+		self.lat = responseResult["lat"].double ?? 0
+		self.long = responseResult["long"].double ?? 0
+
         
     }
 	
