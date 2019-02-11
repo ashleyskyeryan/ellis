@@ -20,7 +20,7 @@ class ListViewController: UIViewController, UITableViewDelegate, UITableViewData
     // MARK: - Variables
     
     // For store and manage list.
-    var lists: Lists = Lists()
+    var lists: Lists = Lists(landingType: Globals.shared.landingType)
     
     // For get selected list from listarray.
     var selectedIndexPath = IndexPath()
@@ -30,6 +30,7 @@ class ListViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     override func viewDidLoad() {
         super.viewDidLoad()
+		self.tableView.rowHeight = 201
 
         // Do any additional setup after loading the view.
     }
@@ -55,7 +56,7 @@ class ListViewController: UIViewController, UITableViewDelegate, UITableViewData
         searchBar.isHidden = true
         
         // Get all list data from JSON file.
-        perfoemGetData()
+        performGetData()
         
         // Add SwipeRightGesture for go to back.
         let swipeRight = UISwipeGestureRecognizer(target: self, action: #selector(self.respondToSwipeGesture(gesture:)))
@@ -85,7 +86,7 @@ class ListViewController: UIViewController, UITableViewDelegate, UITableViewData
         // Set landingtype.
         Globals.shared.landingType = .Shop
         // Get all list data from JSON file.
-        perfoemGetData()
+        performGetData()
         // Set menuview to hide
         menuView.isHidden = true
     }
@@ -94,7 +95,7 @@ class ListViewController: UIViewController, UITableViewDelegate, UITableViewData
         // Set landingtype.
         Globals.shared.landingType = .Eat
         // Get all list data from JSON file.
-        perfoemGetData()
+        performGetData()
         // Set menuview to hide
         menuView.isHidden = true
     }
@@ -103,16 +104,24 @@ class ListViewController: UIViewController, UITableViewDelegate, UITableViewData
         // Set landingtype.
         Globals.shared.landingType = .Drink
         // Get all list data from JSON file.
-        perfoemGetData()
+        performGetData()
         // Set menuview to hide
         menuView.isHidden = true
     }
-    
+
+	
+	@IBAction func favoritesButtonClicked(_ sender: Any) {
+		Globals.shared.landingType = .Favorites
+		performGetData()
+		// Set menuview to hide
+		menuView.isHidden = true
+	}
+
     @IBAction func beautifyButtonClicked(_ sender: Any) {
         // Set landingtype.
         Globals.shared.landingType = .Rest
         // Get all list data from JSON file.
-        perfoemGetData()
+        performGetData()
         // Set menuview to hide
         menuView.isHidden = true
     }
@@ -207,29 +216,62 @@ class ListViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
 
     func reload() {
-        perfoemGetData()
+        performGetData()
     }
-    
+	
+	@available(iOS 11.0, *)
+	func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+		if isSearch { return nil }
+		
+		let item = self.lists.lists[indexPath.row]
+		let isFavorite = item.isFavorite
+		let action = UIContextualAction(style: .normal, title: isFavorite ? "Remove as Favorite" : "Add as Favorite") { action, view, completion in
+			if isFavorite {
+				Favorites.instance.removeFavorite(item: item)
+				if Globals.shared.landingType == .Favorites, let index = self.lists.lists.index(of: item) {
+					tableView.beginUpdates()
+					self.lists.lists.remove(at: index)
+					tableView.deleteRows(at: [indexPath], with: .automatic)
+					tableView.endUpdates()
+					completion(true)
+					return
+				}
+			} else {
+				Favorites.instance.addFavorite(item: item)
+			}
+			completion(false)
+		}
+		
+		action.backgroundColor = .blue
+		return UISwipeActionsConfiguration(actions: [action])
+	}
+	
     // Function for get all list from JSON file.
-    func perfoemGetData() {
+    func performGetData() {
         let stringLandingType = Globals.shared.landingType.rawValue
         lblTitle.text = stringLandingType
-        let path = Bundle.main.path(forResource: stringLandingType, ofType: "json")!
-        
-        do {
-            let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
-            
-            let jsonResult = JSON(data)
-            
-            if let result = jsonResult.dictionaryObject {
-                if let dataList = result["list"] as? Array<Any> {
-                    lists = Lists(results: dataList)
-                }
-            }
-            self.tableView.reloadData()
-        } catch {
-            // handle error
-        }
+		
+		if Globals.shared.landingType == .Favorites {
+			lists = Favorites.instance.lists
+			self.tableView.reloadData()
+		} else {
+			let path = Bundle.main.path(forResource: stringLandingType, ofType: "json")!
+			
+			do {
+				let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
+				
+				let jsonResult = JSON(data)
+				
+				if let result = jsonResult.dictionaryObject {
+					if let dataList = result["list"] as? Array<Any> {
+						lists = Lists(results: dataList, landingType: Globals.shared.landingType)
+					}
+				}
+				self.tableView.reloadData()
+			} catch {
+				// handle error
+			}
+		}
     }
     
     // MARK: - Navigation

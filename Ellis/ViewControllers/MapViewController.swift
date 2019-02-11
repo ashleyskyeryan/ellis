@@ -23,8 +23,8 @@ class MapViewController: UIViewController, GMSMapViewDelegate {
     // MARK: - Variables
     var mapType: MapType = .All
     var allLists = [Lists]()
-    var lists = Lists()
-    var listInfo = ListInfo()
+    var lists = Lists(landingType: Globals.shared.landingType)
+    var listInfo = ListInfo(landingType: Globals.shared.landingType)
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -129,7 +129,17 @@ class MapViewController: UIViewController, GMSMapViewDelegate {
 		self.resetAnnotations()
         addPin()
     }
-    
+	
+	
+	@IBAction func favoritesButtonClicked(_ sender: Any) {
+		Globals.shared.landingType = .Favorites
+		self.menuView.isHidden = true
+		lists = performGetData()
+		mapType = .Multiple
+		self.resetAnnotations()
+		addPin()
+	}
+
     @IBAction func mapButtonClicked(_ sender: Any) {
         self.menuView.isHidden = true
         mapType = .All
@@ -225,6 +235,10 @@ class MapViewController: UIViewController, GMSMapViewDelegate {
     
     // Get all data from JSON file.
     func performGetData(landingType: LandingType = Globals.shared.landingType) -> Lists {
+		if landingType == .Favorites {
+			return Favorites.instance.lists
+		}
+		
         let stringLandingType = landingType.rawValue
         let path = Bundle.main.path(forResource: stringLandingType, ofType: "json")!
         
@@ -243,7 +257,7 @@ class MapViewController: UIViewController, GMSMapViewDelegate {
             // handle error
         }
         
-        return Lists()
+        return Lists(landingType: Globals.shared.landingType)
     }
     
     /*

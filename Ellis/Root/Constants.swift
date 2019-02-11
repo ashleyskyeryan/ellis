@@ -10,8 +10,8 @@ import UIKit
 
 // MARK: -Enumerations.
 
-enum LandingType: String, CaseIterable {
-    case Shop, Eat, Drink, Rest
+enum LandingType: String, CaseIterable, Codable, Equatable {
+    case Shop, Eat, Drink, Rest, Favorites
 }
 
 enum MapType {

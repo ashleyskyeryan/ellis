@@ -82,6 +82,7 @@
 		B574827B22010B0A0062B1AC /* OldStandard-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B574823F22010B090062B1AC /* OldStandard-Italic.ttf */; };
 		B574827C22010B0A0062B1AC /* OldStandard-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B574824022010B090062B1AC /* OldStandard-Bold.ttf */; };
 		B574827D22010B0A0062B1AC /* OldStandard-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B574824122010B090062B1AC /* OldStandard-Regular.ttf */; };
+		B57C07BC2210F52E0038559C /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57C07BB2210F52E0038559C /* Favorites.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -187,6 +188,7 @@
 		B574823F22010B090062B1AC /* OldStandard-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OldStandard-Italic.ttf"; sourceTree = "<group>"; };
 		B574824022010B090062B1AC /* OldStandard-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OldStandard-Bold.ttf"; sourceTree = "<group>"; };
 		B574824122010B090062B1AC /* OldStandard-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OldStandard-Regular.ttf"; sourceTree = "<group>"; };
+		B57C07BB2210F52E0038559C /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
 		C6A649BE60D49A60537EEFE0 /* Pods-Ellis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ellis.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ellis/Pods-Ellis.release.xcconfig"; sourceTree = "<group>"; };
 		CEE4FEBFF215AC1B17C54A55 /* Pods-EllisUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EllisUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EllisUITests/Pods-EllisUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -329,6 +331,7 @@
 			isa = PBXGroup;
 			children = (
 				33F3A69E2040199A00B5878F /* ListInfo.swift */,
+				B57C07BB2210F52E0038559C /* Favorites.swift */,
 			);
 			path = DataModel;
 			sourceTree = "<group>";
@@ -842,6 +845,7 @@
 				33F3A691203FEC6400B5878F /* DetailViewController.swift in Sources */,
 				33F3A68F203FEC5200B5878F /* ListViewController.swift in Sources */,
 				33F3A696203FED3E00B5878F /* ListViewTableCell.swift in Sources */,
+				B57C07BC2210F52E0038559C /* Favorites.swift in Sources */,
 				33F3A68B203FE41900B5878F /* HomeViewController.swift in Sources */,
 				33F3A69A203FF0A000B5878F /* Constants.swift in Sources */,
 			);

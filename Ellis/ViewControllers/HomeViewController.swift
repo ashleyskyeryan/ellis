@@ -51,6 +51,11 @@ class HomeViewController: UIViewController {
         Globals.shared.landingType = .Rest
         openNavigationController()
     }
+	
+	@IBAction func favoritesButtonClicked(_ sender: Any) {
+		Globals.shared.landingType = .Favorites
+		openNavigationController()
+	}
     
     private func openNavigationController() {
         if let navigationViewcontroller = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "NavigationController") as? UINavigationController

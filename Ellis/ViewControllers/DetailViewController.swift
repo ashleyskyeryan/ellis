@@ -19,7 +19,7 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
     // MARK: - Variables
     var listViewController: ListViewController?
 	var mapViewController: MapViewController?
-    var listInfo = ListInfo()
+    var listInfo = ListInfo(landingType: Globals.shared.landingType)
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,16 +45,17 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
         switch Globals.shared.landingType {
         case .Shop:
             lblTitle.text = "Shop"
-            break
+			
         case .Eat:
             lblTitle.text = "Eat"
-            break
+			
         case .Drink:
             lblTitle.text = "Drink"
-            break
+			
         case .Rest:
             lblTitle.text = "Beautify"
-            break
+			
+		case .Favorites: break
         }
         
         // Add SwipeRightGesture for go to back.
@@ -104,7 +105,12 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
     @IBAction func beautifyButtonClicked(_ sender: Any) {
         setListViewController(.Rest)
     }
-    
+	
+	
+	@IBAction func favoritesButtonClicked(_ sender: Any) {
+		setListViewController(.Favorites)
+	}
+
     @IBAction func mapButtonClicked(_ sender: Any) {
         menuView.isHidden = true
         self.performSegue(withIdentifier: Constants.CellIdentifier.init().mapPage, sender: self)

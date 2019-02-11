@@ -10,16 +10,16 @@ import UIKit
 import SwiftyJSON
 import MapKit
 
-class ListInfo: NSObject {
+class ListInfo: Codable, Equatable {
 
-    lazy var title = ""
-    lazy var image = ""
-    lazy var address = ""
-    lazy var detail = ""
-	lazy var website = ""
-    lazy var attribution = ""
-    lazy var lat: Double = 0.00
-    lazy var long: Double = 0.00
+    var title = ""
+    var image = ""
+    var address = ""
+    var detail = ""
+	var website = ""
+    var attribution = ""
+    var lat: Double = 0.00
+    var long: Double = 0.00
     var landingType: LandingType
 	
 	var annotationImage: UIImage? {
@@ -32,21 +32,22 @@ class ListInfo: NSObject {
 			return UIImage(named: "mark-drink")
 		case .Rest:
 			return UIImage(named: "mark-beautify")
+			
+		case .Favorites: return nil
 		}
 
 	}
 	
+	var isFavorite: Bool { return Favorites.instance.isFavorite(self) }
 	var coordinate: CLLocationCoordinate2D { return CLLocationCoordinate2D(latitude: self.lat, longitude: self.long) }
     
-    init(landingType: LandingType = Globals.shared.landingType) {
+    init(landingType: LandingType) {
         self.landingType = landingType
-        super.init()
     }
     
-    init(result: Any, landingType: LandingType = Globals.shared.landingType) {
+    init(result: Any, landingType: LandingType) {
         self.landingType = landingType
-        super.init()
-        
+		
         let responseResult = JSON(result)
         
         if let val = responseResult["title"].string {
@@ -75,20 +76,24 @@ class ListInfo: NSObject {
         }
         
     }
+	
+	static func ==(lhs: ListInfo, rhs: ListInfo) -> Bool {
+		return lhs.title == rhs.title && lhs.address == rhs.address && lhs.website == rhs.website && lhs.lat == rhs.lat && lhs.long == rhs.long
+	}
 }
 
 class Lists: NSObject {
 
-    var lists: Array<ListInfo> = Array<ListInfo>()
-    var searchList: Array<ListInfo> = Array<ListInfo>()
+    var lists: [ListInfo] = []
+    var searchList: [ListInfo] = []
     var landingType: LandingType
     
-    init(landingType: LandingType = Globals.shared.landingType) {
+    init(landingType: LandingType) {
         self.landingType = landingType
         super.init()
     }
     
-    init(results: Array<Any>, landingType: LandingType = Globals.shared.landingType) {
+    init(results: Array<Any>, landingType: LandingType) {
         self.landingType = landingType
         super.init()
         for info in results {
