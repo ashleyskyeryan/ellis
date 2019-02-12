@@ -16,6 +16,7 @@ class ListInfo: Codable, Equatable {
     var image = ""
 	var address = ""
 	var street_address = ""
+	var contact_number = ""
 	var hours = ""
     var detail = ""
 	var website = ""
@@ -62,9 +63,13 @@ class ListInfo: Codable, Equatable {
 		self.hours = responseResult["hours"].string ?? ""
 		self.lat = responseResult["lat"].double ?? 0
 		self.long = responseResult["long"].double ?? 0
-
+		self.contact_number = responseResult["contact"].string ?? ""
         
     }
+	
+	var phone: String {
+		return self.contact_number.filter( { "0123456789".contains($0) })
+	}
 	
 	static func ==(lhs: ListInfo, rhs: ListInfo) -> Bool {
 		return lhs.title == rhs.title && lhs.address == rhs.address && lhs.website == rhs.website && lhs.lat == rhs.lat && lhs.long == rhs.long

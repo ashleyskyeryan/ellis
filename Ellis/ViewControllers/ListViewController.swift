@@ -242,7 +242,7 @@ class ListViewController: UIViewController, UITableViewDelegate, UITableViewData
 			completion(false)
 		}
 		
-		action.backgroundColor = .blue
+		action.backgroundColor = .black
 		return UISwipeActionsConfiguration(actions: [action])
 	}
 	

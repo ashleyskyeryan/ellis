@@ -14,8 +14,10 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
     // MARK: - IBOutlet
     @IBOutlet weak var lblTitle: UILabel!
     @IBOutlet weak var tableView: UITableView!
-    @IBOutlet weak var menuView: UIView!
-    
+	@IBOutlet weak var menuView: UIView!
+	@IBOutlet weak var favoritesButton: UIButton!
+	@IBOutlet weak var callButton: UIButton!
+
     // MARK: - Variables
     var listViewController: ListViewController?
 	var mapViewController: MapViewController?
@@ -66,12 +68,24 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
         // Set tableview row height dynamically.
         tableView.rowHeight = UITableViewAutomaticDimension
         tableView.estimatedRowHeight = 44
-    }
+		self.favoritesButton.setImage(UIImage(named: Favorites.instance.isFavorite(self.listInfo) ? "heart_filled" : "heart"), for: .normal)
+		
+		self.callButton.isHidden = !self.listInfo.phone.isEmpty
+   }
     
     // MARK: - IBAction methods
     
 	@IBAction func menuButtonClicked(_ sender: Any) {
 		menuView.isHidden = !menuView.isHidden
+	}
+	
+	@IBAction func favoriteButtonClicked(_ sender: UIButton) {
+		if Favorites.instance.isFavorite(self.listInfo) {
+			Favorites.instance.removeFavorite(item: self.listInfo)
+		} else {
+			Favorites.instance.addFavorite(item: self.listInfo)
+		}
+		self.favoritesButton.setImage(UIImage(named: Favorites.instance.isFavorite(self.listInfo) ? "heart_filled" : "heart"), for: .normal)
 	}
 	
 	@IBAction func websiteAndHoursButtonClicked(_ sender: Any) {
@@ -82,10 +96,16 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
 		}
 	}
 	
-    @IBAction func backButtonClicked(_ sender: Any) {
-        self.navigationController?.popViewController(animated: true)
-    }
-    
+	@IBAction func callButtonClicked(_ sender: Any) {
+		if !listInfo.phone.isEmpty, let url = URL(string:"tel:\(listInfo.phone)"), UIApplication.shared.canOpenURL(url) {
+			UIApplication.shared.openURL(url)
+		}
+	}
+	
+	@IBAction func backButtonClicked(_ sender: Any) {
+		self.navigationController?.popViewController(animated: true)
+	}
+	
     @IBAction func viewMapButtonClicked(_ sender: Any) {
         self.performSegue(withIdentifier: Constants.CellIdentifier.init().mapPage, sender: self)
     }
@@ -136,6 +156,9 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
 		var text = listInfo.detail
 		if !listInfo.street_address.isEmpty {
 			text = text + "\n\n" + listInfo.street_address
+		}
+		if !listInfo.contact_number.isEmpty {
+			text = text + "\n" + listInfo.contact_number
 		}
 		if !listInfo.hours.isEmpty {
 			text = text + "\n\nHours: " + listInfo.hours
