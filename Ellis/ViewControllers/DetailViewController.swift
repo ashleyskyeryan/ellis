@@ -70,7 +70,7 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
         tableView.estimatedRowHeight = 44
 		self.favoritesButton.setImage(UIImage(named: Favorites.instance.isFavorite(self.listInfo) ? "heart_filled" : "heart"), for: .normal)
 		
-		self.callButton.isHidden = !self.listInfo.phone.isEmpty
+		self.callButton.isHidden = self.listInfo.phone.isEmpty
    }
     
     // MARK: - IBAction methods
