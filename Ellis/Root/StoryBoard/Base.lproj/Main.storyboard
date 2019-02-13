@@ -796,16 +796,16 @@
                                 <rect key="frame" x="0.0" y="782" width="414" height="80"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ubJ-O3-dRH">
-                                        <rect key="frame" x="8" y="40" width="137" height="30"/>
+                                        <rect key="frame" x="8" y="40" width="40" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="KO1-av-w3S"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="20"/>
-                                        <state key="normal" title="View in map">
+                                        <state key="normal" title="Call">
                                             <color key="titleColor" red="0.90432661802030456" green="0.17440951245764535" blue="0.56091056260032646" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="viewMapButtonClicked:" destination="CtU-MC-TsE" eventType="touchUpInside" id="yI2-61-YNs"/>
+                                            <action selector="callButtonClicked:" destination="CtU-MC-TsE" eventType="touchUpInside" id="9QF-Ui-ht9"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cvL-cc-BO4">
@@ -822,16 +822,16 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j0k-bL-lKt">
-                                        <rect key="frame" x="366" y="44" width="40" height="30"/>
+                                        <rect key="frame" x="269" y="44" width="137" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="u1X-v1-nce"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="20"/>
-                                        <state key="normal" title="Call">
+                                        <state key="normal" title="View in map">
                                             <color key="titleColor" red="0.90432661800000003" green="0.1744095125" blue="0.56091056260000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="callButtonClicked:" destination="CtU-MC-TsE" eventType="touchUpInside" id="z6J-tz-PMR"/>
+                                            <action selector="viewMapButtonClicked:" destination="CtU-MC-TsE" eventType="touchUpInside" id="j5X-ES-uwd"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -865,7 +865,7 @@
                         <viewLayoutGuide key="safeArea" id="J9w-06-19R"/>
                     </view>
                     <connections>
-                        <outlet property="callButton" destination="j0k-bL-lKt" id="p4k-Nq-iwY"/>
+                        <outlet property="callButton" destination="ubJ-O3-dRH" id="cbH-oA-Kaq"/>
                         <outlet property="favoritesButton" destination="VVP-fS-Ipc" id="Q0l-HX-HZE"/>
                         <outlet property="lblTitle" destination="q7v-3A-eni" id="MGk-WB-vGC"/>
                         <outlet property="menuView" destination="5q2-zP-Bj9" id="RZo-it-LM6"/>
@@ -1094,7 +1094,7 @@
         <image name="Menu" width="51.200000762939453" height="51.200000762939453"/>
         <image name="Search" width="51.200000762939453" height="51.200000762939453"/>
         <image name="Stockhome" width="577" height="866"/>
-        <image name="heart" width="256" height="256"/>
+        <image name="heart" width="19" height="16.5"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="gbG-al-52S"/>
