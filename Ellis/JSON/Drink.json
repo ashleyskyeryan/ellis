@@ -627,8 +627,8 @@
       "long": -73.991629},
       {
           "title":"The Office",
-          "contact": "Tues-Sun: 6pm-1am",
-          "hours": "(212) 805-8800",
+          "contact": "(212) 805-8800",
+          "hours": "Tues-Sun: 6pm-1am",
           "street address": "80 Columbus Cir, New York, NY 10023",
           "website": "https://www.mandarinoriental.com/new-york/fine-dining/lounges/the-office-nyc",
           "image":"The Office",

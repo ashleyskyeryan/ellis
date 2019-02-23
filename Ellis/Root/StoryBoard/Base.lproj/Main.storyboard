@@ -36,7 +36,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ELLIS" lineBreakMode="clip" minimumScaleFactor="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="cUm-wq-VuN">
-                                <rect key="frame" x="20" y="70.5" width="374" height="307.5"/>
+                                <rect key="frame" x="20" y="77" width="374" height="294"/>
                                 <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="252"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -822,7 +822,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j0k-bL-lKt">
-                                        <rect key="frame" x="269" y="44" width="137" height="30"/>
+                                        <rect key="frame" x="269" y="40" width="137" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="u1X-v1-nce"/>
                                         </constraints>
@@ -837,7 +837,7 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="ubJ-O3-dRH" firstAttribute="leading" secondItem="Wkj-hG-HRP" secondAttribute="leading" constant="8" id="1ks-m2-y20"/>
-                                    <constraint firstAttribute="bottom" secondItem="j0k-bL-lKt" secondAttribute="bottom" constant="6" id="DSV-V3-Ekf"/>
+                                    <constraint firstAttribute="bottom" secondItem="j0k-bL-lKt" secondAttribute="bottom" constant="10" id="DSV-V3-Ekf"/>
                                     <constraint firstItem="ubJ-O3-dRH" firstAttribute="leading" secondItem="cvL-cc-BO4" secondAttribute="leading" id="DTh-gO-2ZW"/>
                                     <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ubJ-O3-dRH" secondAttribute="trailing" constant="20" symbolic="YES" id="JQD-wm-AjV"/>
                                     <constraint firstItem="ubJ-O3-dRH" firstAttribute="top" secondItem="cvL-cc-BO4" secondAttribute="bottom" id="Tfk-r0-GAS"/>
