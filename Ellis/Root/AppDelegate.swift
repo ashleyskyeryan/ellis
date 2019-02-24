@@ -20,7 +20,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // Set GoogleMap Service.
         GMSServices.provideAPIKey(Constants().googleMapApiKey)
-        
+        LocationManager.instance.setup()
+		NotificationManager.instance.setup()
         return true
     }
 

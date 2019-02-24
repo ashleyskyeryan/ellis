@@ -26,6 +26,10 @@
 	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>To look for nearby venues</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>To look for nearby venues</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>PlayfairDisplay-Bold.ttf</string>
@@ -40,6 +44,10 @@
 		<string>Oranienbaum-Refular.ttf</string>
 		<string>OldStandard-Regular.ttf</string>
 		<string>OldStandard-Bold.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>location</string>
 	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
