@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import SwiftyJSON
 
 class ListViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate {
 
@@ -248,30 +247,8 @@ class ListViewController: UIViewController, UITableViewDelegate, UITableViewData
 	
     // Function for get all list from JSON file.
     func performGetData() {
-        let stringLandingType = Globals.shared.landingType.rawValue
-        lblTitle.text = stringLandingType
-		
-		if Globals.shared.landingType == .Favorites {
-			lists = Favorites.instance.lists
-			self.tableView.reloadData()
-		} else {
-			let path = Bundle.main.path(forResource: stringLandingType, ofType: "json")!
-			
-			do {
-				let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
-				
-				let jsonResult = JSON(data)
-				
-				if let result = jsonResult.dictionaryObject {
-					if let dataList = result["list"] as? Array<Any> {
-						lists = Lists(results: dataList, landingType: Globals.shared.landingType)
-					}
-				}
-				self.tableView.reloadData()
-			} catch {
-				// handle error
-			}
-		}
+		self.lists = ListManager.instance.fetchItems(for: Globals.shared.landingType)
+		self.tableView.reloadData()
     }
     
     // MARK: - Navigation

@@ -8,7 +8,6 @@
 
 import UIKit
 import GoogleMaps
-import SwiftyJSON
 import MapKit
 
 class MapViewController: UIViewController, GMSMapViewDelegate {
@@ -238,26 +237,8 @@ class MapViewController: UIViewController, GMSMapViewDelegate {
 		if landingType == .Favorites {
 			return Favorites.instance.lists
 		}
-		
-        let stringLandingType = landingType.rawValue
-        let path = Bundle.main.path(forResource: stringLandingType, ofType: "json")!
-        
-        do {
-            let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
-            
-            let jsonResult = JSON(data)
-            
-            if let result = jsonResult.dictionaryObject {
-                if let dataList = result["list"] as? Array<Any> {
-                    lists.lists.removeAll()
-                    return Lists(results: dataList, landingType: landingType)
-                }
-            }
-        } catch {
-            // handle error
-        }
-        
-        return Lists(landingType: Globals.shared.landingType)
+
+		return ListManager.instance.fetchItems(for: Globals.shared.landingType)
     }
     
     /*

@@ -30,6 +30,7 @@
 		33F3A6A82040563100B5878F /* Shop.json in Resources */ = {isa = PBXBuildFile; fileRef = 33F3A6A42040563100B5878F /* Shop.json */; };
 		94C1C1E962B4EDF2505499CD /* Pods_EllisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ECD6A23BF4C3BFA69380EA5 /* Pods_EllisTests.framework */; };
 		B39CA392B32C2B1135DF7231 /* Pods_Ellis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F1D6263C7D3611B2B917D5C /* Pods_Ellis.framework */; };
+		B5065BD322273F7300291628 /* ListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5065BD222273F7300291628 /* ListManager.swift */; };
 		B53C047C22224A94001B119B /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C047B22224A94001B119B /* LocationManager.swift */; };
 		B53C047E22225172001B119B /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C047D22225172001B119B /* NotificationManager.swift */; };
 		B574824322010B090062B1AC /* PlayfairDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B574820022010B090062B1AC /* PlayfairDisplay-Bold.ttf */; };
@@ -138,6 +139,7 @@
 		7F1D6263C7D3611B2B917D5C /* Pods_Ellis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ellis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A72270D11DD5B39B08922278 /* Pods-EllisUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EllisUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EllisUITests/Pods-EllisUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B1DC9DF6BCD818EA35573C1D /* Pods-EllisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EllisTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EllisTests/Pods-EllisTests.release.xcconfig"; sourceTree = "<group>"; };
+		B5065BD222273F7300291628 /* ListManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListManager.swift; sourceTree = "<group>"; };
 		B53C047B22224A94001B119B /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		B53C047D22225172001B119B /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		B574820022010B090062B1AC /* PlayfairDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Bold.ttf"; sourceTree = "<group>"; };
@@ -337,6 +339,7 @@
 			isa = PBXGroup;
 			children = (
 				33F3A69E2040199A00B5878F /* ListInfo.swift */,
+				B5065BD222273F7300291628 /* ListManager.swift */,
 				B57C07BB2210F52E0038559C /* Favorites.swift */,
 			);
 			path = DataModel;
@@ -851,6 +854,7 @@
 				33F3A65A203FDE6500B5878F /* AppDelegate.swift in Sources */,
 				33F3A693203FEC7100B5878F /* MapViewController.swift in Sources */,
 				33F3A698203FED5900B5878F /* DetailViewTableCell.swift in Sources */,
+				B5065BD322273F7300291628 /* ListManager.swift in Sources */,
 				B53C047E22225172001B119B /* NotificationManager.swift in Sources */,
 				33F3A68D203FEC4400B5878F /* LandingViewController.swift in Sources */,
 				3357EB8520417DBE00E6C5B9 /* Globals.swift in Sources */,

@@ -29,13 +29,12 @@ class LocationManager: NSObject {
 
 extension LocationManager: CLLocationManagerDelegate {
 	public func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
-		print("Authorized!")
-
 		self.locationManager.startMonitoringSignificantLocationChanges()
 	}
 
 	func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
 		if let location = locations.last {
+			
 			DispatchQueue.main.async {
 				if #available(iOS 10.0, *) {
 					let content = UNMutableNotificationContent()

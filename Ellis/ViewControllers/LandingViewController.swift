@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import SwiftyJSON
 
 class LandingViewController: UIViewController {
 
@@ -78,22 +77,8 @@ class LandingViewController: UIViewController {
     func performGetImage() {
         let stringLandingType = Globals.shared.landingType.rawValue
         lblTitle.text = stringLandingType
-        let path = Bundle.main.path(forResource: stringLandingType, ofType: "json")!
 
-        do {
-            let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
-            
-            let jsonResult = JSON(data)
-            
-            if let result = jsonResult.dictionaryObject {
-                if let imageName = result["image"] as? String {
-                    imgView.image = UIImage(named: imageName)
-                }
-            }
-        } catch {
-            // handle error
-        }
-        
+			imgView.image = ListManager.instance.fetchItems(for: Globals.shared.landingType).image
     }
     
     /*
