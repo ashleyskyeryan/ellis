@@ -36,7 +36,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ELLIS" lineBreakMode="clip" minimumScaleFactor="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="cUm-wq-VuN">
-                                <rect key="frame" x="20" y="77" width="374" height="294"/>
+                                <rect key="frame" x="20" y="70.5" width="374" height="307.5"/>
                                 <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="252"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -877,7 +877,7 @@
             </objects>
             <point key="canvasLocation" x="3352.1739130434785" y="32.142857142857139"/>
         </scene>
-        <!--Delegate-->
+        <!--Map View Controller-->
         <scene sceneID="tpy-NO-gf7">
             <objects>
                 <viewController id="DAa-9U-OCD" customClass="MapViewController" customModule="Ellis" customModuleProvider="target" sceneMemberID="viewController">
@@ -923,13 +923,6 @@
                                     <constraint firstItem="0LZ-6C-1lu" firstAttribute="height" secondItem="jCb-fG-q9M" secondAttribute="height" id="wDg-4c-5UU"/>
                                     <constraint firstAttribute="trailing" secondItem="kJV-Jh-c00" secondAttribute="trailing" constant="4" id="wFW-jl-J0E"/>
                                 </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ngL-68-eS1" customClass="GMSMapView">
-                                <rect key="frame" x="0.0" y="128" width="414" height="734"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <connections>
-                                    <outlet property="delegate" destination="DAa-9U-OCD" id="UtV-Kr-H0U"/>
-                                </connections>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7mE-AB-2jf">
                                 <rect key="frame" x="242" y="128" width="172" height="294"/>
@@ -1050,19 +1043,14 @@
                         <color key="tintColor" red="0.90588235289999997" green="0.17254901959999999" blue="0.56078431370000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="jCb-fG-q9M" firstAttribute="top" secondItem="apJ-wU-1Me" secondAttribute="top" id="4Qq-a2-CLX"/>
-                            <constraint firstItem="ngL-68-eS1" firstAttribute="centerX" secondItem="jCb-fG-q9M" secondAttribute="centerX" id="8yE-XO-2NQ"/>
                             <constraint firstItem="7mE-AB-2jf" firstAttribute="top" secondItem="jCb-fG-q9M" secondAttribute="bottom" id="Jww-zH-x5c"/>
                             <constraint firstItem="jCb-fG-q9M" firstAttribute="centerX" secondItem="apJ-wU-1Me" secondAttribute="centerX" id="P5i-xe-pjD"/>
                             <constraint firstItem="jCb-fG-q9M" firstAttribute="width" secondItem="m8J-X2-Pxy" secondAttribute="width" id="Sk2-ZL-MXp"/>
-                            <constraint firstItem="apJ-wU-1Me" firstAttribute="bottom" secondItem="ngL-68-eS1" secondAttribute="bottom" id="X5j-hY-gOt"/>
-                            <constraint firstItem="ngL-68-eS1" firstAttribute="top" secondItem="jCb-fG-q9M" secondAttribute="bottom" id="ePM-5O-gSP"/>
                             <constraint firstItem="7mE-AB-2jf" firstAttribute="trailing" secondItem="jCb-fG-q9M" secondAttribute="trailing" id="ebM-sa-GvQ"/>
-                            <constraint firstItem="ngL-68-eS1" firstAttribute="width" secondItem="jCb-fG-q9M" secondAttribute="width" id="v9V-yT-dHO"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="apJ-wU-1Me"/>
                     </view>
                     <connections>
-                        <outlet property="googleMapsView" destination="ngL-68-eS1" id="ucH-96-ZXB"/>
                         <outlet property="menuView" destination="7mE-AB-2jf" id="VOZ-b6-v6n"/>
                     </connections>
                 </viewController>

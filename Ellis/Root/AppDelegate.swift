@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import GoogleMaps
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -19,7 +18,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         // Set GoogleMap Service.
-        GMSServices.provideAPIKey(Constants().googleMapApiKey)
         LocationManager.instance.setup()
 		NotificationManager.instance.setup()
         return true

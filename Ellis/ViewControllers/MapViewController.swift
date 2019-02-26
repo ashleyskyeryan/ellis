@@ -7,19 +7,16 @@
 //
 
 import UIKit
-import GoogleMaps
 import MapKit
 
-class MapViewController: UIViewController, GMSMapViewDelegate {
+class MapViewController: UIViewController {
 
     // MARK: - IBOutlet
     @IBOutlet weak var menuView: UIView!
-	@IBOutlet var googleMapsView: GMSMapView!
 	@IBOutlet var mapView: MKMapView!
-    private lazy var markers = [GMSMarker]()
-	var useGoogleMaps = false
-    
-    // MARK: - Variables
+    private lazy var markers = [EllisMarker]()
+
+	// MARK: - Variables
     var mapType: MapType = .All
     var allLists = [Lists]()
     var lists = Lists(landingType: Globals.shared.landingType)
@@ -31,26 +28,6 @@ class MapViewController: UIViewController, GMSMapViewDelegate {
         initMapViewController()
     }
 	
-	func mapView(_ mapView: GMSMapView, didTapInfoWindowOf marker: GMSMarker) {
-		if let item = marker as? EllisMarker, let info = item.listInfo {
-			let controller = self.storyboard?.instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController
-			controller.listInfo = info
-			controller.mapViewController = self
-			self.navigationController?.pushViewController(controller, animated: true)
-			return
-		}
-		for list in self.allLists {
-			if let index = list.lists.index(where: { $0.address == marker.snippet }) {
-				let item = list.lists[index]
-				let controller = self.storyboard?.instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController
-				controller.listInfo = item
-				controller.mapViewController = self
-				self.navigationController?.pushViewController(controller, animated: true)
-				return
-			}
-		}
-	}
-
 	override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         // Set default menuview hide.
@@ -58,12 +35,9 @@ class MapViewController: UIViewController, GMSMapViewDelegate {
     }
     
     func initMapViewController() {
-		if !self.useGoogleMaps {
-			self.mapView = MKMapView(frame: self.view.bounds)
-			self.view.insertSubview(self.mapView, at: 0)
-			self.mapView.delegate = self
-			self.googleMapsView.removeFromSuperview()
-		}
+		self.mapView = MKMapView(frame: self.view.bounds)
+		self.view.insertSubview(self.mapView, at: 0)
+		self.mapView.delegate = self
         // Add pin on mapview.
         addPin()
         
@@ -90,7 +64,7 @@ class MapViewController: UIViewController, GMSMapViewDelegate {
         addPin()
     }
 	
-	var currentAnnotations: [MKAnnotation] = []
+	var currentAnnotations: [EllisMarker] = []
 	func resetAnnotations() {
 		self.mapView?.removeAnnotations(self.currentAnnotations)
 		self.currentAnnotations = []
@@ -160,7 +134,6 @@ class MapViewController: UIViewController, GMSMapViewDelegate {
     // Add pin to mapview.
     func addPin() {
         // Clear all pin on mapview.
-        googleMapsView.clear()
         markers = []
 		
 		var firstListInfo: ListInfo?
@@ -189,26 +162,11 @@ class MapViewController: UIViewController, GMSMapViewDelegate {
 		
 		let span = MKCoordinateSpan(latitudeDelta: 0.15, longitudeDelta: 0.15)
         if markers.count == 1 {
-			if self.useGoogleMaps {
-            	let camera = GMSCameraPosition.camera(withLatitude: listInfo.lat,
-                                                  longitude: listInfo.long, zoom: 16)
-            	self.googleMapsView.camera = camera
-			} else {
 				let region = MKCoordinateRegion(center: listInfo.coordinate, span: span)
 				self.mapView.setRegion(region, animated: false)
-			}
-        } else {
-			if self.useGoogleMaps {
-				var bounds = GMSCoordinateBounds()
-				for marker in markers {
-					bounds = bounds.includingCoordinate(marker.position)
-				}
-				let update = GMSCameraUpdate.fit(bounds)
-				self.googleMapsView.moveCamera(update)
-			} else if let listInfo = firstListInfo {
+        } else if let listInfo = firstListInfo {
 				let region = MKCoordinateRegion(center: listInfo.coordinate, span: span)
 				self.mapView.setRegion(region, animated: false)
-			}
         }
     }
     
@@ -216,20 +174,14 @@ class MapViewController: UIViewController, GMSMapViewDelegate {
 	func processToAddPin(listInfo: ListInfo) {
         let marker = EllisMarker()
 		marker.listInfo = listInfo
-        marker.position = CLLocationCoordinate2DMake(listInfo.lat, listInfo.long)
         marker.title = listInfo.title
-        marker.snippet = listInfo.address
+//        marker.snippet = listInfo.address
 		
-		marker.icon = listInfo.annotationImage
-		
-		if self.useGoogleMaps {
-        	marker.map = googleMapsView
-        	markers.append(marker)
-		} else {
-			self.mapView.addAnnotation(marker)
-			self.currentAnnotations.append(marker)
-			markers.append(marker)
-		}
+	//	marker.icon = listInfo.annotationImage
+
+		self.mapView.addAnnotation(marker)
+		self.currentAnnotations.append(marker)
+		markers.append(marker)
     }
     
     // Get all data from JSON file.
@@ -281,14 +233,14 @@ extension MapViewController: MKMapViewDelegate {
 
 }
 
-class EllisMarker: GMSMarker, MKAnnotation {
+class EllisMarker: NSObject, MKAnnotation {
 	var listInfo: ListInfo?
 	
 	var coordinate: CLLocationCoordinate2D {
 		return self.listInfo?.coordinate ?? CLLocationCoordinate2D(latitude: 0, longitude: 0)
 	}
 	
-	override var title: String? {
+	var title: String? {
 		get { return self.listInfo?.title }
 		set { }
 	}

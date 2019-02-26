@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A477831210D0B5DBC1A0E22 /* Pods_EllisUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E3CF780B519BCF4992D8707 /* Pods_EllisUITests.framework */; };
 		3357EB8520417DBE00E6C5B9 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3357EB8420417DBE00E6C5B9 /* Globals.swift */; };
 		33F3A65A203FDE6500B5878F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F3A659203FDE6500B5878F /* AppDelegate.swift */; };
 		33F3A65F203FDE6500B5878F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33F3A65D203FDE6500B5878F /* Main.storyboard */; };
@@ -28,8 +27,6 @@
 		33F3A6A62040563100B5878F /* Drink.json in Resources */ = {isa = PBXBuildFile; fileRef = 33F3A6A22040563100B5878F /* Drink.json */; };
 		33F3A6A72040563100B5878F /* Eat.json in Resources */ = {isa = PBXBuildFile; fileRef = 33F3A6A32040563100B5878F /* Eat.json */; };
 		33F3A6A82040563100B5878F /* Shop.json in Resources */ = {isa = PBXBuildFile; fileRef = 33F3A6A42040563100B5878F /* Shop.json */; };
-		94C1C1E962B4EDF2505499CD /* Pods_EllisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ECD6A23BF4C3BFA69380EA5 /* Pods_EllisTests.framework */; };
-		B39CA392B32C2B1135DF7231 /* Pods_Ellis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F1D6263C7D3611B2B917D5C /* Pods_Ellis.framework */; };
 		B5065BD322273F7300291628 /* ListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5065BD222273F7300291628 /* ListManager.swift */; };
 		B53C047C22224A94001B119B /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C047B22224A94001B119B /* LocationManager.swift */; };
 		B53C047E22225172001B119B /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C047D22225172001B119B /* NotificationManager.swift */; };
@@ -106,8 +103,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0FCC0AA81C20B5301A5E45ED /* Pods-EllisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EllisTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EllisTests/Pods-EllisTests.debug.xcconfig"; sourceTree = "<group>"; };
-		1E3CF780B519BCF4992D8707 /* Pods_EllisUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EllisUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3357EB8420417DBE00E6C5B9 /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
 		33F3A656203FDE6500B5878F /* Ellis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ellis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33F3A659203FDE6500B5878F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -134,11 +129,6 @@
 		33F3A6A22040563100B5878F /* Drink.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Drink.json; sourceTree = "<group>"; };
 		33F3A6A32040563100B5878F /* Eat.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Eat.json; sourceTree = "<group>"; };
 		33F3A6A42040563100B5878F /* Shop.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Shop.json; sourceTree = "<group>"; };
-		6D6D571733BCC39C1192DB78 /* Pods-Ellis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ellis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ellis/Pods-Ellis.debug.xcconfig"; sourceTree = "<group>"; };
-		7ECD6A23BF4C3BFA69380EA5 /* Pods_EllisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EllisTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F1D6263C7D3611B2B917D5C /* Pods_Ellis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ellis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A72270D11DD5B39B08922278 /* Pods-EllisUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EllisUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EllisUITests/Pods-EllisUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		B1DC9DF6BCD818EA35573C1D /* Pods-EllisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EllisTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EllisTests/Pods-EllisTests.release.xcconfig"; sourceTree = "<group>"; };
 		B5065BD222273F7300291628 /* ListManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListManager.swift; sourceTree = "<group>"; };
 		B53C047B22224A94001B119B /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		B53C047D22225172001B119B /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
@@ -195,8 +185,6 @@
 		B574824022010B090062B1AC /* OldStandard-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OldStandard-Bold.ttf"; sourceTree = "<group>"; };
 		B574824122010B090062B1AC /* OldStandard-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OldStandard-Regular.ttf"; sourceTree = "<group>"; };
 		B57C07BB2210F52E0038559C /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
-		C6A649BE60D49A60537EEFE0 /* Pods-Ellis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ellis.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ellis/Pods-Ellis.release.xcconfig"; sourceTree = "<group>"; };
-		CEE4FEBFF215AC1B17C54A55 /* Pods-EllisUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EllisUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EllisUITests/Pods-EllisUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,7 +192,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B39CA392B32C2B1135DF7231 /* Pods_Ellis.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +199,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94C1C1E962B4EDF2505499CD /* Pods_EllisTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +206,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A477831210D0B5DBC1A0E22 /* Pods_EllisUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,9 +215,6 @@
 		0B5D08F605D38AC3949437C6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7F1D6263C7D3611B2B917D5C /* Pods_Ellis.framework */,
-				7ECD6A23BF4C3BFA69380EA5 /* Pods_EllisTests.framework */,
-				1E3CF780B519BCF4992D8707 /* Pods_EllisUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -359,12 +341,6 @@
 		59421090CF709542703AE04B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6D6D571733BCC39C1192DB78 /* Pods-Ellis.debug.xcconfig */,
-				C6A649BE60D49A60537EEFE0 /* Pods-Ellis.release.xcconfig */,
-				0FCC0AA81C20B5301A5E45ED /* Pods-EllisTests.debug.xcconfig */,
-				B1DC9DF6BCD818EA35573C1D /* Pods-EllisTests.release.xcconfig */,
-				A72270D11DD5B39B08922278 /* Pods-EllisUITests.debug.xcconfig */,
-				CEE4FEBFF215AC1B17C54A55 /* Pods-EllisUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -500,12 +476,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33F3A67E203FDE6500B5878F /* Build configuration list for PBXNativeTarget "Ellis" */;
 			buildPhases = (
-				27FF4E5DB1423F06DF842F30 /* [CP] Check Pods Manifest.lock */,
 				33F3A652203FDE6500B5878F /* Sources */,
 				33F3A653203FDE6500B5878F /* Frameworks */,
 				33F3A654203FDE6500B5878F /* Resources */,
-				1354FC5DDDECA40AE50A46B2 /* [CP] Embed Pods Frameworks */,
-				0647CC2FBE0FFFA7F38B261E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -693,42 +666,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0647CC2FBE0FFFA7F38B261E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Ellis/Pods-Ellis-resources.sh",
-				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ellis/Pods-Ellis-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1354FC5DDDECA40AE50A46B2 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Ellis/Pods-Ellis-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ellis/Pods-Ellis-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		26C92A3898E8EA5B48E0B00E /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -742,24 +679,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EllisUITests/Pods-EllisUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		27FF4E5DB1423F06DF842F30 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Ellis-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6251BA20E47A59C30B91ECE9 /* [CP] Check Pods Manifest.lock */ = {
@@ -1028,7 +947,6 @@
 		};
 		33F3A67F203FDE6500B5878F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6D6D571733BCC39C1192DB78 /* Pods-Ellis.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -1045,7 +963,6 @@
 		};
 		33F3A680203FDE6500B5878F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C6A649BE60D49A60537EEFE0 /* Pods-Ellis.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -1062,7 +979,6 @@
 		};
 		33F3A682203FDE6500B5878F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0FCC0AA81C20B5301A5E45ED /* Pods-EllisTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1079,7 +995,6 @@
 		};
 		33F3A683203FDE6500B5878F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1DC9DF6BCD818EA35573C1D /* Pods-EllisTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1096,7 +1011,6 @@
 		};
 		33F3A685203FDE6500B5878F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A72270D11DD5B39B08922278 /* Pods-EllisUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1112,7 +1026,6 @@
 		};
 		33F3A686203FDE6500B5878F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CEE4FEBFF215AC1B17C54A55 /* Pods-EllisUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
