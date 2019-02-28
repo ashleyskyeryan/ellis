@@ -37,12 +37,12 @@ class LandingViewController: UIViewController {
         
         // Add SwipeRightGesture for go to back.
         let swipeRight = UISwipeGestureRecognizer(target: self, action: #selector(self.respondToSwipeGesture(gesture:)))
-        swipeRight.direction = UISwipeGestureRecognizerDirection.right
+		swipeRight.direction = UISwipeGestureRecognizer.Direction.right
         self.view.addGestureRecognizer(swipeRight)
         
         // Add SwipeUpGesture for go to list screen.
         let swipeUp = UISwipeGestureRecognizer(target: self, action: #selector(self.respondToSwipeGesture(gesture:)))
-        swipeUp.direction = UISwipeGestureRecognizerDirection.up
+		swipeUp.direction = UISwipeGestureRecognizer.Direction.up
         self.view.addGestureRecognizer(swipeUp)
         
     }
@@ -55,11 +55,11 @@ class LandingViewController: UIViewController {
             
             // If yes then check direction of SwipeGesture.
             switch swipeGesture.direction {
-            case UISwipeGestureRecognizerDirection.right:
+				case UISwipeGestureRecognizer.Direction.right:
                 
                 // If SwipeGesture equal to right then go back to home screen.
                 self.navigationController?.popViewController(animated: true)
-            case UISwipeGestureRecognizerDirection.up:
+				case UISwipeGestureRecognizer.Direction.up:
                 
                 // If SwipeGesture equal to up then go to list screen.
                 if let navigationViewcontroller = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "NavigationController") as? UINavigationController

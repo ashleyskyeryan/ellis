@@ -59,7 +59,7 @@ class ListViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         // Add SwipeRightGesture for go to back.
         let swipeRight = UISwipeGestureRecognizer(target: self, action: #selector(self.respondToSwipeGesture(gesture:)))
-        swipeRight.direction = UISwipeGestureRecognizerDirection.right
+		swipeRight.direction = UISwipeGestureRecognizer.Direction.right
         self.view.addGestureRecognizer(swipeRight)
     }
     
@@ -205,7 +205,7 @@ class ListViewController: UIViewController, UITableViewDelegate, UITableViewData
             switch swipeGesture.direction {
                 
                 // If SwipeGesture equal to right then go to back view.
-            case UISwipeGestureRecognizerDirection.right:
+				case UISwipeGestureRecognizer.Direction.right:
                 searchBar.resignFirstResponder()
                 self.dismiss(animated: true, completion: nil)
             default:

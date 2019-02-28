@@ -43,7 +43,7 @@ class MapViewController: UIViewController {
         
         // Add SwipeRightGesture for go to back.
         let swipeRight = UISwipeGestureRecognizer(target: self, action: #selector(self.respondToSwipeGesture(gesture:)))
-        swipeRight.direction = UISwipeGestureRecognizerDirection.right
+		swipeRight.direction = UISwipeGestureRecognizer.Direction.right
         self.view.addGestureRecognizer(swipeRight)
     }
     
@@ -123,7 +123,7 @@ class MapViewController: UIViewController {
     @objc func respondToSwipeGesture(gesture: UIGestureRecognizer) {
         if let swipeGesture = gesture as? UISwipeGestureRecognizer {
             switch swipeGesture.direction {
-            case UISwipeGestureRecognizerDirection.right:
+				case UISwipeGestureRecognizer.Direction.right:
                 self.dismiss(animated: true, completion: nil)
             default:
                 break

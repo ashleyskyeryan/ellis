@@ -40,6 +40,13 @@ class ListInfo: Codable, Equatable {
 
 	}
 
+	func isNear(_ pt: CLLocationCoordinate2D, range: CLLocationDistance = 1.0) -> Bool {
+		let ptLocation = CLLocation(latitude: pt.latitude, longitude: pt.longitude)
+		let myLocation = CLLocation(latitude: self.lat, longitude: self.long)
+
+		return ptLocation.distance(from: myLocation) <= range
+	}
+
 	var isFavorite: Bool { return Favorites.instance.isFavorite(self) }
 	var coordinate: CLLocationCoordinate2D { return CLLocationCoordinate2D(latitude: self.lat, longitude: self.long) }
 

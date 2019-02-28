@@ -62,11 +62,11 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
         
         // Add SwipeRightGesture for go to back.
         let swipeRight = UISwipeGestureRecognizer(target: self, action: #selector(self.respondToSwipeGesture(gesture:)))
-        swipeRight.direction = UISwipeGestureRecognizerDirection.right
+		swipeRight.direction = UISwipeGestureRecognizer.Direction.right
         self.view.addGestureRecognizer(swipeRight)
         
         // Set tableview row height dynamically.
-        tableView.rowHeight = UITableViewAutomaticDimension
+		tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = 44
 		self.favoritesButton.setImage(UIImage(named: Favorites.instance.isFavorite(self.listInfo) ? "heart_filled" : "heart"), for: .normal)
 		
@@ -180,7 +180,7 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
             switch swipeGesture.direction {
                 
                 // If SwipeGesture equal to right then go to back view.
-            case UISwipeGestureRecognizerDirection.right:
+				case UISwipeGestureRecognizer.Direction.right:
                 self.navigationController?.popViewController(animated: true)
             default:
                 break

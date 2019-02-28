@@ -15,6 +15,7 @@ class LocationManager: NSObject {
 	static let instance = LocationManager()
 
 	var locationManager = CLLocationManager()
+	var currentLocation: CLLocationCoordinate2D?
 
 	override init() {
 		super.init()
@@ -34,21 +35,8 @@ extension LocationManager: CLLocationManagerDelegate {
 
 	func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
 		if let location = locations.last {
-			
-			DispatchQueue.main.async {
-				if #available(iOS 10.0, *) {
-					let content = UNMutableNotificationContent()
-					let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 1, repeats: false)
-					content.title = "Location Updated"
-
-					content.body = location.description
-
-					let request = UNNotificationRequest(identifier: "\(location)", content: content, trigger: trigger)
-
-					let center = UNUserNotificationCenter.current()
-					center.add(request) { _ in print ("completed") }
-				}
-			}
+			self.currentLocation = location.coordinate
+			ListManager.instance.checkForNewNearbyItems(location: location.coordinate)
 		}
 	}
 }
