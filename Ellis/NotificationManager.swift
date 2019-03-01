@@ -53,13 +53,13 @@ extension Array where Element == ListInfo {
 		case 0: return ""
 		case 1: message = "You're right near \(self[0].title)!"
 		default:
-			message = "You're right near \(self.count) great spots, including \(self[0].title) and \(self[1].title)!"
+			message = "You're near \(self.count) Ellis favorites, including \(self[0].title) and \(self[1].title)!"
 		}
 
 		return message
 	}
 
 	var nearbyTitle: String {
-		return self.count == 1 ? "Great Ellis Spot Nearby!" : "Great Ellis Spots Nearby!"
+		return self.count == 1 ? "Ellis Pick Nearby!" : "Ellis Picks Nearby!"
 	}
 }

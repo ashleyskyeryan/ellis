@@ -16,7 +16,7 @@ class ListManager {
 
 	func checkForNewNearbyItems(location loc: CLLocationCoordinate2D? = nil) {
 		guard let location = loc ?? LocationManager.instance.currentLocation else { return }
-		let distance = 1000.0			// this is the number of meters to a 'nearby' location
+		let distance = 500.0			// this is the number of meters to a 'nearby' location
 
 		let nearby = self.items(near: location, range: distance)
 		if nearby != self.lastNearbyList {
