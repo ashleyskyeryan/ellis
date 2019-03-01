@@ -247,6 +247,7 @@ class ListViewController: UIViewController, UITableViewDelegate, UITableViewData
 	
     // Function for get all list from JSON file.
     func performGetData() {
+		self.lblTitle.text = Globals.shared.landingType.rawValue
 		self.lists = ListManager.instance.fetchItems(for: Globals.shared.landingType)
 		self.tableView.reloadData()
     }
