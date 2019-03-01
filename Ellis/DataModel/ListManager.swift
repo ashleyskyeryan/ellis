@@ -54,7 +54,7 @@ class ListManager {
 			guard let jsonResult = try JSONSerialization.jsonObject(with: data, options: []) as? [String: Any] else { return Lists.empty }
 
 			if let dataList = jsonResult["list"] as? [[String: Any]] {
-				self.cachedItems[type] = Lists(results: dataList, landingType: Globals.shared.landingType)
+				self.cachedItems[type] = Lists(results: dataList, landingType: type)
 				self.cachedItems[type]?.imageName = jsonResult["image"] as? String
 			}
 		} catch {

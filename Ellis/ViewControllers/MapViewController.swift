@@ -190,7 +190,7 @@ class MapViewController: UIViewController {
 			return Favorites.instance.lists
 		}
 
-		return ListManager.instance.fetchItems(for: Globals.shared.landingType)
+		return ListManager.instance.fetchItems(for: landingType)
     }
     
     /*
